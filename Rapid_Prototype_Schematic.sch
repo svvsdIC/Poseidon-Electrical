@@ -9275,7 +9275,7 @@ Based on the following sources:
 <wire x1="-119.38" y1="-68.58" x2="-119.38" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ESCSS_SWITCH" class="0">
+<net name="ESCPA_SWITCH" class="0">
 <segment>
 <pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="-139.7" y1="-71.12" x2="-149.86" y2="-71.12" width="0.1524" layer="91"/>
@@ -9353,14 +9353,14 @@ Based on the following sources:
 <wire x1="60.96" y1="-68.58" x2="60.96" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ESCSFO_SWITCH" class="0">
+<net name="ESCSF_SWITCH" class="0">
 <segment>
 <pinref part="R39" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="-71.12" x2="30.48" y2="-71.12" width="0.1524" layer="91"/>
 <label x="20.32" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ESCSS_POWER" class="0">
+<net name="ESCPA_POWER" class="0">
 <segment>
 <wire x1="-114.3" y1="-35.56" x2="-99.06" y2="-35.56" width="0.1524" layer="91"/>
 <label x="-109.22" y="-35.56" size="1.778" layer="95"/>
@@ -9370,12 +9370,6 @@ Based on the following sources:
 <segment>
 <wire x1="-25.4" y1="-35.56" x2="-10.16" y2="-35.56" width="0.1524" layer="91"/>
 <label x="-20.32" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ESCSFO_POWER" class="0">
-<segment>
-<wire x1="66.04" y1="-35.56" x2="81.28" y2="-35.56" width="0.1524" layer="91"/>
-<label x="71.12" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESCSA_POWER" class="0">
@@ -9416,7 +9410,7 @@ Based on the following sources:
 <wire x1="106.68" y1="45.72" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ESCSP_SWITCH" class="0">
+<net name="ESCPF_SWITCH" class="0">
 <segment>
 <pinref part="R47" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="43.18" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
@@ -9455,7 +9449,7 @@ Based on the following sources:
 <wire x1="15.24" y1="45.72" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ESCSF_SWITCH" class="0">
+<net name="ESCPV_SWITCH" class="0">
 <segment>
 <pinref part="R51" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="43.18" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
@@ -9523,6 +9517,10 @@ Based on the following sources:
 <segment>
 <wire x1="20.32" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
 <label x="25.4" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="66.04" y1="-35.56" x2="81.28" y2="-35.56" width="0.1524" layer="91"/>
+<label x="71.12" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESCSP_POWER" class="0">
@@ -9827,14 +9825,12 @@ Based on the following sources:
 <wire x1="-99.06" y1="83.82" x2="-96.52" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-99.06" y1="83.82" x2="-160.02" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-99.06" y="83.82"/>
-<label x="-162.56" y="83.82" size="1.778" layer="95" rot="R180"/>
 <pinref part="R54" gate="G$1" pin="1"/>
 <pinref part="D10" gate="1" pin="C"/>
 </segment>
 <segment>
 <pinref part="R59" gate="G$1" pin="1"/>
 <wire x1="-127" y1="2.54" x2="-139.7" y2="2.54" width="0.1524" layer="91"/>
-<label x="-170.18" y="2.54" size="1.778" layer="95"/>
 <pinref part="IC6" gate="A" pin="IN+_2"/>
 <wire x1="-139.7" y1="2.54" x2="-154.94" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="45.72" x2="-78.74" y2="45.72" width="0.1524" layer="91"/>
@@ -9853,18 +9849,50 @@ Based on the following sources:
 <pinref part="R55" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="ESCPV_CURR" class="0">
+<net name="N$35" class="0">
 <segment>
-<pinref part="R55" gate="G$1" pin="1"/>
-<pinref part="C46" gate="G$1" pin="1"/>
-<wire x1="-129.54" y1="73.66" x2="-127" y2="73.66" width="0.1524" layer="91"/>
-<label x="-116.84" y="73.66" size="1.778" layer="95"/>
-<wire x1="-127" y1="73.66" x2="-114.3" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-127" y="73.66"/>
+<pinref part="IC6" gate="A" pin="OUT_2"/>
+<wire x1="-137.16" y1="50.8" x2="-144.78" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="50.8" x2="-144.78" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="R60" gate="G$1" pin="2"/>
+<wire x1="-144.78" y1="27.94" x2="-137.16" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ESC_PV_POWER" class="0">
+<net name="S_BATT+" class="0">
 <segment>
+<pinref part="C50" gate="G$1" pin="1"/>
+<wire x1="-167.64" y1="-10.16" x2="-167.64" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="D9" gate="1" pin="A"/>
+<wire x1="-167.64" y1="2.54" x2="-160.02" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="2.54" x2="-180.34" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-167.64" y="2.54"/>
+<label x="-180.34" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="P_BATT+" class="0">
+<segment>
+<pinref part="C45" gate="G$1" pin="1"/>
+<wire x1="-170.18" y1="71.12" x2="-170.18" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="D10" gate="1" pin="A"/>
+<wire x1="-170.18" y1="83.82" x2="-165.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-170.18" y1="83.82" x2="-182.88" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-170.18" y="83.82"/>
+<label x="-182.88" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="S_BATT_CURR" class="0">
+<segment>
+<pinref part="R60" gate="G$1" pin="1"/>
+<pinref part="C49" gate="G$1" pin="1"/>
+<wire x1="-127" y1="27.94" x2="-121.92" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="27.94" x2="-96.52" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-121.92" y="27.94"/>
+<label x="-96.52" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="COMBINE_POWER" class="0">
+<segment>
+<wire x1="-50.8" y1="2.54" x2="-50.8" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="A" pin="IN-"/>
 <wire x1="-86.36" y1="43.18" x2="-101.6" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C47" gate="G$1" pin="1"/>
@@ -9876,62 +9904,30 @@ Based on the following sources:
 <label x="-71.12" y="83.82" size="1.778" layer="95"/>
 <wire x1="-86.36" y1="43.18" x2="-86.36" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-86.36" y="83.82"/>
-</segment>
-</net>
-<net name="ESC_SV_POWER" class="0">
-<segment>
+<wire x1="-50.8" y1="83.82" x2="-73.66" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="C48" gate="G$1" pin="1"/>
+<wire x1="-76.2" y1="2.54" x2="-76.2" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="R59" gate="G$1" pin="2"/>
 <wire x1="-116.84" y1="2.54" x2="-104.14" y2="2.54" width="0.1524" layer="91"/>
-<label x="-71.12" y="2.54" size="1.778" layer="95"/>
-<pinref part="IC6" gate="A" pin="IN-_2"/>
 <wire x1="-104.14" y1="2.54" x2="-76.2" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-104.14" y="2.54"/>
+<pinref part="IC6" gate="A" pin="IN-_2"/>
 <wire x1="-137.16" y1="43.18" x2="-137.16" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="33.02" x2="-104.14" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="33.02" x2="-104.14" y2="2.54" width="0.1524" layer="91"/>
-<junction x="-104.14" y="2.54"/>
-<pinref part="C48" gate="G$1" pin="1"/>
-<wire x1="-76.2" y1="2.54" x2="-76.2" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="2.54" x2="-50.8" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-76.2" y="2.54"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="P_BATT_CURR" class="0">
 <segment>
-<pinref part="IC6" gate="A" pin="OUT_2"/>
-<wire x1="-137.16" y1="50.8" x2="-144.78" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-144.78" y1="50.8" x2="-144.78" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="R60" gate="G$1" pin="2"/>
-<wire x1="-144.78" y1="27.94" x2="-137.16" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ESCSV_CURR" class="0">
-<segment>
-<pinref part="R60" gate="G$1" pin="1"/>
-<pinref part="C49" gate="G$1" pin="1"/>
-<wire x1="-127" y1="27.94" x2="-121.92" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="27.94" x2="-96.52" y2="27.94" width="0.1524" layer="91"/>
-<junction x="-121.92" y="27.94"/>
-<label x="-96.52" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BATTERY_2+" class="0">
-<segment>
-<pinref part="C50" gate="G$1" pin="1"/>
-<wire x1="-167.64" y1="-10.16" x2="-167.64" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="D9" gate="1" pin="A"/>
-<wire x1="-167.64" y1="2.54" x2="-160.02" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="2.54" x2="-180.34" y2="2.54" width="0.1524" layer="91"/>
-<junction x="-167.64" y="2.54"/>
-<label x="-180.34" y="2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BATTERY_1+" class="0">
-<segment>
-<pinref part="C45" gate="G$1" pin="1"/>
-<wire x1="-170.18" y1="71.12" x2="-170.18" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="D10" gate="1" pin="A"/>
-<wire x1="-170.18" y1="83.82" x2="-165.1" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-170.18" y1="83.82" x2="-182.88" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-170.18" y="83.82"/>
-<label x="-182.88" y="83.82" size="1.778" layer="95"/>
+<pinref part="R55" gate="G$1" pin="1"/>
+<pinref part="C46" gate="G$1" pin="1"/>
+<wire x1="-129.54" y1="73.66" x2="-127" y2="73.66" width="0.1524" layer="91"/>
+<label x="-116.84" y="73.66" size="1.778" layer="95"/>
+<wire x1="-127" y1="73.66" x2="-116.84" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-127" y="73.66"/>
+<wire x1="-114.3" y1="73.66" x2="-116.84" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
