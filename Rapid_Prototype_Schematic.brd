@@ -162,6 +162,8 @@
 <wire x1="284.46" y1="1.27" x2="284.46" y2="177.47" width="0" layer="20"/>
 <wire x1="284.46" y1="177.47" x2="0" y2="177.47" width="0" layer="20"/>
 <wire x1="0" y1="177.47" x2="0" y2="1.27" width="0" layer="20"/>
+<dimension x1="0" y1="180.34" x2="284.48" y2="179.07" x3="142.25695625" y3="183.503584375" textsize="1.778" layer="1"/>
+<dimension x1="284.46" y1="177.47" x2="284.48" y2="2.54" x3="304.790290625" y3="90.007321875" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
