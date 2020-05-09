@@ -12241,9 +12241,9 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF"&gt; Da
 <instance part="D12" gate="G$0" x="-10.16" y="-101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="-10.668" y="-100.584" size="2.54" layer="95" rot="R90" align="top-left"/>
 </instance>
-<instance part="D11" gate="G$1" x="129.54" y="-104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="124.46" y="-92.71" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="127" y="-92.71" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="D11" gate="G$1" x="129.54" y="-91.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="134.62" y="-102.87" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="132.08" y="-102.87" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -12363,10 +12363,9 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF"&gt; Da
 </segment>
 <segment>
 <pinref part="GND67" gate="1" pin="GND"/>
-<wire x1="129.54" y1="-109.22" x2="129.54" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="D11" gate="G$1" pin="K"/>
-<wire x1="129.54" y1="-104.14" x2="129.54" y2="-101.6" width="0.1524" layer="91"/>
-<junction x="129.54" y="-104.14"/>
+<wire x1="129.54" y1="-109.22" x2="129.54" y2="-106.68" width="0.1524" layer="91"/>
+<junction x="132.08" y="-104.14"/>
+<pinref part="D11" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -12714,11 +12713,9 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF"&gt; Da
 </net>
 <net name="N$8" class="0">
 <segment>
-<wire x1="129.54" y1="-91.44" x2="129.54" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="C57" gate="G$1" pin="2"/>
-<pinref part="D11" gate="G$1" pin="A"/>
-<wire x1="129.54" y1="-88.9" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="129.54" y="-88.9"/>
+<wire x1="129.54" y1="-91.44" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="D11" gate="G$1" pin="K"/>
 </segment>
 </net>
 </nets>

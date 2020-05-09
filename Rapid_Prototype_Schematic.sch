@@ -8211,134 +8211,6 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Lite-On - LTV-354T">
-<description>Upverter Parts Library
-
-Created by Upverter.com</description>
-<packages>
-<package name="LITE-ON_LTV-354T_0">
-<description>Optoisolator Transistor Output 3750Vrms 1 Channel 4-SOP (2.54mm)</description>
-<wire x1="-2.075" y1="-2.3" x2="-2.075" y2="2.3" width="0.15" layer="51"/>
-<wire x1="-2.075" y1="2.3" x2="2.075" y2="2.3" width="0.15" layer="51"/>
-<wire x1="2.075" y1="2.3" x2="2.075" y2="-2.3" width="0.15" layer="51"/>
-<wire x1="2.075" y1="-2.3" x2="-2.075" y2="-2.3" width="0.15" layer="51"/>
-<wire x1="-2.075" y1="2.3" x2="2.075" y2="2.3" width="0.15" layer="21"/>
-<wire x1="2.075" y1="-2.3" x2="2.075" y2="2.3" width="0.15" layer="21"/>
-<wire x1="-2.075" y1="-2.3" x2="2.075" y2="-2.3" width="0.15" layer="21"/>
-<wire x1="-2.075" y1="-2.3" x2="-2.075" y2="2.3" width="0.15" layer="21"/>
-<wire x1="-2.175" y1="-3.85" x2="-2.175" y2="3.85" width="0.1" layer="39"/>
-<wire x1="-2.175" y1="3.85" x2="2.175" y2="3.85" width="0.1" layer="39"/>
-<wire x1="2.175" y1="3.85" x2="2.175" y2="-3.85" width="0.1" layer="39"/>
-<wire x1="2.175" y1="-3.85" x2="-2.175" y2="-3.85" width="0.1" layer="39"/>
-<text x="-2.375" y="-2.25" size="1" layer="25" rot="R90">&gt;NAME</text>
-<circle x="-2.25" y="-3.25" radius="0.25" width="0" layer="21"/>
-<circle x="-1.325" y="-1.55" radius="0.5" width="0" layer="21"/>
-<smd name="1" x="-1.27" y="-3.25" dx="0.8" dy="1" layer="1"/>
-<smd name="2" x="1.27" y="-3.25" dx="0.8" dy="1" layer="1"/>
-<smd name="3" x="1.27" y="3.25" dx="0.8" dy="1" layer="1"/>
-<smd name="4" x="-1.27" y="3.25" dx="0.8" dy="1" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LITE-ON_LTV-354T_0_0">
-<description>Optoisolator Transistor Output 3750Vrms 1 Channel 4-SOP (2.54mm)</description>
-<wire x1="22.86" y1="-10.16" x2="22.86" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="23.876" y1="-14.986" x2="25.4" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="24.384" y1="-14.224" x2="25.4" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="23.876" y1="-14.986" x2="24.384" y2="-14.224" width="0.508" layer="94"/>
-<wire x1="22.86" y1="-11.43" x2="25.4" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="22.86" y1="-13.97" x2="25.4" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="25.4" y1="-7.62" x2="25.4" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="25.4" y1="-15.24" x2="25.4" y2="-17.78" width="0.508" layer="94"/>
-<wire x1="17.78" y1="-10.16" x2="15.24" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="12.7" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="17.78" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="12.7" y1="-15.24" x2="17.78" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="10.16" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="5.08" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="5.08" y1="-15.24" x2="7.62" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="10.16" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-15.24" x2="7.62" y2="-17.78" width="0.508" layer="94"/>
-<wire x1="15.24" y1="-7.62" x2="15.24" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="15.24" y2="-17.78" width="0.508" layer="94"/>
-<wire x1="2.54" y1="-20.32" x2="2.54" y2="-5.08" width="0.508" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="27.94" y2="-5.08" width="0.508" layer="94"/>
-<wire x1="27.94" y1="-5.08" x2="27.94" y2="-20.32" width="0.508" layer="94"/>
-<wire x1="27.94" y1="-20.32" x2="2.54" y2="-20.32" width="0.508" layer="94"/>
-<wire x1="18.542" y1="-10.922" x2="20.066" y2="-12.192" width="0.508" layer="94"/>
-<wire x1="20.066" y1="-12.192" x2="18.796" y2="-12.954" width="0.508" layer="94"/>
-<wire x1="18.796" y1="-12.954" x2="20.828" y2="-14.478" width="0.508" layer="94"/>
-<wire x1="20.828" y1="-14.478" x2="20.32" y2="-13.208" width="0.508" layer="94"/>
-<wire x1="20.32" y1="-13.208" x2="19.558" y2="-14.224" width="0.508" layer="94"/>
-<wire x1="19.558" y1="-14.224" x2="20.828" y2="-14.478" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="15.24" y2="-7.62" width="0.15" layer="94"/>
-<wire x1="25.4" y1="-7.62" x2="25.4" y2="-7.62" width="0.15" layer="94"/>
-<wire x1="25.4" y1="-17.78" x2="25.4" y2="-17.78" width="0.15" layer="94"/>
-<wire x1="7.62" y1="-17.78" x2="15.24" y2="-17.78" width="0.15" layer="94"/>
-<text x="2.54" y="-2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
-<text x="2.54" y="-22.86" size="2.54" layer="95" align="top-left">LTV-354T</text>
-<pin name="ANODE/CATHODE" x="0" y="-7.62" visible="pad" direction="pas"/>
-<pin name="COLLECTOR" x="30.48" y="-7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="EMITTER" x="30.48" y="-17.78" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="CATHODE/ANODE" x="0" y="-17.78" visible="pad" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LITE-ON_LTV-354T" prefix="U">
-<description>Optoisolator Transistor Output 3750Vrms 1 Channel 4-SOP (2.54mm)</description>
-<gates>
-<gate name="G$0" symbol="LITE-ON_LTV-354T_0_0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="LITE-ON_LTV-354T_0_0" package="LITE-ON_LTV-354T_0">
-<connects>
-<connect gate="G$0" pin="ANODE/CATHODE" pad="1"/>
-<connect gate="G$0" pin="CATHODE/ANODE" pad="2"/>
-<connect gate="G$0" pin="COLLECTOR" pad="4"/>
-<connect gate="G$0" pin="EMITTER" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="COLLECTOR_EMITTER_BREAKDOWN_VOLTAGE" value="35V"/>
-<attribute name="COLLECTOR_EMITTER_SATURATION_VOLTAGE" value="0.1V"/>
-<attribute name="CURRENT_TRANSFER_RATIO" value="20-400%"/>
-<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS70-2001-004/LTV-354T%20series%20201610.pdf"/>
-<attribute name="DEVICE_CLASS_L1" value="Optoelectronics"/>
-<attribute name="DEVICE_CLASS_L2" value="Optocouplers"/>
-<attribute name="DEVICE_CLASS_L3" value="unset"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="IC OPTOISOLATOR 3.75KV TRANS 4-SOP"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="160-1333-1-ND"/>
-<attribute name="FORWARD_CURRENT" value="20mA"/>
-<attribute name="FORWARD_VOLTAGE" value="1.2V"/>
-<attribute name="HEIGHT" value="2.4mm"/>
-<attribute name="ISOLATION_VOLTAGE" value="3750V"/>
-<attribute name="LEAD_FREE" value="yes"/>
-<attribute name="MAX_JUNCTION_TEMP" value="+125°C"/>
-<attribute name="MF" value="Lite-On"/>
-<attribute name="MFG_PACKAGE_IDENT" value="LTV-354T"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
-<attribute name="MOUSER_DESCRIPTION" value="Transistor Output Optocouplers Optocoupler Phototrans"/>
-<attribute name="MOUSER_PART_NUMBER" value="859-LTV-354T"/>
-<attribute name="MPN" value="LTV-354T"/>
-<attribute name="PACKAGE" value="SOP4"/>
-<attribute name="PREFIX" value="U"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STANDOFF_HEIGHT" value="0mm"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
-<attribute name="TURN_OFF_DELAY_TIME" value="4us"/>
-<attribute name="TURN_ON_DELAY_TIME" value="3us"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Diode2">
 <packages>
 <package name="SMASERIES">
@@ -10361,6 +10233,79 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 </deviceset>
 </devicesets>
 </library>
+<library name="LTV-8141S">
+<description>&lt;Transistor Output Optocouplers Optocoupler AC input&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOP254P1016X460-4N">
+<description>&lt;b&gt;LTV-8141S-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.55" y="1.27" dx="2.1" dy="1.45" layer="1"/>
+<smd name="2" x="-4.55" y="-1.27" dx="2.1" dy="1.45" layer="1"/>
+<smd name="3" x="4.55" y="-1.27" dx="2.1" dy="1.45" layer="1"/>
+<smd name="4" x="4.55" y="1.27" dx="2.1" dy="1.45" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-5.85" y1="2.8" x2="5.85" y2="2.8" width="0.05" layer="51"/>
+<wire x1="5.85" y1="2.8" x2="5.85" y2="-2.8" width="0.05" layer="51"/>
+<wire x1="5.85" y1="-2.8" x2="-5.85" y2="-2.8" width="0.05" layer="51"/>
+<wire x1="-5.85" y1="-2.8" x2="-5.85" y2="2.8" width="0.05" layer="51"/>
+<wire x1="-3.25" y1="2.3" x2="3.25" y2="2.3" width="0.1" layer="51"/>
+<wire x1="3.25" y1="2.3" x2="3.25" y2="-2.3" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-2.3" x2="-3.25" y2="-2.3" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-2.3" x2="-3.25" y2="2.3" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-0.24" x2="-0.71" y2="2.3" width="0.1" layer="51"/>
+<wire x1="-3.15" y1="2.3" x2="3.15" y2="2.3" width="0.2" layer="21"/>
+<wire x1="3.15" y1="2.3" x2="3.15" y2="-2.3" width="0.2" layer="21"/>
+<wire x1="3.15" y1="-2.3" x2="-3.15" y2="-2.3" width="0.2" layer="21"/>
+<wire x1="-3.15" y1="-2.3" x2="-3.15" y2="2.3" width="0.2" layer="21"/>
+<wire x1="-5.6" y1="2.345" x2="-3.5" y2="2.345" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LTV-8141S">
+<wire x1="5.08" y1="2.54" x2="43.18" y2="2.54" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-5.08" x2="43.18" y2="2.54" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="44.45" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="44.45" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="ANODE,_CATHODE" x="0" y="0" length="middle"/>
+<pin name="CATHODE,_ANODE" x="0" y="-2.54" length="middle"/>
+<pin name="COLLECTOR" x="48.26" y="0" length="middle" rot="R180"/>
+<pin name="EMITTER" x="48.26" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LTV-8141S" prefix="Q">
+<description>&lt;b&gt;Transistor Output Optocouplers Optocoupler AC input&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8141_8241_8441 (M,S,S_TA1).pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LTV-8141S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP254P1016X460-4N">
+<connects>
+<connect gate="G$1" pin="ANODE,_CATHODE" pad="1"/>
+<connect gate="G$1" pin="CATHODE,_ANODE" pad="2"/>
+<connect gate="G$1" pin="COLLECTOR" pad="4"/>
+<connect gate="G$1" pin="EMITTER" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Transistor Output Optocouplers Optocoupler AC input" constant="no"/>
+<attribute name="HEIGHT" value="4.6mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Lite-On" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LTV-8141S" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="859-LTV-8141S" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-8141S?qs=9PJrLaO2oWUf6ygS0H3swQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10425,7 +10370,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device=""/>
-<part name="R61" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="0.010µF"/>
+<part name="R61" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="0.010Ω"/>
 <part name="R62" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="3.3k"/>
 <part name="C51" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="100nF"/>
 <part name="C52" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="1uF"/>
@@ -10438,11 +10383,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <part name="GND66" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R64" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="10k Ω 1%"/>
 <part name="R65" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="30.1kΩ 1%"/>
-<part name="C60" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="1µF"/>
+<part name="C60" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="0.1µF"/>
 <part name="GND75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND76" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U4" library="Lite-On - LTV-354T" deviceset="LITE-ON_LTV-354T" device="LITE-ON_LTV-354T_0_0"/>
-<part name="Q15" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device=""/>
+<part name="Q15" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device="" value="SI4485DY"/>
 <part name="C62" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="100nf"/>
 <part name="C63" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="10uf"/>
 <part name="D14" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M"/>
@@ -10596,7 +10540,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <part name="I2C_SPARE" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
 <part name="D15" library="MBRD835L" deviceset="MBRD835L" device=""/>
 <part name="D9" library="MBRD835L" deviceset="MBRD835L" device=""/>
-<part name="FB2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="5µH"/>
+<part name="FB2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="10µH"/>
 <part name="D10" library="CMDSH-3TR" deviceset="CMDSH-3TR" device=""/>
 <part name="D12" library="Bourns Inc. - SMAJ15A" deviceset="BOURNS_INC._SMAJ15A" device="BOURNS_INC._SMAJ15A_0_0"/>
 <part name="D11" library="MBRS330T3G" deviceset="MBRS330T3G" device=""/>
@@ -10607,6 +10551,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <part name="Q20" library="DMN65D8LFB-7" deviceset="DMN65D8LFB-7" device=""/>
 <part name="Q21" library="DMN65D8LFB-7" deviceset="DMN65D8LFB-7" device=""/>
 <part name="Q3" library="DMN65D8LFB-7" deviceset="DMN65D8LFB-7" device=""/>
+<part name="Q1" library="LTV-8141S" deviceset="LTV-8141S" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11811,19 +11756,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <wire x1="360.68" y1="233.68" x2="360.68" y2="274.32" width="0.1524" layer="91"/>
 <junction x="360.68" y="274.32"/>
 </segment>
-<segment>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="490.22" y1="193.04" x2="502.92" y2="193.04" width="0.1524" layer="91"/>
-<label x="535.94" y="193.04" size="1.778" layer="95"/>
-<pinref part="IC4" gate="A" pin="IN-_2"/>
-<wire x1="502.92" y1="193.04" x2="530.86" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="233.68" x2="469.9" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="223.52" x2="502.92" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="502.92" y1="223.52" x2="502.92" y2="193.04" width="0.1524" layer="91"/>
-<junction x="502.92" y="193.04"/>
-<pinref part="C30" gate="G$1" pin="1"/>
-<wire x1="530.86" y1="193.04" x2="530.86" y2="187.96" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="ESC_SV_POWER" class="0">
 <segment>
@@ -12023,6 +11955,21 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <junction x="480.06" y="142.24"/>
 </segment>
 </net>
+<net name="ESC_SF_POWER" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="490.22" y1="193.04" x2="502.92" y2="193.04" width="0.1524" layer="91"/>
+<label x="535.94" y="193.04" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="IN-_2"/>
+<wire x1="502.92" y1="193.04" x2="530.86" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="233.68" x2="469.9" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="223.52" x2="502.92" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="223.52" x2="502.92" y2="193.04" width="0.1524" layer="91"/>
+<junction x="502.92" y="193.04"/>
+<pinref part="C30" gate="G$1" pin="1"/>
+<wire x1="530.86" y1="193.04" x2="530.86" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -12053,16 +12000,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <instance part="GND76" gate="1" x="-149.86" y="-99.06" smashed="yes">
 <attribute name="VALUE" x="-152.4" y="-101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="U4" gate="G$0" x="101.6" y="10.16" smashed="yes">
-<attribute name="NAME" x="104.14" y="7.62" size="2.54" layer="95" align="top-left"/>
-</instance>
 <instance part="Q15" gate="G$1" x="139.7" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="137.16" y="45.72" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="142.24" y="45.72" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C62" gate="G$1" x="81.28" y="0" smashed="yes">
-<attribute name="NAME" x="82.296" y="0.635" size="1.778" layer="95"/>
-<attribute name="VALUE" x="82.296" y="-4.191" size="1.778" layer="96"/>
+<instance part="C62" gate="G$1" x="68.58" y="-2.54" smashed="yes">
+<attribute name="NAME" x="69.596" y="-1.905" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.596" y="-6.731" size="1.778" layer="96"/>
 </instance>
 <instance part="C63" gate="G$1" x="139.7" y="-2.54" smashed="yes">
 <attribute name="NAME" x="140.716" y="-1.905" size="1.778" layer="95"/>
@@ -12071,9 +12015,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <instance part="D14" gate="A" x="96.52" y="27.94" smashed="yes" rot="R90">
 <attribute name="VALUE" x="102.0572" y="24.0538" size="3.4798" layer="96" ratio="10" rot="SR90"/>
 </instance>
-<instance part="R66" gate="G$1" x="93.98" y="2.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="97.79" y="1.0414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="97.79" y="5.842" size="1.778" layer="96" rot="R180"/>
+<instance part="R66" gate="G$1" x="76.2" y="0" smashed="yes" rot="R180">
+<attribute name="NAME" x="80.01" y="-1.4986" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="80.01" y="3.302" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R67" gate="G$1" x="139.7" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="141.1986" y="16.51" size="1.778" layer="95" rot="R270"/>
@@ -12096,9 +12040,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <attribute name="NAME" x="31.75" y="3.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="31.75" y="-10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="FB1" gate="G$1" x="71.12" y="2.54" smashed="yes">
-<attribute name="NAME" x="68.58" y="5.08" size="1.778" layer="95"/>
-<attribute name="VALUE" x="68.58" y="0" size="1.778" layer="96"/>
+<instance part="FB1" gate="G$1" x="55.88" y="0" smashed="yes">
+<attribute name="NAME" x="53.34" y="2.54" size="1.778" layer="95"/>
+<attribute name="VALUE" x="53.34" y="-2.54" size="1.778" layer="96"/>
 </instance>
 <instance part="U3" gate="A" x="-81.28" y="-134.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-112.1156" y="-125.5014" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
@@ -12278,6 +12222,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <attribute name="NAME" x="134.62" y="-102.87" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="132.08" y="-102.87" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
+<instance part="Q1" gate="G$1" x="83.82" y="0" smashed="yes">
+<attribute name="NAME" x="128.27" y="7.62" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="128.27" y="5.08" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12294,12 +12242,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <wire x1="-137.16" y1="-91.44" x2="-137.16" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$0" pin="EMITTER"/>
 <pinref part="C63" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="-7.62" x2="139.7" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-2.54" x2="139.7" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="139.7" y="-7.62"/>
 <pinref part="GND77" gate="1" pin="GND"/>
 <wire x1="139.7" y1="-7.62" x2="139.7" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="EMITTER"/>
 </segment>
 <segment>
 <wire x1="-104.14" y1="-154.94" x2="-162.56" y2="-154.94" width="0.1524" layer="91"/>
@@ -12471,22 +12419,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <label x="-157.48" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="U4" gate="G$0" pin="ANODE/CATHODE"/>
-<pinref part="R66" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="2.54" x2="99.06" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$44" class="0">
 <segment>
 <pinref part="C63" gate="G$1" pin="1"/>
 <pinref part="R67" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="0" x2="139.7" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$0" pin="COLLECTOR"/>
 <wire x1="139.7" y1="2.54" x2="139.7" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="2.54" x2="139.7" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="0" x2="139.7" y2="2.54" width="0.1524" layer="91"/>
 <junction x="139.7" y="2.54"/>
+<pinref part="Q1" gate="G$1" pin="COLLECTOR"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -12506,34 +12447,30 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <net name="TETHER_A" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="35.56" y1="0" x2="60.96" y2="0" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="0" x2="60.96" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="0" x2="58.2676" y2="0" width="0.1524" layer="91"/>
 <label x="50.8" y="0" size="1.778" layer="95"/>
-<wire x1="65.8876" y1="2.54" x2="60.96" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TETHER_B" class="0">
 <segment>
 <pinref part="C62" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="-7.62" x2="81.28" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="-7.62" x2="81.28" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$0" pin="CATHODE/ANODE"/>
-<wire x1="81.28" y1="-7.62" x2="101.6" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="81.28" y="-7.62"/>
+<wire x1="60.96" y1="-5.08" x2="68.58" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-7.62" x2="83.82" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="68.58" y="-7.62"/>
 <label x="48.26" y="-5.08" size="1.778" layer="95"/>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="35.56" y1="-5.08" x2="60.96" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-5.08" x2="60.96" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="CATHODE,_ANODE"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
 <pinref part="C62" gate="G$1" pin="1"/>
 <pinref part="R66" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="2.54" x2="81.28" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="0" x2="68.58" y2="0" width="0.1524" layer="91"/>
 <pinref part="FB1" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="2.54" x2="81.28" y2="2.54" width="0.1524" layer="91"/>
-<junction x="81.28" y="2.54"/>
+<wire x1="63.5" y1="0" x2="68.58" y2="0" width="0.1524" layer="91"/>
+<junction x="68.58" y="0"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -12747,6 +12684,19 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <pinref part="C57" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="-91.44" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="D11" gate="G$1" pin="K"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="FB1" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="0" x2="50.8" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R66" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="ANODE,_CATHODE"/>
+<wire x1="83.82" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -13334,11 +13284,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 </net>
 <net name="ESCPV_SWITCH" class="0">
 <segment>
-<pinref part="R51" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="58.42" x2="-20.32" y2="58.42" width="0.1524" layer="91"/>
-<label x="-27.94" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R39" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="-55.88" x2="25.4" y2="-55.88" width="0.1524" layer="91"/>
 <label x="15.24" y="-55.88" size="1.778" layer="95"/>
@@ -13405,11 +13350,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 </net>
 <net name="ESCPV_POWER" class="0">
 <segment>
-<wire x1="15.24" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
-<label x="20.32" y="93.98" size="1.778" layer="95"/>
-<label x="20.32" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="60.96" y1="-20.32" x2="76.2" y2="-20.32" width="0.1524" layer="91"/>
 <label x="66.04" y="-20.32" size="1.778" layer="95"/>
 </segment>
@@ -13421,17 +13361,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 </segment>
 </net>
 <net name="ESC_PV_POWER" class="0">
-<segment>
-<pinref part="D8" gate="A" pin="1"/>
-<pinref part="R49" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="93.98" x2="-12.7" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="C43" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-12.7" y="93.98"/>
-<wire x1="-2.54" y1="93.98" x2="5.08" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-2.54" y="93.98"/>
-<label x="-38.1" y="93.98" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="D5" gate="A" pin="1"/>
 <pinref part="R37" gate="G$1" pin="2"/>
@@ -13505,6 +13434,33 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMN65D8LFB-7.
 <pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="-134.62" y1="-55.88" x2="-132.08" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="-134.62" y="-55.88"/>
+</segment>
+</net>
+<net name="ESC_SF_POWER" class="0">
+<segment>
+<pinref part="D8" gate="A" pin="1"/>
+<pinref part="R49" gate="G$1" pin="2"/>
+<wire x1="-22.86" y1="93.98" x2="-12.7" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="-12.7" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-12.7" y="93.98"/>
+<wire x1="-2.54" y1="93.98" x2="5.08" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-2.54" y="93.98"/>
+<label x="-38.1" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ESCSF_POWER" class="0">
+<segment>
+<wire x1="15.24" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
+<label x="20.32" y="93.98" size="1.778" layer="95"/>
+<label x="20.32" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ESCSF_SWITCH" class="0">
+<segment>
+<pinref part="R51" gate="G$1" pin="1"/>
+<wire x1="-12.7" y1="58.42" x2="-20.32" y2="58.42" width="0.1524" layer="91"/>
+<label x="-27.94" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
