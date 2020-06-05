@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10316,7 +10316,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </class>
 </classes>
 <parts>
-<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device=""/>
+<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device="" value="Null Value"/>
 <part name="R14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="0.005"/>
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="3.3k"/>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="0.1µF"/>
@@ -10368,8 +10368,8 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="3.3k"/>
 <part name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="1µF"/>
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device=""/>
-<part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device=""/>
+<part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device="" value="Null Value"/>
+<part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device="" value="Null Value"/>
 <part name="R19" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="0.010Ω"/>
 <part name="R15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="3.3k"/>
 <part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="100nF"/>
@@ -10454,7 +10454,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <part name="C36" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="1µF"/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="CB" package3d_urn="urn:adsk.eagle:package:6240706/1"/>
+<part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="CB" package3d_urn="urn:adsk.eagle:package:6240706/1" value="Null value"/>
 <part name="L1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0805"/>
 <part name="U7" library="TLV1117LV33DCYR" deviceset="TLV1117LV33DCYR" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -10500,32 +10500,32 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C21" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="1µF"/>
 <part name="GND55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device=""/>
+<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device="" value="Null Value"/>
 <part name="A1" library="ArduinoMegaOutline" deviceset="MEGA_DEVICE" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SV8" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
+<part name="SV8" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="Null Value"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="SV9" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1"/>
-<part name="SV10" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1"/>
-<part name="SV7" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1"/>
+<part name="SV9" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="Null Value"/>
+<part name="SV10" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="Null Value"/>
+<part name="SV7" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="Null Value "/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="1MΩ"/>
 <part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="1MΩ"/>
 <part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="1MΩ"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1"/>
+<part name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" value="Null Value "/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="LM35DM" deviceset="LM35DM" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1"/>
-<part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1"/>
+<part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="Null Value"/>
+<part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="Null Value "/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SV5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1"/>
+<part name="SV5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" value="Null Value"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1"/>
+<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" value="Null Value"/>
 <part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="330"/>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="YELLOW"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -10535,9 +10535,9 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="330"/>
 <part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="GREEN"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device="" value="Null value"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="SV6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
+<part name="SV6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="Null Value "/>
 <part name="D2" library="MBRD835L" deviceset="MBRD835L" device=""/>
 <part name="D1" library="MBRD835L" deviceset="MBRD835L" device=""/>
 <part name="L2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="10µH"/>
@@ -11133,11 +11133,6 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCPV_POWER" class="0">
 <segment>
-<pinref part="SV3" gate="1" pin="1"/>
-<wire x1="215.9" y1="-63.5" x2="223.52" y2="-63.5" width="0.1524" layer="91"/>
-<label x="218.44" y="-66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV3" gate="1" pin="4"/>
 <wire x1="215.9" y1="-55.88" x2="223.52" y2="-55.88" width="0.1524" layer="91"/>
 <label x="218.44" y="-58.42" size="1.778" layer="95"/>
@@ -11187,6 +11182,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <wire x1="226.06" y1="45.72" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="45.72" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="55.88" x2="233.68" y2="55.88" width="0.1524" layer="91"/>
+<junction x="233.68" y="55.88"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -11260,6 +11256,13 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <wire x1="177.8" y1="38.1" x2="177.8" y2="35.56" width="0.1524" layer="91"/>
 <junction x="177.8" y="38.1"/>
 <label x="177.8" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ESCSF_POWER" class="0">
+<segment>
+<pinref part="SV3" gate="1" pin="1"/>
+<wire x1="215.9" y1="-63.5" x2="223.52" y2="-63.5" width="0.1524" layer="91"/>
+<label x="218.44" y="-66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -12095,9 +12098,9 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <instance part="GND74" gate="1" x="-5.08" y="-109.22" smashed="yes">
 <attribute name="VALUE" x="-7.62" y="-111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="F1" gate="G$1" x="-15.24" y="-78.74" smashed="yes">
-<attribute name="NAME" x="-19.05661875" y="-77.34056875" size="1.781090625" layer="95"/>
-<attribute name="VALUE" x="-19.056859375" y="-81.666259375" size="1.7812" layer="96"/>
+<instance part="F1" gate="G$1" x="-12.7" y="-78.74" smashed="yes">
+<attribute name="NAME" x="-16.51661875" y="-77.34056875" size="1.781090625" layer="95"/>
+<attribute name="VALUE" x="-16.516859375" y="-81.666259375" size="1.7812" layer="96"/>
 </instance>
 <instance part="SUPPLY14" gate="G$1" x="147.32" y="-86.36" smashed="yes" rot="R270">
 <attribute name="VALUE" x="150.114" y="-86.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
@@ -12440,12 +12443,12 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <net name="TETHER_B" class="0">
 <segment>
 <pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="-5.08" x2="68.58" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-5.08" x2="68.58" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-7.62" x2="83.82" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="68.58" y="-7.62"/>
 <label x="48.26" y="-5.08" size="1.778" layer="95"/>
 <pinref part="JP1" gate="A" pin="3"/>
-<wire x1="35.56" y1="-5.08" x2="60.96" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-5.08" x2="40.64" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="CATHODE,_ANODE"/>
 </segment>
 </net>
@@ -12508,7 +12511,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <junction x="10.16" y="-78.74"/>
 <pinref part="C29" gate="G$1" pin="1"/>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="-78.74" x2="-5.08" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-78.74" x2="-5.08" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-78.74"/>
 <pinref part="D3" gate="G$0" pin="CATHODE"/>
 <junction x="-5.08" y="-88.9"/>
@@ -12530,7 +12533,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <net name="TRONICS_POWER" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="-78.74" x2="-25.4" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-78.74" x2="-25.4" y2="-78.74" width="0.1524" layer="91"/>
 <label x="-43.18" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -13453,11 +13456,6 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="110,2,230.988,60.96,+3V3,N$52,,,,"/>
-<approved hash="110,2,231.14,60.96,N$52,+3V3,,,,"/>
-<approved hash="110,4,58.2676,0,N$12,TETHER_A,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10306,6 +10306,91 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </deviceset>
 </devicesets>
 </library>
+<library name="SI4459ADY-T1-GE3">
+<description>&lt;Trans MOSFET P-CH 30V 29A 8-Pin SOIC N T/R&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOIC127P600X175-8N">
+<description>&lt;b&gt;8 lead soic&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.7" layer="1"/>
+<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.7" layer="1"/>
+<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.7" layer="1"/>
+<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.7" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="2.45" x2="1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="2.45" x2="1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-2.45" x2="-1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-2.45" x2="-1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="2.605" x2="-1.95" y2="2.605" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SI4459ADY-T1-GE3">
+<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="S_1" x="0" y="0" length="middle"/>
+<pin name="S_2" x="0" y="-2.54" length="middle"/>
+<pin name="S_3" x="0" y="-5.08" length="middle"/>
+<pin name="G" x="0" y="-7.62" length="middle"/>
+<pin name="D_4" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="D_3" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="D_2" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="D_1" x="25.4" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SI4459ADY-T1-GE3" prefix="IC">
+<description>&lt;b&gt;Trans MOSFET P-CH 30V 29A 8-Pin SOIC N T/R&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SI4459ADY-T1-GE3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="D_1" pad="5"/>
+<connect gate="G$1" pin="D_2" pad="6"/>
+<connect gate="G$1" pin="D_3" pad="7"/>
+<connect gate="G$1" pin="D_4" pad="8"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S_1" pad="1"/>
+<connect gate="G$1" pin="S_2" pad="2"/>
+<connect gate="G$1" pin="S_3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Trans MOSFET P-CH 30V 29A 8-Pin SOIC N T/R" constant="no"/>
+<attribute name="HEIGHT" value="1.75mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SI4459ADY-T1-GE3" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="781-SI4459ADY-T1-GE3" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4459ADY-T1-GE3?qs=IRuQNBqMOcnyBuDcl66N0Q%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10396,55 +10481,48 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="5V" device="" value="Combined Power"/>
 <part name="GND77" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R29" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="30.1k"/>
-<part name="Q16" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device=""/>
-<part name="CR9" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M"/>
+<part name="CR9" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M" value="16.18V 2%"/>
 <part name="R55" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="R58" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R56" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R57" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="C41" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="1µF"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q4" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device="" value="SI4459ADY-T1-GE3"/>
-<part name="CR2" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M"/>
+<part name="CR2" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M" value="16.18V 2%"/>
 <part name="R31" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="R34" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R32" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R33" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="C35" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="1µF"/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q8" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device="" value="SI4459ADY-T1-GE3"/>
-<part name="CR5" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M"/>
+<part name="CR5" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M" value="16.18V 2%"/>
 <part name="R39" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="R42" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R40" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R41" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="C37" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="1µF"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q12" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device="" value="SI4459ADY-T1-GE3"/>
-<part name="CR7" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M"/>
+<part name="CR7" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M" value="16.18V 2%"/>
 <part name="R47" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="R50" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R48" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R49" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="C39" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="1µF"/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q14" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device="" value="SI4459ADY-T1-GE3"/>
-<part name="CR8" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M"/>
+<part name="CR8" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M" value="16.18V 2%"/>
 <part name="R51" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="R54" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R52" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R53" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="C40" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="1µF"/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q10" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device="" value="SI4459ADY-T1-GE3"/>
-<part name="CR6" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M"/>
+<part name="CR6" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M" value="16.18V 2%"/>
 <part name="R43" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="R46" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R44" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="1kΩ"/>
 <part name="R45" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
 <part name="C38" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="1µF"/>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q6" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device="" value="SI4459ADY-T1-GE3"/>
 <part name="CR4" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M"/>
 <part name="CR3" library="Diode2" deviceset="SMAJ18A" device="SMASERIES-M"/>
 <part name="R35" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10kΩ"/>
@@ -10454,7 +10532,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <part name="C36" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="1µF"/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="CB" package3d_urn="urn:adsk.eagle:package:6240706/1" value="Null value"/>
+<part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="CB" package3d_urn="urn:adsk.eagle:package:6240706/1" value="J11"/>
 <part name="L1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0805"/>
 <part name="U7" library="TLV1117LV33DCYR" deviceset="TLV1117LV33DCYR" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -10501,31 +10579,31 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <part name="C21" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="1µF"/>
 <part name="GND55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device="" value="Null Value"/>
-<part name="A1" library="ArduinoMegaOutline" deviceset="MEGA_DEVICE" device=""/>
+<part name="$2_3_$_2020-06-04_21-52-10" library="ArduinoMegaOutline" deviceset="MEGA_DEVICE" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SV8" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="Null Value"/>
+<part name="SV8" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="J8"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="SV9" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="Null Value"/>
-<part name="SV10" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="Null Value"/>
-<part name="SV7" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="Null Value "/>
+<part name="SV9" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="J9"/>
+<part name="SV10" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="J10"/>
+<part name="SV7" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="J7"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="1MΩ"/>
 <part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="1MΩ"/>
 <part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="1MΩ"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" value="Null Value "/>
+<part name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" value="J4"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="LM35DM" deviceset="LM35DM" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="Null Value"/>
-<part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="Null Value "/>
+<part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="J3"/>
+<part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="J2"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SV5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" value="Null Value"/>
+<part name="SV5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" value="J5"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" value="Null Value"/>
+<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" value="J1"/>
 <part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="330"/>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="YELLOW"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -10535,9 +10613,9 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="330"/>
 <part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="GREEN"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device="" value="Null Value"/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device="" value="Null value"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="SV6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="Null Value "/>
+<part name="SV6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="J6"/>
 <part name="D2" library="MBRD835L" deviceset="MBRD835L" device=""/>
 <part name="D1" library="MBRD835L" deviceset="MBRD835L" device=""/>
 <part name="L2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="10µH"/>
@@ -10552,15 +10630,24 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <part name="Q5" library="DMN65D8LFB-7" deviceset="DMN65D8LFB-7" device=""/>
 <part name="Q3" library="DMN65D8LFB-7" deviceset="DMN65D8LFB-7" device=""/>
 <part name="Q1" library="LTV-8141S" deviceset="LTV-8141S" device=""/>
+<part name="IC1" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
+<part name="IC2" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
+<part name="IC3" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
+<part name="IC4" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
+<part name="IC5" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
+<part name="IC6" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
+<part name="IC7" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
+<part name="IC8" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="132.08" y="-139.7" size="2.54" layer="94">File History/Front page</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-180.34" y="-157.48" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="119.38" y="-157.48" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="132.08" y="-156.21" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="129.54" y="-156.21" size="2.54" layer="94"/>
 <attribute name="SHEET" x="205.74" y="-156.21" size="2.54" layer="94"/>
 </instance>
 </instances>
@@ -10571,6 +10658,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </sheet>
 <sheet>
 <plain>
+<text x="477.52" y="-157.48" size="2.54" layer="94">Headers</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="165.1" y="-175.26" smashed="yes"/>
@@ -10578,7 +10666,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <attribute name="LAST_DATE_TIME" x="477.52" y="-173.99" size="2.54" layer="94"/>
 <attribute name="SHEET" x="551.18" y="-173.99" size="2.54" layer="94"/>
 </instance>
-<instance part="A1" gate="G$1" x="419.1" y="-2.54" smashed="yes" rot="R90"/>
+<instance part="$2_3_$_2020-06-04_21-52-10" gate="G$1" x="419.1" y="-2.54" smashed="yes" rot="R90"/>
 <instance part="GND9" gate="1" x="467.36" y="-27.94" smashed="yes">
 <attribute name="VALUE" x="464.82" y="-30.48" size="1.778" layer="96"/>
 </instance>
@@ -10710,20 +10798,20 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="GND@2"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="GND@2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="443.23" y1="-12.7" x2="467.36" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="467.36" y1="-12.7" x2="467.36" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="A1" gate="G$1" pin="GND@3"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="GND@3"/>
 <wire x1="443.23" y1="-10.16" x2="467.36" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="467.36" y1="-10.16" x2="467.36" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="467.36" y="-25.4"/>
 </segment>
 <segment>
-<pinref part="A1" gate="G$1" pin="GND@4"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="GND@4"/>
 <wire x1="394.97" y1="40.64" x2="375.92" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="40.64" x2="375.92" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="A1" gate="G$1" pin="GND@5"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="GND@5"/>
 <wire x1="394.97" y1="43.18" x2="375.92" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="43.18" x2="375.92" y2="40.64" width="0.1524" layer="91"/>
 <junction x="375.92" y="40.64"/>
@@ -10732,7 +10820,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="375.92" y1="35.56" x2="375.92" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="375.92" y="35.56"/>
-<pinref part="A1" gate="G$1" pin="GND@1"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="GND@1"/>
 <wire x1="375.92" y1="-27.94" x2="375.92" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="-27.94" x2="394.97" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="394.97" y1="-27.94" x2="394.97" y2="-26.67" width="0.1524" layer="91"/>
@@ -10768,8 +10856,8 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <junction x="345.44" y="-17.78"/>
 </segment>
 <segment>
-<pinref part="A1" gate="G$1" pin="GND@7"/>
-<pinref part="A1" gate="G$1" pin="GND@6"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="GND@7"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="GND@6"/>
 <wire x1="438.15" y1="40.64" x2="438.15" y2="43.18" width="0.1524" layer="91"/>
 <junction x="438.15" y="40.64"/>
 <wire x1="438.15" y1="43.18" x2="438.15" y2="58.42" width="0.1524" layer="91"/>
@@ -10842,7 +10930,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="LK_DET_MAIN" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="19"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="19"/>
 <wire x1="394.97" y1="27.94" x2="368.3" y2="27.94" width="0.1524" layer="91"/>
 <label x="355.6" y="27.94" size="1.778" layer="95"/>
 </segment>
@@ -10859,7 +10947,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="LK_DET_P_BAT" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="18"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="18"/>
 <wire x1="394.97" y1="25.4" x2="368.3" y2="25.4" width="0.1524" layer="91"/>
 <label x="355.6" y="25.4" size="1.778" layer="95"/>
 </segment>
@@ -10876,7 +10964,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="LK_DET_S_BAT" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="2"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="2"/>
 <wire x1="394.97" y1="5.08" x2="360.68" y2="5.08" width="0.1524" layer="91"/>
 <label x="345.44" y="5.08" size="1.778" layer="95"/>
 </segment>
@@ -10903,7 +10991,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCPV_PWM" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="6"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="6"/>
 <pinref part="SV10" gate="1" pin="6"/>
 <wire x1="394.97" y1="-5.08" x2="370.84" y2="-5.08" width="0.1524" layer="91"/>
 <label x="373.38" y="-5.08" size="1.778" layer="95"/>
@@ -10911,7 +10999,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCSV_PWM" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="7"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="7"/>
 <pinref part="SV10" gate="1" pin="5"/>
 <wire x1="394.97" y1="-7.62" x2="370.84" y2="-7.62" width="0.1524" layer="91"/>
 <label x="373.38" y="-7.62" size="1.778" layer="95"/>
@@ -10919,7 +11007,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCPF_PWM" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="8"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="8"/>
 <pinref part="SV10" gate="1" pin="4"/>
 <wire x1="394.97" y1="-11.43" x2="370.84" y2="-11.43" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="-11.43" x2="370.84" y2="-10.16" width="0.1524" layer="91"/>
@@ -10928,7 +11016,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCSA_PWM" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="9"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="9"/>
 <pinref part="SV10" gate="1" pin="3"/>
 <wire x1="394.97" y1="-13.97" x2="370.84" y2="-13.97" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="-13.97" x2="370.84" y2="-12.7" width="0.1524" layer="91"/>
@@ -10937,7 +11025,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCSF_PWM" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="11"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="11"/>
 <wire x1="394.97" y1="-19.05" x2="381" y2="-19.05" width="0.1524" layer="91"/>
 <wire x1="381" y1="-19.05" x2="381" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SV10" gate="1" pin="2"/>
@@ -10947,7 +11035,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCPA_PWM" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="12"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="12"/>
 <wire x1="394.97" y1="-21.59" x2="394.97" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="394.97" y1="-20.32" x2="373.38" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="-20.32" x2="373.38" y2="-17.78" width="0.1524" layer="91"/>
@@ -10958,7 +11046,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESC_MAIN_POWER_SW" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="31"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="31"/>
 <wire x1="407.67" y1="43.18" x2="407.67" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="407.67" y1="60.96" x2="406.4" y2="60.96" width="0.1524" layer="91"/>
 <label x="406.4" y="60.96" size="1.778" layer="95" rot="R180"/>
@@ -10966,7 +11054,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCSA_SWITCH" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="32"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="32"/>
 <wire x1="410.21" y1="40.64" x2="410.21" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="410.21" y1="7.62" x2="411.48" y2="7.62" width="0.1524" layer="91"/>
 <label x="411.48" y="7.62" size="1.778" layer="95"/>
@@ -10974,7 +11062,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCSV_SWITCH" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="36"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="36"/>
 <wire x1="415.29" y1="40.64" x2="415.29" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="415.29" y1="17.78" x2="416.56" y2="17.78" width="0.1524" layer="91"/>
 <label x="416.56" y="17.78" size="1.778" layer="95"/>
@@ -10982,7 +11070,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCPA_SWITCH" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="33"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="33"/>
 <wire x1="410.21" y1="43.18" x2="410.21" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="410.21" y1="63.5" x2="408.94" y2="63.5" width="0.1524" layer="91"/>
 <label x="388.62" y="63.5" size="1.778" layer="95"/>
@@ -10990,7 +11078,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCPF_SWITCH" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="35"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="35"/>
 <wire x1="412.75" y1="43.18" x2="412.75" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="412.75" y1="68.58" x2="411.48" y2="68.58" width="0.1524" layer="91"/>
 <label x="393.7" y="68.58" size="1.778" layer="95"/>
@@ -10998,13 +11086,13 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCPV_SWITCH" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="37"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="37"/>
 <wire x1="415.29" y1="43.18" x2="415.29" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="415.29" y1="73.66" x2="414.02" y2="73.66" width="0.1524" layer="91"/>
 <label x="396.24" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="A1" gate="G$1" pin="34"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="34"/>
 <wire x1="412.75" y1="40.64" x2="412.75" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="412.75" y1="12.7" x2="414.02" y2="12.7" width="0.1524" layer="91"/>
 <label x="414.02" y="12.7" size="1.778" layer="95"/>
@@ -11012,77 +11100,77 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCPV_CURR" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A0"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="A0"/>
 <wire x1="443.23" y1="-2.54" x2="477.52" y2="-2.54" width="0.1524" layer="91"/>
 <label x="464.82" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESCSV_CURR" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A1"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="A1"/>
 <wire x1="443.23" y1="0" x2="477.52" y2="0" width="0.1524" layer="91"/>
 <label x="464.82" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESCPF_CURR" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A2"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="A2"/>
 <wire x1="443.23" y1="2.54" x2="474.98" y2="2.54" width="0.1524" layer="91"/>
 <label x="464.82" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESCSF_CURR" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A3"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="A3"/>
 <wire x1="443.23" y1="5.08" x2="477.52" y2="5.08" width="0.1524" layer="91"/>
 <label x="464.82" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESCPA_CURR" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A4"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="A4"/>
 <wire x1="443.23" y1="7.62" x2="477.52" y2="7.62" width="0.1524" layer="91"/>
 <label x="464.82" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESCSA_CURR" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A5"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="A5"/>
 <wire x1="443.23" y1="10.16" x2="477.52" y2="10.16" width="0.1524" layer="91"/>
 <label x="464.82" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PORT_BAT_CURR" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A6"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="A6"/>
 <wire x1="443.23" y1="12.7" x2="477.52" y2="12.7" width="0.1524" layer="91"/>
 <label x="464.82" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="STBD_BAT_CURR" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A7"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="A7"/>
 <wire x1="443.23" y1="15.24" x2="477.52" y2="15.24" width="0.1524" layer="91"/>
 <label x="464.82" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BATT_VOLTAGE" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A8"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="A8"/>
 <wire x1="443.23" y1="20.32" x2="477.52" y2="20.32" width="0.1524" layer="91"/>
 <label x="464.82" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ELEC_CURR" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A9"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="A9"/>
 <wire x1="443.23" y1="22.86" x2="477.52" y2="22.86" width="0.1524" layer="91"/>
 <label x="464.82" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTMP" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A10"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="A10"/>
 <wire x1="443.23" y1="25.4" x2="477.52" y2="25.4" width="0.1524" layer="91"/>
 <label x="464.82" y="25.4" size="1.778" layer="95"/>
 </segment>
@@ -11113,7 +11201,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="N$50" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="20"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="20"/>
 <pinref part="SV8" gate="1" pin="1"/>
 <wire x1="394.97" y1="30.48" x2="342.9" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SV6" gate="1" pin="1"/>
@@ -11123,7 +11211,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="21"/>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="21"/>
 <pinref part="SV8" gate="1" pin="2"/>
 <wire x1="394.97" y1="33.02" x2="342.9" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="SV6" gate="1" pin="2"/>
@@ -11269,13 +11357,13 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </sheet>
 <sheet>
 <plain>
+<text x="518.16" y="43.18" size="2.54" layer="94">Current Monitors</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="205.74" y="25.4" smashed="yes"/>
 <instance part="FRAME3" gate="G$2" x="505.46" y="25.4" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="518.16" y="26.67" size="2.54" layer="94"/>
 <attribute name="SHEET" x="591.82" y="26.67" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="523.24" y="44.45" size="2.54" layer="94"/>
 </instance>
 <instance part="R14" gate="G$1" x="355.6" y="274.32" smashed="yes">
 <attribute name="NAME" x="351.79" y="275.8186" size="1.778" layer="95"/>
@@ -11971,13 +12059,13 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </sheet>
 <sheet>
 <plain>
+<text x="121.92" y="-154.94" size="2.54" layer="94">Power Conditioning</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="-190.5" y="-172.72" smashed="yes"/>
 <instance part="FRAME4" gate="G$2" x="109.22" y="-172.72" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="121.92" y="-171.45" size="2.54" layer="94"/>
 <attribute name="SHEET" x="195.58" y="-171.45" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="127" y="-153.67" size="2.54" layer="94"/>
 </instance>
 <instance part="R21" gate="G$1" x="-149.86" y="-86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="-151.3586" y="-90.17" size="1.778" layer="95" rot="R90"/>
@@ -11997,9 +12085,9 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <instance part="GND76" gate="1" x="-149.86" y="-99.06" smashed="yes">
 <attribute name="VALUE" x="-152.4" y="-101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="Q2" gate="G$1" x="139.7" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="137.16" y="45.72" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="142.24" y="45.72" size="1.778" layer="96" rot="R90"/>
+<instance part="Q2" gate="G$1" x="177.8" y="27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="175.26" y="33.02" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="180.34" y="33.02" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C30" gate="G$1" x="68.58" y="-2.54" smashed="yes">
 <attribute name="NAME" x="69.596" y="-1.905" size="1.778" layer="95"/>
@@ -12020,8 +12108,8 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <attribute name="NAME" x="141.1986" y="16.51" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="136.398" y="16.51" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="149.86" y="43.18" smashed="yes" rot="R270">
-<attribute name="VALUE" x="157.734" y="43.18" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY13" gate="G$1" x="160.02" y="43.18" smashed="yes" rot="R270">
+<attribute name="VALUE" x="167.894" y="43.18" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY18" gate="G$1" x="86.36" y="43.18" smashed="yes" rot="R90">
 <attribute name="VALUE" x="83.566" y="43.18" size="1.778" layer="96" rot="R180" align="bottom-center"/>
@@ -12029,13 +12117,13 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <instance part="GND77" gate="1" x="139.7" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="137.16" y="-17.78" size="1.778" layer="96"/>
 </instance>
-<instance part="R29" gate="G$1" x="119.38" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="117.8814" y="29.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="122.682" y="29.21" size="1.778" layer="96" rot="R90"/>
+<instance part="R29" gate="G$1" x="114.3" y="33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="112.8014" y="29.21" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="117.602" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="JP1" gate="A" x="38.1" y="-2.54" smashed="yes">
 <attribute name="NAME" x="31.75" y="3.175" size="1.778" layer="95"/>
-<attribute name="VALUE" x="31.75" y="-10.16" size="1.778" layer="96"/>
+<attribute name="VALUE" x="31.75" y="-12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="L1" gate="G$1" x="55.88" y="0" smashed="yes">
 <attribute name="NAME" x="53.34" y="2.54" size="1.778" layer="95"/>
@@ -12223,6 +12311,10 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <attribute name="NAME" x="128.27" y="7.62" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="128.27" y="5.08" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="IC8" gate="G$1" x="124.46" y="45.72" smashed="yes">
+<attribute name="NAME" x="146.05" y="53.34" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="146.05" y="50.8" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12346,21 +12438,42 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="5V" class="0">
 <segment>
-<wire x1="134.62" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="43.18" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="43.18" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="43.18" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
-<junction x="119.38" y="43.18"/>
 <pinref part="CR1" gate="A" pin="1"/>
 <wire x1="96.52" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="G$1" pin="5V"/>
 <junction x="96.52" y="43.18"/>
+<pinref part="IC8" gate="G$1" pin="S_2"/>
+<junction x="114.3" y="43.18"/>
+<wire x1="119.38" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="43.18" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="G$1" pin="S_1"/>
+<wire x1="119.38" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="G$1" pin="S_3"/>
+<wire x1="119.38" y1="43.18" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
+<junction x="119.38" y="43.18"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="43.18" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="G$1" pin="5V"/>
+<pinref part="IC8" gate="G$1" pin="D_4"/>
+<wire x1="152.4" y1="43.18" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="G$1" pin="D_3"/>
+<wire x1="152.4" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
+<junction x="152.4" y="43.18"/>
+<wire x1="152.4" y1="43.18" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="G$1" pin="D_2"/>
+<wire x1="152.4" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="G$1" pin="D_1"/>
+<wire x1="152.4" y1="40.64" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
+<junction x="152.4" y="40.64"/>
 </segment>
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
@@ -12430,14 +12543,18 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="17.78" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="25.4" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
-<junction x="119.38" y="25.4"/>
-<wire x1="119.38" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="25.4" x2="139.7" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="25.4" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
+<junction x="114.3" y="25.4"/>
+<wire x1="114.3" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="CR1" gate="A" pin="2"/>
 <wire x1="96.52" y1="25.4" x2="96.52" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="25.4" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="33.02" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
 <junction x="139.7" y="25.4"/>
+<pinref part="IC8" gate="G$1" pin="G"/>
+<wire x1="119.38" y1="33.02" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TETHER_B" class="0">
@@ -12693,29 +12810,25 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </sheet>
 <sheet>
 <plain>
+<text x="106.68" y="-114.3" size="2.54" layer="94">Power Switches</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="-205.74" y="-132.08" smashed="yes"/>
 <instance part="FRAME5" gate="G$2" x="93.98" y="-132.08" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="106.68" y="-130.81" size="2.54" layer="94"/>
 <attribute name="SHEET" x="180.34" y="-130.81" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="111.76" y="-113.03" size="2.54" layer="94"/>
 </instance>
-<instance part="Q16" gate="G$1" x="149.86" y="-20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="147.32" y="-15.24" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="152.4" y="-15.24" size="1.778" layer="96" rot="R90"/>
+<instance part="CR9" gate="A" x="111.76" y="-27.94" smashed="yes" rot="R90">
+<attribute name="VALUE" x="115.6462" y="-22.4028" size="3.4798" layer="96" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="109.0676" y="-33.2994" size="3.4798" layer="95" ratio="10" rot="SR90"/>
 </instance>
-<instance part="CR9" gate="A" x="116.84" y="-27.94" smashed="yes" rot="R90">
-<attribute name="VALUE" x="120.7262" y="-22.4028" size="3.4798" layer="96" ratio="10" rot="SR180"/>
-<attribute name="NAME" x="114.1476" y="-33.2994" size="3.4798" layer="95" ratio="10" rot="SR90"/>
+<instance part="R55" gate="G$1" x="121.92" y="-22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="120.4214" y="-29.21" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="125.222" y="-26.67" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R55" gate="G$1" x="127" y="-22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="125.5014" y="-29.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="130.302" y="-26.67" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R58" gate="G$1" x="149.86" y="-33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="146.05" y="-34.5186" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="146.05" y="-37.338" size="1.778" layer="96" rot="R180"/>
+<instance part="R58" gate="G$1" x="149.86" y="-35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="146.05" y="-37.0586" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="146.05" y="-39.878" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R56" gate="G$1" x="132.08" y="-53.34" smashed="yes">
 <attribute name="NAME" x="128.27" y="-51.8414" size="1.778" layer="95"/>
@@ -12725,28 +12838,24 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <attribute name="NAME" x="138.43" y="-59.9186" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="135.89" y="-62.738" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C41" gate="G$1" x="137.16" y="-20.32" smashed="yes">
-<attribute name="NAME" x="138.176" y="-19.685" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.716" y="-27.051" size="1.778" layer="96"/>
+<instance part="C41" gate="G$1" x="129.54" y="-20.32" smashed="yes">
+<attribute name="NAME" x="130.556" y="-19.685" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.096" y="-27.051" size="1.778" layer="96"/>
 </instance>
 <instance part="GND48" gate="1" x="144.78" y="-68.58" smashed="yes">
 <attribute name="VALUE" x="142.24" y="-71.12" size="1.778" layer="96"/>
 </instance>
-<instance part="Q4" gate="G$1" x="-124.46" y="-22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="-127" y="-17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-121.92" y="-17.78" size="1.778" layer="96" rot="R90"/>
+<instance part="CR2" gate="A" x="-160.02" y="-30.48" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-156.1338" y="-22.4028" size="3.4798" layer="96" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="-162.7124" y="-35.8394" size="3.4798" layer="95" ratio="10" rot="SR90"/>
 </instance>
-<instance part="CR2" gate="A" x="-157.48" y="-30.48" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-153.5938" y="-22.4028" size="3.4798" layer="96" ratio="10" rot="SR180"/>
-<attribute name="NAME" x="-160.1724" y="-35.8394" size="3.4798" layer="95" ratio="10" rot="SR90"/>
+<instance part="R31" gate="G$1" x="-149.86" y="-25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="-151.3586" y="-31.75" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-146.558" y="-29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R31" gate="G$1" x="-147.32" y="-25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="-148.8186" y="-31.75" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-144.018" y="-29.21" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R34" gate="G$1" x="-124.46" y="-35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="-128.27" y="-34.5186" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-128.27" y="-37.338" size="1.778" layer="96" rot="R180"/>
+<instance part="R34" gate="G$1" x="-124.46" y="-38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="-128.27" y="-37.0586" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-128.27" y="-39.878" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R32" gate="G$1" x="-142.24" y="-55.88" smashed="yes">
 <attribute name="NAME" x="-146.05" y="-54.3814" size="1.778" layer="95"/>
@@ -12756,28 +12865,24 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <attribute name="NAME" x="-135.89" y="-62.4586" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-135.89" y="-65.278" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C35" gate="G$1" x="-137.16" y="-22.86" smashed="yes">
-<attribute name="NAME" x="-136.144" y="-22.225" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-133.604" y="-29.591" size="1.778" layer="96"/>
+<instance part="C35" gate="G$1" x="-139.7" y="-22.86" smashed="yes">
+<attribute name="NAME" x="-138.684" y="-22.225" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-136.144" y="-29.591" size="1.778" layer="96"/>
 </instance>
 <instance part="GND45" gate="1" x="-129.54" y="-71.12" smashed="yes">
 <attribute name="VALUE" x="-132.08" y="-73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="Q8" gate="G$1" x="-35.56" y="-22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="-38.1" y="-17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-33.02" y="-17.78" size="1.778" layer="96" rot="R90"/>
+<instance part="CR5" gate="A" x="-73.66" y="-30.48" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-64.6938" y="-22.4028" size="3.4798" layer="96" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="-76.3524" y="-35.8394" size="3.4798" layer="95" ratio="10" rot="SR90"/>
 </instance>
-<instance part="CR5" gate="A" x="-68.58" y="-30.48" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-59.6138" y="-22.4028" size="3.4798" layer="96" ratio="10" rot="SR180"/>
-<attribute name="NAME" x="-71.2724" y="-35.8394" size="3.4798" layer="95" ratio="10" rot="SR90"/>
+<instance part="R39" gate="G$1" x="-63.5" y="-25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="-64.9986" y="-31.75" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-60.198" y="-29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R39" gate="G$1" x="-58.42" y="-25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="-59.9186" y="-31.75" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-55.118" y="-29.21" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R42" gate="G$1" x="-35.56" y="-35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="-36.83" y="-34.5186" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-36.83" y="-37.338" size="1.778" layer="96" rot="R180"/>
+<instance part="R42" gate="G$1" x="-35.56" y="-38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="-36.83" y="-37.0586" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-36.83" y="-39.878" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R40" gate="G$1" x="-53.34" y="-55.88" smashed="yes">
 <attribute name="NAME" x="-57.15" y="-54.3814" size="1.778" layer="95"/>
@@ -12787,28 +12892,24 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <attribute name="NAME" x="-49.53" y="-62.4586" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-46.99" y="-65.278" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C37" gate="G$1" x="-48.26" y="-22.86" smashed="yes">
-<attribute name="NAME" x="-47.244" y="-22.225" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-44.704" y="-29.591" size="1.778" layer="96"/>
+<instance part="C37" gate="G$1" x="-55.88" y="-22.86" smashed="yes">
+<attribute name="NAME" x="-54.864" y="-22.225" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-52.324" y="-29.591" size="1.778" layer="96"/>
 </instance>
 <instance part="GND46" gate="1" x="-40.64" y="-71.12" smashed="yes">
 <attribute name="VALUE" x="-43.18" y="-73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="Q12" gate="G$1" x="55.88" y="-22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.34" y="-17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="58.42" y="-17.78" size="1.778" layer="96" rot="R90"/>
+<instance part="CR7" gate="A" x="15.24" y="-30.48" smashed="yes" rot="R90">
+<attribute name="VALUE" x="19.1262" y="-22.4028" size="3.4798" layer="96" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="12.5476" y="-35.8394" size="3.4798" layer="95" ratio="10" rot="SR90"/>
 </instance>
-<instance part="CR7" gate="A" x="22.86" y="-30.48" smashed="yes" rot="R90">
-<attribute name="VALUE" x="26.7462" y="-22.4028" size="3.4798" layer="96" ratio="10" rot="SR180"/>
-<attribute name="NAME" x="20.1676" y="-35.8394" size="3.4798" layer="95" ratio="10" rot="SR90"/>
+<instance part="R47" gate="G$1" x="25.4" y="-25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.9014" y="-31.75" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="28.702" y="-29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R47" gate="G$1" x="33.02" y="-25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.5214" y="-31.75" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="36.322" y="-29.21" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R50" gate="G$1" x="55.88" y="-35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.61" y="-37.0586" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="54.61" y="-39.878" size="1.778" layer="96" rot="R180"/>
+<instance part="R50" gate="G$1" x="55.88" y="-38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.61" y="-39.5986" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="54.61" y="-42.418" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R48" gate="G$1" x="38.1" y="-55.88" smashed="yes">
 <attribute name="NAME" x="34.29" y="-54.3814" size="1.778" layer="95"/>
@@ -12818,28 +12919,24 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <attribute name="NAME" x="44.45" y="-62.4586" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="44.45" y="-65.278" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C39" gate="G$1" x="43.18" y="-22.86" smashed="yes">
-<attribute name="NAME" x="44.196" y="-22.225" size="1.778" layer="95"/>
-<attribute name="VALUE" x="46.736" y="-29.591" size="1.778" layer="96"/>
+<instance part="C39" gate="G$1" x="33.02" y="-22.86" smashed="yes">
+<attribute name="NAME" x="34.036" y="-22.225" size="1.778" layer="95"/>
+<attribute name="VALUE" x="36.576" y="-29.591" size="1.778" layer="96"/>
 </instance>
 <instance part="GND47" gate="1" x="50.8" y="-71.12" smashed="yes">
 <attribute name="VALUE" x="48.26" y="-73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="Q14" gate="G$1" x="101.6" y="91.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="99.06" y="96.52" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="104.14" y="96.52" size="1.778" layer="96" rot="R90"/>
+<instance part="CR8" gate="A" x="60.96" y="83.82" smashed="yes" rot="R90">
+<attribute name="VALUE" x="59.7662" y="91.8972" size="3.4798" layer="96" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="58.2676" y="78.4606" size="3.4798" layer="95" ratio="10" rot="SR90"/>
 </instance>
-<instance part="CR8" gate="A" x="68.58" y="83.82" smashed="yes" rot="R90">
-<attribute name="VALUE" x="67.3862" y="91.8972" size="3.4798" layer="96" ratio="10" rot="SR180"/>
-<attribute name="NAME" x="65.8876" y="78.4606" size="3.4798" layer="95" ratio="10" rot="SR90"/>
+<instance part="R51" gate="G$1" x="68.58" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="67.0814" y="82.55" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="71.882" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R51" gate="G$1" x="78.74" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="77.2414" y="82.55" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="82.042" y="85.09" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R54" gate="G$1" x="101.6" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="107.95" y="79.7814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="107.95" y="76.962" size="1.778" layer="96" rot="R180"/>
+<instance part="R54" gate="G$1" x="101.6" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="107.95" y="77.2414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.95" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R52" gate="G$1" x="83.82" y="58.42" smashed="yes">
 <attribute name="NAME" x="80.01" y="59.9186" size="1.778" layer="95"/>
@@ -12849,28 +12946,24 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <attribute name="NAME" x="90.17" y="51.8414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="90.17" y="49.022" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C40" gate="G$1" x="88.9" y="91.44" smashed="yes">
-<attribute name="NAME" x="89.916" y="92.075" size="1.778" layer="95"/>
-<attribute name="VALUE" x="92.456" y="84.709" size="1.778" layer="96"/>
+<instance part="C40" gate="G$1" x="81.28" y="91.44" smashed="yes">
+<attribute name="NAME" x="82.296" y="92.075" size="1.778" layer="95"/>
+<attribute name="VALUE" x="84.836" y="84.709" size="1.778" layer="96"/>
 </instance>
 <instance part="GND49" gate="1" x="96.52" y="43.18" smashed="yes">
 <attribute name="VALUE" x="93.98" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="Q10" gate="G$1" x="10.16" y="91.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.62" y="96.52" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="12.7" y="96.52" size="1.778" layer="96" rot="R90"/>
+<instance part="CR6" gate="A" x="-30.48" y="83.82" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-31.6738" y="81.7372" size="3.4798" layer="96" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="-32.7406" y="91.2876" size="3.4798" layer="95" ratio="10" rot="SR180"/>
 </instance>
-<instance part="CR6" gate="A" x="-22.86" y="83.82" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-21.5138" y="91.8972" size="3.4798" layer="96" ratio="10" rot="SR180"/>
-<attribute name="NAME" x="-25.5524" y="78.4606" size="3.4798" layer="95" ratio="10" rot="SR90"/>
+<instance part="R43" gate="G$1" x="-20.32" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="-21.8186" y="82.55" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-17.018" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R43" gate="G$1" x="-12.7" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="-14.1986" y="82.55" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-9.398" y="85.09" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R46" gate="G$1" x="10.16" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.51" y="82.3214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="16.51" y="79.502" size="1.778" layer="96" rot="R180"/>
+<instance part="R46" gate="G$1" x="10.16" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.51" y="79.7814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="16.51" y="76.962" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R44" gate="G$1" x="-7.62" y="58.42" smashed="yes">
 <attribute name="NAME" x="-11.43" y="59.9186" size="1.778" layer="95"/>
@@ -12880,32 +12973,28 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <attribute name="NAME" x="6.35" y="54.3814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="6.35" y="51.562" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C38" gate="G$1" x="-2.54" y="91.44" smashed="yes">
-<attribute name="NAME" x="-1.524" y="92.075" size="1.778" layer="95"/>
-<attribute name="VALUE" x="1.016" y="84.709" size="1.778" layer="96"/>
+<instance part="C38" gate="G$1" x="-10.16" y="91.44" smashed="yes">
+<attribute name="NAME" x="-9.144" y="92.075" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-6.604" y="84.709" size="1.778" layer="96"/>
 </instance>
 <instance part="GND50" gate="1" x="5.08" y="43.18" smashed="yes">
 <attribute name="VALUE" x="2.54" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="Q6" gate="G$1" x="-81.28" y="91.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="-83.82" y="96.52" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-78.74" y="96.52" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="CR4" gate="A" x="-114.3" y="83.82" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-112.9538" y="79.1972" size="3.4798" layer="96" ratio="10" rot="SR180"/>
-<attribute name="NAME" x="-116.9924" y="78.4606" size="3.4798" layer="95" ratio="10" rot="SR90"/>
+<instance part="CR4" gate="A" x="-124.46" y="83.82" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-123.1138" y="79.1972" size="3.4798" layer="96" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="-127.1524" y="78.4606" size="3.4798" layer="95" ratio="10" rot="SR90"/>
 </instance>
 <instance part="CR3" gate="A" x="-139.7" y="83.82" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-135.8138" y="91.8972" size="3.4798" layer="96" ratio="10" rot="SR180"/>
 <attribute name="NAME" x="-142.3924" y="81.0006" size="3.4798" layer="95" ratio="10" rot="SR90"/>
 </instance>
-<instance part="R35" gate="G$1" x="-104.14" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="-105.6386" y="82.55" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-100.838" y="85.09" size="1.778" layer="96" rot="R90"/>
+<instance part="R35" gate="G$1" x="-114.3" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="-115.7986" y="82.55" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-110.998" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R38" gate="G$1" x="-81.28" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="-74.93" y="82.3214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-77.47" y="79.502" size="1.778" layer="96" rot="R180"/>
+<instance part="R38" gate="G$1" x="-81.28" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="-74.93" y="79.7814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-77.47" y="76.962" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R36" gate="G$1" x="-99.06" y="58.42" smashed="yes">
 <attribute name="NAME" x="-102.87" y="59.9186" size="1.778" layer="95"/>
@@ -12915,9 +13004,9 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <attribute name="NAME" x="-85.09" y="56.9214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-85.09" y="54.102" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C36" gate="G$1" x="-93.98" y="91.44" smashed="yes">
-<attribute name="NAME" x="-92.964" y="92.075" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-90.424" y="84.709" size="1.778" layer="96"/>
+<instance part="C36" gate="G$1" x="-106.68" y="91.44" smashed="yes">
+<attribute name="NAME" x="-105.664" y="92.075" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-103.124" y="84.709" size="1.778" layer="96"/>
 </instance>
 <instance part="GND43" gate="1" x="-139.7" y="71.12" smashed="yes">
 <attribute name="VALUE" x="-142.24" y="68.58" size="1.778" layer="96"/>
@@ -12952,6 +13041,34 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <instance part="Q3" gate="G$1" x="-132.08" y="-55.88" smashed="yes">
 <attribute name="NAME" x="-120.65" y="-52.07" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-120.65" y="-54.61" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC1" gate="G$1" x="-2.54" y="99.06" smashed="yes">
+<attribute name="NAME" x="19.05" y="106.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="19.05" y="104.14" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC2" gate="G$1" x="-91.44" y="96.52" smashed="yes">
+<attribute name="NAME" x="-69.85" y="104.14" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-69.85" y="101.6" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC3" gate="G$1" x="88.9" y="96.52" smashed="yes">
+<attribute name="NAME" x="110.49" y="104.14" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="110.49" y="101.6" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC4" gate="G$1" x="137.16" y="-15.24" smashed="yes">
+<attribute name="NAME" x="158.75" y="-7.62" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="158.75" y="-10.16" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC5" gate="G$1" x="43.18" y="-17.78" smashed="yes">
+<attribute name="NAME" x="64.77" y="-10.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="64.77" y="-12.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC6" gate="G$1" x="-48.26" y="-17.78" smashed="yes">
+<attribute name="NAME" x="-26.67" y="-10.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-26.67" y="-12.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC7" gate="G$1" x="-132.08" y="-17.78" smashed="yes">
+<attribute name="NAME" x="-110.49" y="-10.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-110.49" y="-12.7" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -13029,24 +13146,41 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESC_POWER" class="0">
 <segment>
-<wire x1="-76.2" y1="93.98" x2="-60.96" y2="93.98" width="0.1524" layer="91"/>
-<label x="-71.12" y="93.98" size="1.778" layer="95"/>
+<wire x1="-66.04" y1="93.98" x2="-63.5" y2="93.98" width="0.1524" layer="91"/>
+<label x="-66.04" y="96.52" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="D_3"/>
+<pinref part="IC2" gate="G$1" pin="D_4"/>
+<wire x1="-63.5" y1="93.98" x2="-48.26" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="96.52" x2="-63.5" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="96.52" x2="-63.5" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-63.5" y="93.98"/>
+<pinref part="IC2" gate="G$1" pin="D_2"/>
+<wire x1="-63.5" y1="93.98" x2="-63.5" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="91.44" x2="-66.04" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="D_1"/>
+<wire x1="-63.5" y1="91.44" x2="-63.5" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="88.9" x2="-66.04" y2="88.9" width="0.1524" layer="91"/>
+<junction x="-63.5" y="91.44"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<wire x1="127" y1="-27.94" x2="137.16" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="-27.94" x2="149.86" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="-27.94" x2="129.54" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-30.48" x2="149.86" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="R55" gate="G$1" pin="1"/>
-<junction x="127" y="-27.94"/>
+<junction x="121.92" y="-27.94"/>
 <pinref part="C41" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="-25.4" x2="137.16" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="137.16" y="-27.94"/>
-<wire x1="149.86" y1="-20.32" x2="149.86" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-25.4" x2="129.54" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="129.54" y="-30.48"/>
+<wire x1="149.86" y1="-27.94" x2="149.86" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="R58" gate="G$1" pin="2"/>
-<junction x="149.86" y="-27.94"/>
+<junction x="149.86" y="-30.48"/>
 <pinref part="CR9" gate="A" pin="2"/>
-<wire x1="116.84" y1="-27.94" x2="127" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-27.94" x2="121.92" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-27.94" x2="134.62" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="G"/>
+<wire x1="134.62" y1="-27.94" x2="134.62" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-22.86" x2="137.16" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -13064,7 +13198,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <segment>
 <pinref part="R58" gate="G$1" pin="1"/>
 <pinref part="Q15" gate="G$1" pin="D"/>
-<wire x1="149.86" y1="-43.18" x2="149.86" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-43.18" x2="149.86" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESCSA_SWITCH" class="0">
@@ -13076,24 +13210,28 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="N$13" class="0">
 <segment>
-<wire x1="-147.32" y1="-30.48" x2="-137.16" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="-30.48" x2="-124.46" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-30.48" x2="-139.7" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="-33.02" x2="-124.46" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="1"/>
-<junction x="-147.32" y="-30.48"/>
+<junction x="-149.86" y="-30.48"/>
 <pinref part="C35" gate="G$1" pin="2"/>
-<wire x1="-137.16" y1="-27.94" x2="-137.16" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="-137.16" y="-30.48"/>
-<wire x1="-124.46" y1="-22.86" x2="-124.46" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="-27.94" x2="-139.7" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="-139.7" y="-33.02"/>
+<wire x1="-124.46" y1="-30.48" x2="-124.46" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
-<junction x="-124.46" y="-30.48"/>
+<junction x="-124.46" y="-33.02"/>
 <pinref part="CR2" gate="A" pin="2"/>
-<wire x1="-157.48" y1="-30.48" x2="-147.32" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-160.02" y1="-30.48" x2="-149.86" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="G$1" pin="G"/>
+<wire x1="-132.08" y1="-25.4" x2="-134.62" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="-25.4" x2="-134.62" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="-30.48" x2="-124.46" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="-124.46" y1="-45.72" x2="-124.46" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="-45.72" x2="-124.46" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
 </segment>
 </net>
@@ -13106,18 +13244,22 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="N$19" class="0">
 <segment>
-<wire x1="-58.42" y1="-30.48" x2="-48.26" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="-30.48" x2="-35.56" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-30.48" x2="-55.88" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="-33.02" x2="-35.56" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="1"/>
-<junction x="-58.42" y="-30.48"/>
+<junction x="-63.5" y="-30.48"/>
 <pinref part="C37" gate="G$1" pin="2"/>
-<wire x1="-48.26" y1="-27.94" x2="-48.26" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="-48.26" y="-30.48"/>
-<wire x1="-35.56" y1="-22.86" x2="-35.56" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="-27.94" x2="-55.88" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="-55.88" y="-33.02"/>
+<wire x1="-35.56" y1="-30.48" x2="-35.56" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="R42" gate="G$1" pin="2"/>
-<junction x="-35.56" y="-30.48"/>
+<junction x="-35.56" y="-33.02"/>
 <pinref part="CR5" gate="A" pin="2"/>
-<wire x1="-68.58" y1="-30.48" x2="-58.42" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-30.48" x2="-63.5" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="G"/>
+<wire x1="-48.26" y1="-25.4" x2="-50.8" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-25.4" x2="-50.8" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-30.48" x2="-35.56" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -13134,7 +13276,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <net name="N$21" class="0">
 <segment>
 <pinref part="R42" gate="G$1" pin="1"/>
-<wire x1="-35.56" y1="-45.72" x2="-35.56" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-45.72" x2="-35.56" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="Q7" gate="G$1" pin="D"/>
 </segment>
 </net>
@@ -13147,18 +13289,22 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="N$22" class="0">
 <segment>
-<wire x1="33.02" y1="-30.48" x2="43.18" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-30.48" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-30.48" x2="33.02" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-33.02" x2="55.88" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="R47" gate="G$1" pin="1"/>
-<junction x="33.02" y="-30.48"/>
+<junction x="25.4" y="-30.48"/>
 <pinref part="C39" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="-27.94" x2="43.18" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="43.18" y="-30.48"/>
-<wire x1="55.88" y1="-22.86" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-27.94" x2="33.02" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="33.02" y="-33.02"/>
+<wire x1="55.88" y1="-30.48" x2="55.88" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="R50" gate="G$1" pin="2"/>
-<junction x="55.88" y="-30.48"/>
+<junction x="55.88" y="-33.02"/>
 <pinref part="CR7" gate="A" pin="2"/>
-<wire x1="22.86" y1="-30.48" x2="33.02" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-30.48" x2="25.4" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="G"/>
+<wire x1="43.18" y1="-25.4" x2="40.64" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-25.4" x2="40.64" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-30.48" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -13175,42 +13321,86 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <net name="N$24" class="0">
 <segment>
 <pinref part="R50" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="-45.72" x2="55.88" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-45.72" x2="55.88" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="Q11" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="ESCPA_POWER" class="0">
 <segment>
-<wire x1="-119.38" y1="-20.32" x2="-104.14" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-114.3" y="-20.32" size="1.778" layer="95"/>
+<pinref part="IC7" gate="G$1" pin="D_3"/>
+<wire x1="-106.68" y1="-20.32" x2="-104.14" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="G$1" pin="D_4"/>
+<wire x1="-104.14" y1="-20.32" x2="-96.52" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-17.78" x2="-104.14" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="-17.78" x2="-104.14" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="G$1" pin="D_1"/>
+<wire x1="-104.14" y1="-20.32" x2="-104.14" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="-22.86" x2="-104.14" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="-25.4" x2="-106.68" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="G$1" pin="D_2"/>
+<wire x1="-104.14" y1="-22.86" x2="-106.68" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="-104.14" y="-22.86"/>
+<junction x="-104.14" y="-20.32"/>
 </segment>
 </net>
 <net name="ESCSV_POWER" class="0">
 <segment>
-<wire x1="-30.48" y1="-20.32" x2="-15.24" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-20.32" x2="-20.32" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-25.4" y="-20.32" size="1.778" layer="95"/>
+<pinref part="IC6" gate="G$1" pin="D_3"/>
+<pinref part="IC6" gate="G$1" pin="D_2"/>
+<wire x1="-20.32" y1="-20.32" x2="-10.16" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-20.32" x2="-20.32" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-22.86" x2="-22.86" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-20.32"/>
+<pinref part="IC6" gate="G$1" pin="D_1"/>
+<wire x1="-20.32" y1="-22.86" x2="-20.32" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-25.4" x2="-22.86" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-22.86"/>
+<pinref part="IC6" gate="G$1" pin="D_4"/>
+<wire x1="-20.32" y1="-20.32" x2="-20.32" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-17.78" x2="-22.86" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESCSA_POWER" class="0">
 <segment>
-<wire x1="154.94" y1="-17.78" x2="170.18" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-17.78" x2="162.56" y2="-17.78" width="0.1524" layer="91"/>
 <label x="160.02" y="-17.78" size="1.778" layer="95"/>
+<pinref part="IC4" gate="G$1" pin="D_3"/>
+<wire x1="162.56" y1="-17.78" x2="165.1" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="162.56" y="-17.78"/>
+<pinref part="IC4" gate="G$1" pin="D_4"/>
+<wire x1="165.1" y1="-17.78" x2="175.26" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-17.78" x2="165.1" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-15.24" x2="162.56" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="165.1" y="-17.78"/>
+<wire x1="165.1" y1="-17.78" x2="165.1" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="D_2"/>
+<wire x1="165.1" y1="-20.32" x2="162.56" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="D_1"/>
+<wire x1="165.1" y1="-20.32" x2="165.1" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-22.86" x2="162.56" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="165.1" y="-20.32"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<wire x1="78.74" y1="83.82" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="83.82" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="81.28" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R51" gate="G$1" pin="1"/>
-<junction x="78.74" y="83.82"/>
+<junction x="68.58" y="83.82"/>
 <pinref part="C40" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="86.36" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
-<junction x="88.9" y="83.82"/>
-<wire x1="101.6" y1="91.44" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="86.36" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
+<junction x="81.28" y="81.28"/>
+<wire x1="101.6" y1="83.82" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R54" gate="G$1" pin="2"/>
-<junction x="101.6" y="83.82"/>
 <pinref part="CR8" gate="A" pin="2"/>
-<wire x1="68.58" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="83.82" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="G"/>
+<wire x1="86.36" y1="88.9" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -13227,7 +13417,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <net name="N$30" class="0">
 <segment>
 <pinref part="R54" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="68.58" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="68.58" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="Q13" gate="G$1" pin="D"/>
 </segment>
 </net>
@@ -13240,18 +13430,22 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="N$31" class="0">
 <segment>
-<wire x1="-12.7" y1="83.82" x2="-2.54" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="83.82" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="83.82" x2="-10.16" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="81.28" x2="10.16" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R43" gate="G$1" pin="1"/>
-<junction x="-12.7" y="83.82"/>
+<junction x="-20.32" y="83.82"/>
 <pinref part="C38" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="86.36" x2="-2.54" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-2.54" y="83.82"/>
-<wire x1="10.16" y1="91.44" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="86.36" x2="-10.16" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-10.16" y="81.28"/>
+<wire x1="10.16" y1="86.36" x2="10.16" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R46" gate="G$1" pin="2"/>
-<junction x="10.16" y="83.82"/>
+<junction x="10.16" y="81.28"/>
 <pinref part="CR6" gate="A" pin="2"/>
-<wire x1="-22.86" y1="83.82" x2="-12.7" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="83.82" x2="-20.32" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="86.36" x2="-5.08" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="86.36" x2="-5.08" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="G"/>
+<wire x1="-5.08" y1="91.44" x2="-2.54" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -13268,7 +13462,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <net name="N$33" class="0">
 <segment>
 <pinref part="R46" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="68.58" x2="10.16" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="68.58" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="Q9" gate="G$1" pin="D"/>
 </segment>
 </net>
@@ -13283,34 +13477,42 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <segment>
 <pinref part="CR3" gate="A" pin="1"/>
 <pinref part="CR4" gate="A" pin="1"/>
-<wire x1="-139.7" y1="93.98" x2="-114.3" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="93.98" x2="-124.46" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="-114.3" y1="93.98" x2="-104.14" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-114.3" y="93.98"/>
+<wire x1="-124.46" y1="93.98" x2="-114.3" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C36" gate="G$1" pin="1"/>
-<wire x1="-104.14" y1="93.98" x2="-93.98" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-104.14" y="93.98"/>
-<wire x1="-93.98" y1="93.98" x2="-86.36" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-93.98" y="93.98"/>
+<wire x1="-114.3" y1="93.98" x2="-106.68" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="93.98" x2="-93.98" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="93.98" x2="-91.44" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="93.98" x2="-165.1" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-139.7" y="93.98"/>
 <label x="-165.1" y="93.98" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="S_2"/>
+<pinref part="IC2" gate="G$1" pin="S_1"/>
+<wire x1="-91.44" y1="96.52" x2="-93.98" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="96.52" x2="-93.98" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="93.98" x2="-93.98" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="S_3"/>
+<wire x1="-91.44" y1="91.44" x2="-93.98" y2="91.44" width="0.1524" layer="91"/>
+<junction x="-93.98" y="93.98"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="-104.14" y1="83.82" x2="-93.98" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="83.82" x2="-81.28" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="83.82" x2="-106.68" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="81.28" x2="-81.28" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="1"/>
-<junction x="-104.14" y="83.82"/>
 <pinref part="C36" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="86.36" x2="-93.98" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-93.98" y="83.82"/>
-<wire x1="-81.28" y1="91.44" x2="-81.28" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="86.36" x2="-106.68" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-106.68" y="81.28"/>
+<wire x1="-81.28" y1="83.82" x2="-81.28" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="2"/>
-<junction x="-81.28" y="83.82"/>
+<junction x="-81.28" y="81.28"/>
 <pinref part="CR4" gate="A" pin="2"/>
-<wire x1="-114.3" y1="83.82" x2="-104.14" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="83.82" x2="-114.3" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="G"/>
+<wire x1="-81.28" y1="83.82" x2="-91.44" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="83.82" x2="-91.44" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -13327,8 +13529,8 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <net name="N$15" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
-<wire x1="-81.28" y1="68.58" x2="-81.28" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G$1" pin="D"/>
+<wire x1="-81.28" y1="71.12" x2="-81.28" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESC_MAIN_POWER_SW" class="0">
@@ -13340,79 +13542,150 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 </net>
 <net name="ESCPV_POWER" class="0">
 <segment>
-<wire x1="60.96" y1="-20.32" x2="76.2" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-20.32" x2="71.12" y2="-20.32" width="0.1524" layer="91"/>
 <label x="66.04" y="-20.32" size="1.778" layer="95"/>
+<pinref part="IC5" gate="G$1" pin="D_3"/>
+<pinref part="IC5" gate="G$1" pin="D_1"/>
+<wire x1="71.12" y1="-20.32" x2="83.82" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-25.4" x2="71.12" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-25.4" x2="71.12" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="71.12" y="-20.32"/>
+<pinref part="IC5" gate="G$1" pin="D_2"/>
+<wire x1="71.12" y1="-22.86" x2="71.12" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-22.86" x2="71.12" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="71.12" y="-22.86"/>
+<pinref part="IC5" gate="G$1" pin="D_4"/>
+<wire x1="71.12" y1="-20.32" x2="71.12" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-17.78" x2="68.58" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESCPF_POWER" class="0">
 <segment>
-<wire x1="106.68" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
-<label x="111.76" y="93.98" size="1.778" layer="95"/>
+<wire x1="114.3" y1="93.98" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
+<label x="116.84" y="93.98" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="D_3"/>
+<pinref part="IC3" gate="G$1" pin="D_4"/>
+<wire x1="116.84" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="93.98" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="96.52" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
+<junction x="116.84" y="93.98"/>
+<pinref part="IC3" gate="G$1" pin="D_2"/>
+<wire x1="116.84" y1="93.98" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="D_1"/>
+<wire x1="116.84" y1="91.44" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
+<junction x="116.84" y="91.44"/>
 </segment>
 </net>
 <net name="ESC_PV_POWER" class="0">
 <segment>
 <pinref part="CR7" gate="A" pin="1"/>
 <pinref part="R47" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="-20.32" x2="33.02" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-20.32" x2="25.4" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="C39" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="-20.32" x2="43.18" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-20.32" x2="33.02" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="25.4" y="-20.32"/>
+<wire x1="33.02" y1="-20.32" x2="40.64" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="33.02" y="-20.32"/>
-<wire x1="43.18" y1="-20.32" x2="50.8" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="43.18" y="-20.32"/>
 <label x="12.7" y="-20.32" size="1.778" layer="95"/>
+<pinref part="IC5" gate="G$1" pin="S_1"/>
+<wire x1="40.64" y1="-20.32" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-17.78" x2="43.18" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="S_2"/>
+<wire x1="40.64" y1="-20.32" x2="43.18" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="40.64" y="-20.32"/>
+<pinref part="IC5" gate="G$1" pin="S_3"/>
+<wire x1="43.18" y1="-22.86" x2="40.64" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-22.86" x2="40.64" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESC_PF_POWER" class="0">
 <segment>
 <pinref part="CR8" gate="A" pin="1"/>
 <pinref part="R51" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="93.98" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C40" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
-<junction x="78.74" y="93.98"/>
-<wire x1="88.9" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
-<junction x="88.9" y="93.98"/>
+<wire x1="68.58" y1="93.98" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
+<junction x="68.58" y="93.98"/>
+<wire x1="81.28" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
+<junction x="81.28" y="93.98"/>
 <label x="53.34" y="93.98" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="S_3"/>
+<wire x1="88.9" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="91.44" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="S_2"/>
+<wire x1="88.9" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
+<junction x="86.36" y="93.98"/>
+<pinref part="IC3" gate="G$1" pin="S_1"/>
+<wire x1="86.36" y1="93.98" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESC_PA_POWER" class="0">
 <segment>
 <pinref part="CR2" gate="A" pin="1"/>
 <pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="-157.48" y1="-20.32" x2="-147.32" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-160.02" y1="-20.32" x2="-149.86" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="C35" gate="G$1" pin="1"/>
-<wire x1="-147.32" y1="-20.32" x2="-137.16" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="-147.32" y="-20.32"/>
-<wire x1="-137.16" y1="-20.32" x2="-129.54" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="-137.16" y="-20.32"/>
+<wire x1="-149.86" y1="-20.32" x2="-139.7" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="-149.86" y="-20.32"/>
+<wire x1="-139.7" y1="-20.32" x2="-134.62" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="-139.7" y="-20.32"/>
 <label x="-170.18" y="-20.32" size="1.778" layer="95"/>
+<pinref part="IC7" gate="G$1" pin="S_2"/>
+<pinref part="IC7" gate="G$1" pin="S_3"/>
+<wire x1="-134.62" y1="-20.32" x2="-132.08" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="-22.86" x2="-134.62" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="G$1" pin="S_1"/>
+<wire x1="-134.62" y1="-22.86" x2="-134.62" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="-20.32" x2="-134.62" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="-17.78" x2="-132.08" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="-134.62" y="-20.32"/>
 </segment>
 </net>
 <net name="ESC_SV_POWER" class="0">
 <segment>
 <pinref part="CR5" gate="A" pin="1"/>
 <pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="-68.58" y1="-20.32" x2="-58.42" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-20.32" x2="-63.5" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="C37" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="-20.32" x2="-48.26" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="-58.42" y="-20.32"/>
-<wire x1="-48.26" y1="-20.32" x2="-40.64" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="-48.26" y="-20.32"/>
+<wire x1="-63.5" y1="-20.32" x2="-55.88" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="-63.5" y="-20.32"/>
+<wire x1="-55.88" y1="-20.32" x2="-50.8" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="-55.88" y="-20.32"/>
 <label x="-76.2" y="-20.32" size="1.778" layer="95"/>
+<pinref part="IC6" gate="G$1" pin="S_2"/>
+<pinref part="IC6" gate="G$1" pin="S_1"/>
+<wire x1="-50.8" y1="-20.32" x2="-48.26" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="-17.78" x2="-50.8" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-17.78" x2="-50.8" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="S_3"/>
+<wire x1="-50.8" y1="-20.32" x2="-50.8" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-22.86" x2="-48.26" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="-50.8" y="-20.32"/>
 </segment>
 </net>
 <net name="ESC_SA_POWER" class="0">
 <segment>
 <pinref part="CR9" gate="A" pin="1"/>
 <pinref part="R55" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="-17.78" x2="127" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-17.78" x2="121.92" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="C41" gate="G$1" pin="1"/>
-<wire x1="127" y1="-17.78" x2="137.16" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="127" y="-17.78"/>
-<wire x1="137.16" y1="-17.78" x2="144.78" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="137.16" y="-17.78"/>
+<wire x1="121.92" y1="-17.78" x2="129.54" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="121.92" y="-17.78"/>
+<wire x1="129.54" y1="-17.78" x2="134.62" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="129.54" y="-17.78"/>
 <label x="104.14" y="-17.78" size="1.778" layer="95"/>
+<pinref part="IC4" gate="G$1" pin="S_2"/>
+<pinref part="IC4" gate="G$1" pin="S_3"/>
+<wire x1="134.62" y1="-17.78" x2="137.16" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-20.32" x2="134.62" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-20.32" x2="134.62" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="134.62" y="-17.78"/>
+<pinref part="IC4" gate="G$1" pin="S_1"/>
+<wire x1="134.62" y1="-17.78" x2="134.62" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-15.24" x2="137.16" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -13430,20 +13703,30 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <segment>
 <pinref part="CR6" gate="A" pin="1"/>
 <pinref part="R43" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="93.98" x2="-12.7" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="93.98" x2="-20.32" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C38" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-12.7" y="93.98"/>
-<wire x1="-2.54" y1="93.98" x2="5.08" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-2.54" y="93.98"/>
+<wire x1="-20.32" y1="93.98" x2="-10.16" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-20.32" y="93.98"/>
+<wire x1="-10.16" y1="93.98" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-10.16" y="93.98"/>
 <label x="-38.1" y="93.98" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="S_3"/>
+<pinref part="IC1" gate="G$1" pin="S_2"/>
+<wire x1="-5.08" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="93.98" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="96.52" x2="-2.54" y2="96.52" width="0.1524" layer="91"/>
+<junction x="-5.08" y="93.98"/>
+<pinref part="IC1" gate="G$1" pin="S_1"/>
+<wire x1="-5.08" y1="96.52" x2="-5.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="99.06" x2="-2.54" y2="99.06" width="0.1524" layer="91"/>
+<junction x="-5.08" y="96.52"/>
 </segment>
 </net>
 <net name="ESCSF_POWER" class="0">
 <segment>
-<wire x1="15.24" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <label x="20.32" y="93.98" size="1.778" layer="95"/>
 <label x="20.32" y="93.98" size="1.778" layer="95"/>
+<wire x1="25.550325" y1="94.005053125" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESCSF_SWITCH" class="0">
@@ -13453,9 +13736,30 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Lite-On PDFs/LTV-8
 <label x="-27.94" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="D_1"/>
+<wire x1="22.86" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="91.44" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="D_2"/>
+<wire x1="25.4" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="D_3"/>
+<wire x1="25.4" y1="93.98" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="96.52" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
+<junction x="25.4" y="93.98"/>
+<pinref part="IC1" gate="G$1" pin="D_4"/>
+<wire x1="25.4" y1="96.52" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
+<junction x="25.4" y="96.52"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,3,469.9,111.76,U4,IN-_2,,,,"/>
+<approved hash="202,3,505.46,114.3,U4,IN+_2,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
