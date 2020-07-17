@@ -11070,12 +11070,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <wire x1="415.29" y1="73.66" x2="414.02" y2="73.66" width="0.1524" layer="91"/>
 <label x="396.24" y="73.66" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="34"/>
-<wire x1="412.75" y1="40.64" x2="412.75" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="412.75" y1="12.7" x2="414.02" y2="12.7" width="0.1524" layer="91"/>
-<label x="414.02" y="12.7" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="ESCPV_CURR" class="0">
 <segment>
@@ -11332,6 +11326,14 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <pinref part="SV3" gate="1" pin="1"/>
 <wire x1="215.9" y1="-63.5" x2="223.52" y2="-63.5" width="0.1524" layer="91"/>
 <label x="218.44" y="-66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ESCSF_SWITCH" class="0">
+<segment>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="34"/>
+<wire x1="412.75" y1="40.64" x2="412.75" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="412.75" y1="12.7" x2="414.02" y2="12.7" width="0.1524" layer="91"/>
+<label x="414.02" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -12641,20 +12643,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="K"/>
 </segment>
-<segment>
-<pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="-93.98" y1="-12.7" x2="-106.68" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="U6" gate="A" pin="IN+_2"/>
-<wire x1="-68.58" y1="30.48" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="30.48" x2="-45.72" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="-5.08" x2="-106.68" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-5.08" x2="-106.68" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-12.7"/>
-<wire x1="-106.68" y1="-12.7" x2="-116.84" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="K"/>
-<wire x1="-116.84" y1="-12.7" x2="-121.7676" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-116.84" y="-12.7"/>
-</segment>
 </net>
 <net name="N$34" class="0">
 <segment>
@@ -12779,6 +12767,23 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="0" x2="35.56" y2="0" width="0.1524" layer="91"/>
 <label x="43.18" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ESC_POWER2" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="K"/>
+<wire x1="-116.84" y1="-12.7" x2="-121.7676" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-116.84" y="-12.7"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="-93.98" y1="-12.7" x2="-104.14" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="U6" gate="A" pin="IN+_2"/>
+<wire x1="-104.14" y1="-12.7" x2="-116.84" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="30.48" x2="-55.88" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="30.48" x2="-55.88" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="-2.54" x2="-104.14" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="-2.54" x2="-104.14" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-104.14" y="-12.7"/>
+<label x="-68.58" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -13677,8 +13682,19 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,3,309.88,238.76,U3,V+,5V,,,"/>
+<approved hash="104,3,345.44,238.76,U3,V-,GND,,,"/>
+<approved hash="104,3,469.9,238.76,U5,V+,5V,,,"/>
+<approved hash="104,3,505.46,238.76,U5,V-,GND,,,"/>
+<approved hash="104,3,309.88,116.84,U2,V+,5V,,,"/>
+<approved hash="104,3,345.44,116.84,U2,V-,GND,,,"/>
+<approved hash="104,3,469.9,116.84,U4,V+,5V,,,"/>
 <approved hash="202,3,469.9,111.76,U4,IN-_2,,,,"/>
 <approved hash="202,3,505.46,114.3,U4,IN+_2,,,,"/>
+<approved hash="104,3,505.46,116.84,U4,V-,GND,,,"/>
+<approved hash="104,4,27.94,-86.36,U8,FGND,GND,,,"/>
+<approved hash="104,4,-104.14,33.02,U6,V+,5V,,,"/>
+<approved hash="104,4,-68.58,33.02,U6,V-,GND,,,"/>
 <approved hash="206,4,-83.82,-137.16,+3V3,,,,,"/>
 <approved hash="206,4,-149.86,-134.62,+3V3,,,,,"/>
 <approved hash="208,2,226.06,0,+3V3,sup,,,,"/>
@@ -13687,6 +13703,13 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <approved hash="208,4,-83.82,-137.16,+3V3,out,,,,"/>
 <approved hash="208,4,-149.86,-134.62,+3V3,out,,,,"/>
 <approved hash="106,2,215.9,-53.34,ESCPA_POWER,,,,,"/>
+<approved hash="106,2,215.9,-58.42,ESCPF_POWER,,,,,"/>
+<approved hash="106,2,215.9,-55.88,ESCPV_POWER,,,,,"/>
+<approved hash="106,2,215.9,-50.8,ESCSA_POWER,,,,,"/>
+<approved hash="106,2,215.9,-63.5,ESCSF_POWER,,,,,"/>
+<approved hash="106,2,215.9,-60.96,ESCSV_POWER,,,,,"/>
+<approved hash="110,4,-88.9,5.08,ESC_POWER2,GND,,,,"/>
+<approved hash="111,4,-88.9,5.08,ESC_POWER2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
