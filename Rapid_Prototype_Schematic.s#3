@@ -10292,6 +10292,91 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 </deviceset>
 </devicesets>
 </library>
+<library name="SI4485DY-T1-GE3">
+<description>&lt;MOSFET 30V 6.0A 5.0W 42mohm @ 10V&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOIC127P600X175-8N">
+<description>&lt;b&gt;SO8&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.7" layer="1"/>
+<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.7" layer="1"/>
+<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.7" layer="1"/>
+<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.7" layer="1"/>
+<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.7" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="2.45" x2="1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="2.45" x2="1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-2.45" x2="-1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-2.45" x2="-1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="2.605" x2="-1.95" y2="2.605" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SI4485DY-T1-GE3">
+<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="S_1" x="0" y="0" length="middle"/>
+<pin name="S_2" x="0" y="-2.54" length="middle"/>
+<pin name="S_3" x="0" y="-5.08" length="middle"/>
+<pin name="G" x="0" y="-7.62" length="middle"/>
+<pin name="D_4" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="D_3" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="D_2" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="D_1" x="25.4" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SI4485DY-T1-GE3" prefix="IC">
+<description>&lt;b&gt;MOSFET 30V 6.0A 5.0W 42mohm @ 10V&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SI4485DY-T1-GE3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="D_1" pad="5"/>
+<connect gate="G$1" pin="D_2" pad="6"/>
+<connect gate="G$1" pin="D_3" pad="7"/>
+<connect gate="G$1" pin="D_4" pad="8"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S_1" pad="1"/>
+<connect gate="G$1" pin="S_2" pad="2"/>
+<connect gate="G$1" pin="S_3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="MOSFET 30V 6.0A 5.0W 42mohm @ 10V" constant="no"/>
+<attribute name="HEIGHT" value="1.75mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SI4485DY-T1-GE3" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="781-SI4485DY-T1-GE3" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI4485DY-T1-GE3?qs=yQ4lPMPRQIrw%2Fu7lX1YS%2Fw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10530,14 +10615,8 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <part name="Q5" library="DMN65D8LFB-7" deviceset="DMN65D8LFB-7" device=""/>
 <part name="Q3" library="DMN65D8LFB-7" deviceset="DMN65D8LFB-7" device=""/>
 <part name="Q1" library="LTV-8141S" deviceset="LTV-8141S" device=""/>
-<part name="IC1" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
 <part name="IC2" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
-<part name="IC3" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
-<part name="IC4" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
-<part name="IC5" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
-<part name="IC6" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
-<part name="IC7" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
-<part name="IC8" library="SI4459ADY-T1-GE3" deviceset="SI4459ADY-T1-GE3" device=""/>
+<part name="IC8" library="SI4485DY-T1-GE3" deviceset="SI4485DY-T1-GE3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10991,12 +11070,6 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <wire x1="415.29" y1="73.66" x2="414.02" y2="73.66" width="0.1524" layer="91"/>
 <label x="396.24" y="73.66" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="34"/>
-<wire x1="412.75" y1="40.64" x2="412.75" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="412.75" y1="12.7" x2="414.02" y2="12.7" width="0.1524" layer="91"/>
-<label x="414.02" y="12.7" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="ESCPV_CURR" class="0">
 <segment>
@@ -11253,6 +11326,14 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <pinref part="SV3" gate="1" pin="1"/>
 <wire x1="215.9" y1="-63.5" x2="223.52" y2="-63.5" width="0.1524" layer="91"/>
 <label x="218.44" y="-66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ESCSF_SWITCH" class="0">
+<segment>
+<pinref part="$2_3_$_2020-06-04_21-52-10" gate="G$1" pin="34"/>
+<wire x1="412.75" y1="40.64" x2="412.75" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="412.75" y1="12.7" x2="414.02" y2="12.7" width="0.1524" layer="91"/>
+<label x="414.02" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -12344,34 +12425,34 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <wire x1="96.52" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="G$1" pin="5V"/>
 <junction x="96.52" y="43.18"/>
-<pinref part="IC8" gate="G$1" pin="S_2"/>
 <junction x="114.3" y="43.18"/>
 <wire x1="119.38" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="43.18" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="G$1" pin="S_1"/>
 <wire x1="119.38" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="G$1" pin="S_3"/>
 <wire x1="119.38" y1="43.18" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
 <junction x="119.38" y="43.18"/>
+<pinref part="IC8" gate="G$1" pin="S_1"/>
+<pinref part="IC8" gate="G$1" pin="S_2"/>
+<pinref part="IC8" gate="G$1" pin="S_3"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="43.18" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="G$1" pin="5V"/>
-<pinref part="IC8" gate="G$1" pin="D_4"/>
 <wire x1="152.4" y1="43.18" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="G$1" pin="D_3"/>
 <wire x1="152.4" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
 <junction x="152.4" y="43.18"/>
 <wire x1="152.4" y1="43.18" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="G$1" pin="D_2"/>
 <wire x1="152.4" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="G$1" pin="D_1"/>
 <wire x1="152.4" y1="40.64" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
 <junction x="152.4" y="40.64"/>
+<pinref part="IC8" gate="G$1" pin="D_4"/>
+<pinref part="IC8" gate="G$1" pin="D_3"/>
+<pinref part="IC8" gate="G$1" pin="D_2"/>
+<pinref part="IC8" gate="G$1" pin="D_1"/>
 </segment>
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
@@ -12450,9 +12531,9 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <wire x1="139.7" y1="25.4" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="33.02" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
 <junction x="139.7" y="25.4"/>
-<pinref part="IC8" gate="G$1" pin="G"/>
 <wire x1="119.38" y1="33.02" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="TETHER_B" class="0">
@@ -12561,20 +12642,6 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <junction x="-66.04" y="68.58"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="K"/>
-</segment>
-<segment>
-<pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="-93.98" y1="-12.7" x2="-106.68" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="U6" gate="A" pin="IN+_2"/>
-<wire x1="-68.58" y1="30.48" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="30.48" x2="-45.72" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="-5.08" x2="-106.68" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-5.08" x2="-106.68" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-12.7"/>
-<wire x1="-106.68" y1="-12.7" x2="-116.84" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="K"/>
-<wire x1="-116.84" y1="-12.7" x2="-121.7676" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-116.84" y="-12.7"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -12700,6 +12767,23 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="0" x2="35.56" y2="0" width="0.1524" layer="91"/>
 <label x="43.18" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ESC_POWER2" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="K"/>
+<wire x1="-116.84" y1="-12.7" x2="-121.7676" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-116.84" y="-12.7"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="-93.98" y1="-12.7" x2="-104.14" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="U6" gate="A" pin="IN+_2"/>
+<wire x1="-104.14" y1="-12.7" x2="-116.84" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="30.48" x2="-55.88" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="30.48" x2="-55.88" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="-2.54" x2="-104.14" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="-2.54" x2="-104.14" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-104.14" y="-12.7"/>
+<label x="-68.58" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -12938,33 +13022,9 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <attribute name="NAME" x="-120.65" y="-52.07" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-120.65" y="-54.61" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="IC1" gate="G$1" x="-2.54" y="99.06" smashed="yes">
-<attribute name="NAME" x="19.05" y="106.68" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="19.05" y="104.14" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="IC2" gate="G$1" x="-91.44" y="96.52" smashed="yes">
 <attribute name="NAME" x="-69.85" y="104.14" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-69.85" y="101.6" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC3" gate="G$1" x="88.9" y="96.52" smashed="yes">
-<attribute name="NAME" x="110.49" y="104.14" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="110.49" y="101.6" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC4" gate="G$1" x="137.16" y="-15.24" smashed="yes">
-<attribute name="NAME" x="158.75" y="-7.62" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="158.75" y="-10.16" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC5" gate="G$1" x="43.18" y="-17.78" smashed="yes">
-<attribute name="NAME" x="64.77" y="-10.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="64.77" y="-12.7" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC6" gate="G$1" x="-48.26" y="-17.78" smashed="yes">
-<attribute name="NAME" x="-26.67" y="-10.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-26.67" y="-12.7" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC7" gate="G$1" x="-132.08" y="-17.78" smashed="yes">
-<attribute name="NAME" x="-110.49" y="-10.16" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-110.49" y="-12.7" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -13092,7 +13152,6 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <junction x="149.86" y="-30.48"/>
 <pinref part="CR9" gate="A" pin="2"/>
 <wire x1="149.86" y1="-27.94" x2="134.62" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="G"/>
 <wire x1="134.62" y1="-27.94" x2="134.62" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-22.86" x2="137.16" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-30.48" x2="121.92" y2="-30.48" width="0.1524" layer="91"/>
@@ -13135,7 +13194,6 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <wire x1="-124.46" y1="-30.48" x2="-124.46" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 <junction x="-124.46" y="-33.02"/>
-<pinref part="IC7" gate="G$1" pin="G"/>
 <wire x1="-132.08" y1="-25.4" x2="-134.62" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="-25.4" x2="-134.62" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="-30.48" x2="-124.46" y2="-30.48" width="0.1524" layer="91"/>
@@ -13174,7 +13232,6 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <pinref part="R42" gate="G$1" pin="2"/>
 <junction x="-35.56" y="-33.02"/>
 <pinref part="CR5" gate="A" pin="2"/>
-<pinref part="IC6" gate="G$1" pin="G"/>
 <wire x1="-48.26" y1="-25.4" x2="-50.8" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-25.4" x2="-50.8" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-30.48" x2="-35.56" y2="-30.48" width="0.1524" layer="91"/>
@@ -13221,7 +13278,6 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <pinref part="R50" gate="G$1" pin="2"/>
 <junction x="55.88" y="-33.02"/>
 <pinref part="CR7" gate="A" pin="2"/>
-<pinref part="IC5" gate="G$1" pin="G"/>
 <wire x1="43.18" y1="-25.4" x2="40.64" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-25.4" x2="40.64" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-30.48" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
@@ -13253,17 +13309,13 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <net name="ESCPA_POWER" class="0">
 <segment>
 <label x="-114.3" y="-20.32" size="1.778" layer="95"/>
-<pinref part="IC7" gate="G$1" pin="D_3"/>
 <wire x1="-106.68" y1="-20.32" x2="-104.14" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="G$1" pin="D_4"/>
 <wire x1="-104.14" y1="-20.32" x2="-96.52" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="-17.78" x2="-104.14" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="-17.78" x2="-104.14" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="G$1" pin="D_1"/>
 <wire x1="-104.14" y1="-20.32" x2="-104.14" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="-22.86" x2="-104.14" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="-25.4" x2="-106.68" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="G$1" pin="D_2"/>
 <wire x1="-104.14" y1="-22.86" x2="-106.68" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-104.14" y="-22.86"/>
 <junction x="-104.14" y="-20.32"/>
@@ -13273,37 +13325,27 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <segment>
 <wire x1="-22.86" y1="-20.32" x2="-20.32" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-25.4" y="-20.32" size="1.778" layer="95"/>
-<pinref part="IC6" gate="G$1" pin="D_3"/>
-<pinref part="IC6" gate="G$1" pin="D_2"/>
 <wire x1="-20.32" y1="-20.32" x2="-10.16" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-20.32" x2="-20.32" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-22.86" x2="-22.86" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-20.32" y="-20.32"/>
-<pinref part="IC6" gate="G$1" pin="D_1"/>
 <wire x1="-20.32" y1="-22.86" x2="-20.32" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-25.4" x2="-22.86" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="-20.32" y="-22.86"/>
-<pinref part="IC6" gate="G$1" pin="D_4"/>
 <wire x1="-20.32" y1="-20.32" x2="-20.32" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-17.78" x2="-22.86" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESCSA_POWER" class="0">
 <segment>
-<wire x1="160.02" y1="-17.78" x2="162.56" y2="-17.78" width="0.1524" layer="91"/>
 <label x="160.02" y="-17.78" size="1.778" layer="95"/>
-<pinref part="IC4" gate="G$1" pin="D_3"/>
-<wire x1="162.56" y1="-17.78" x2="165.1" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="162.56" y="-17.78"/>
-<pinref part="IC4" gate="G$1" pin="D_4"/>
+<wire x1="160.02" y1="-17.78" x2="165.1" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-17.78" x2="175.26" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-17.78" x2="165.1" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-15.24" x2="162.56" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="165.1" y="-17.78"/>
 <wire x1="165.1" y1="-17.78" x2="165.1" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="D_2"/>
 <wire x1="165.1" y1="-20.32" x2="162.56" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="D_1"/>
 <wire x1="165.1" y1="-20.32" x2="165.1" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-22.86" x2="162.56" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="165.1" y="-20.32"/>
@@ -13340,7 +13382,6 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <pinref part="R46" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="86.36" x2="-5.08" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="86.36" x2="-5.08" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="G"/>
 <wire x1="-5.08" y1="91.44" x2="-2.54" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C38" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="86.36" x2="-10.16" y2="81.28" width="0.1524" layer="91"/>
@@ -13442,17 +13483,13 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <segment>
 <wire x1="68.58" y1="-20.32" x2="71.12" y2="-20.32" width="0.1524" layer="91"/>
 <label x="66.04" y="-20.32" size="1.778" layer="95"/>
-<pinref part="IC5" gate="G$1" pin="D_3"/>
-<pinref part="IC5" gate="G$1" pin="D_1"/>
 <wire x1="71.12" y1="-20.32" x2="83.82" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-25.4" x2="71.12" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-25.4" x2="71.12" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="71.12" y="-20.32"/>
-<pinref part="IC5" gate="G$1" pin="D_2"/>
 <wire x1="71.12" y1="-22.86" x2="71.12" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-22.86" x2="71.12" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="71.12" y="-22.86"/>
-<pinref part="IC5" gate="G$1" pin="D_4"/>
 <wire x1="71.12" y1="-20.32" x2="71.12" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-17.78" x2="68.58" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
@@ -13461,16 +13498,12 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <segment>
 <wire x1="114.3" y1="93.98" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
 <label x="116.84" y="93.98" size="1.778" layer="95"/>
-<pinref part="IC3" gate="G$1" pin="D_3"/>
-<pinref part="IC3" gate="G$1" pin="D_4"/>
 <wire x1="116.84" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="93.98" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="96.52" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
 <junction x="116.84" y="93.98"/>
-<pinref part="IC3" gate="G$1" pin="D_2"/>
 <wire x1="116.84" y1="93.98" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="D_1"/>
 <wire x1="116.84" y1="91.44" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
 <junction x="116.84" y="91.44"/>
@@ -13487,13 +13520,10 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <wire x1="33.02" y1="-20.32" x2="40.64" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="33.02" y="-20.32"/>
 <label x="12.7" y="-20.32" size="1.778" layer="95"/>
-<pinref part="IC5" gate="G$1" pin="S_1"/>
 <wire x1="40.64" y1="-20.32" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-17.78" x2="43.18" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="S_2"/>
 <wire x1="40.64" y1="-20.32" x2="43.18" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="40.64" y="-20.32"/>
-<pinref part="IC5" gate="G$1" pin="S_3"/>
 <wire x1="43.18" y1="-22.86" x2="40.64" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-22.86" x2="40.64" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
@@ -13509,13 +13539,10 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <wire x1="81.28" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 <junction x="81.28" y="93.98"/>
 <label x="53.34" y="93.98" size="1.778" layer="95"/>
-<pinref part="IC3" gate="G$1" pin="S_3"/>
 <wire x1="88.9" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="91.44" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="S_2"/>
 <wire x1="88.9" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 <junction x="86.36" y="93.98"/>
-<pinref part="IC3" gate="G$1" pin="S_1"/>
 <wire x1="86.36" y1="93.98" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -13531,11 +13558,8 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <wire x1="-139.7" y1="-20.32" x2="-134.62" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="-139.7" y="-20.32"/>
 <label x="-170.18" y="-20.32" size="1.778" layer="95"/>
-<pinref part="IC7" gate="G$1" pin="S_2"/>
-<pinref part="IC7" gate="G$1" pin="S_3"/>
 <wire x1="-134.62" y1="-20.32" x2="-132.08" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="-22.86" x2="-134.62" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="G$1" pin="S_1"/>
 <wire x1="-134.62" y1="-22.86" x2="-134.62" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="-20.32" x2="-134.62" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="-17.78" x2="-132.08" y2="-17.78" width="0.1524" layer="91"/>
@@ -13553,12 +13577,9 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <wire x1="-55.88" y1="-20.32" x2="-50.8" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="-55.88" y="-20.32"/>
 <label x="-76.2" y="-20.32" size="1.778" layer="95"/>
-<pinref part="IC6" gate="G$1" pin="S_2"/>
-<pinref part="IC6" gate="G$1" pin="S_1"/>
 <wire x1="-50.8" y1="-20.32" x2="-48.26" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="-17.78" x2="-50.8" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-17.78" x2="-50.8" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="S_3"/>
 <wire x1="-50.8" y1="-20.32" x2="-50.8" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-22.86" x2="-48.26" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-50.8" y="-20.32"/>
@@ -13575,13 +13596,10 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <wire x1="129.54" y1="-17.78" x2="134.62" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="129.54" y="-17.78"/>
 <label x="104.14" y="-17.78" size="1.778" layer="95"/>
-<pinref part="IC4" gate="G$1" pin="S_2"/>
-<pinref part="IC4" gate="G$1" pin="S_3"/>
 <wire x1="134.62" y1="-17.78" x2="137.16" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="-20.32" x2="134.62" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-20.32" x2="134.62" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="134.62" y="-17.78"/>
-<pinref part="IC4" gate="G$1" pin="S_1"/>
 <wire x1="134.62" y1="-17.78" x2="134.62" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-15.24" x2="137.16" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
@@ -13608,13 +13626,10 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 <wire x1="-10.16" y1="93.98" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-10.16" y="93.98"/>
 <label x="-38.1" y="93.98" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="S_3"/>
-<pinref part="IC1" gate="G$1" pin="S_2"/>
 <wire x1="-5.08" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="93.98" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="96.52" x2="-2.54" y2="96.52" width="0.1524" layer="91"/>
 <junction x="-5.08" y="93.98"/>
-<pinref part="IC1" gate="G$1" pin="S_1"/>
 <wire x1="-5.08" y1="96.52" x2="-5.08" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="99.06" x2="-2.54" y2="99.06" width="0.1524" layer="91"/>
 <junction x="-5.08" y="96.52"/>
@@ -13629,16 +13644,12 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 </net>
 <net name="ESCSF_POWER" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="D_1"/>
 <wire x1="22.86" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="D_2"/>
 <wire x1="25.4" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="D_3"/>
 <wire x1="25.4" y1="93.98" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="96.52" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
 <junction x="25.4" y="93.98"/>
-<pinref part="IC1" gate="G$1" pin="D_4"/>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
 <junction x="25.4" y="96.52"/>
@@ -13648,7 +13659,6 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="G"/>
 <wire x1="86.36" y1="88.9" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="83.82" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
@@ -13672,8 +13682,34 @@ Source: &lt;a href="http://www.vishay.com/docs/69979/si4459ad.pdf"&gt; Datasheet
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,3,309.88,238.76,U3,V+,5V,,,"/>
+<approved hash="104,3,345.44,238.76,U3,V-,GND,,,"/>
+<approved hash="104,3,469.9,238.76,U5,V+,5V,,,"/>
+<approved hash="104,3,505.46,238.76,U5,V-,GND,,,"/>
+<approved hash="104,3,309.88,116.84,U2,V+,5V,,,"/>
+<approved hash="104,3,345.44,116.84,U2,V-,GND,,,"/>
+<approved hash="104,3,469.9,116.84,U4,V+,5V,,,"/>
 <approved hash="202,3,469.9,111.76,U4,IN-_2,,,,"/>
 <approved hash="202,3,505.46,114.3,U4,IN+_2,,,,"/>
+<approved hash="104,3,505.46,116.84,U4,V-,GND,,,"/>
+<approved hash="104,4,27.94,-86.36,U8,FGND,GND,,,"/>
+<approved hash="104,4,-104.14,33.02,U6,V+,5V,,,"/>
+<approved hash="104,4,-68.58,33.02,U6,V-,GND,,,"/>
+<approved hash="206,4,-83.82,-137.16,+3V3,,,,,"/>
+<approved hash="206,4,-149.86,-134.62,+3V3,,,,,"/>
+<approved hash="208,2,226.06,0,+3V3,sup,,,,"/>
+<approved hash="208,2,233.68,55.88,+3V3,sup,,,,"/>
+<approved hash="208,4,-60.96,-137.16,+3V3,sup,,,,"/>
+<approved hash="208,4,-83.82,-137.16,+3V3,out,,,,"/>
+<approved hash="208,4,-149.86,-134.62,+3V3,out,,,,"/>
+<approved hash="106,2,215.9,-53.34,ESCPA_POWER,,,,,"/>
+<approved hash="106,2,215.9,-58.42,ESCPF_POWER,,,,,"/>
+<approved hash="106,2,215.9,-55.88,ESCPV_POWER,,,,,"/>
+<approved hash="106,2,215.9,-50.8,ESCSA_POWER,,,,,"/>
+<approved hash="106,2,215.9,-63.5,ESCSF_POWER,,,,,"/>
+<approved hash="106,2,215.9,-60.96,ESCSV_POWER,,,,,"/>
+<approved hash="110,4,-88.9,5.08,ESC_POWER2,GND,,,,"/>
+<approved hash="111,4,-88.9,5.08,ESC_POWER2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
