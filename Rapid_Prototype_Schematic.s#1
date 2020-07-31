@@ -11174,9 +11174,9 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <attribute name="NAME" x="210.82" y="-34.925" size="1.778" layer="95"/>
 <attribute name="VALUE" x="210.82" y="-58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="J4" gate="G$1" x="459.74" y="-27.94" smashed="yes">
-<attribute name="NAME" x="454.66" y="-17.145" size="1.778" layer="95"/>
-<attribute name="VALUE" x="454.66" y="-40.64" size="1.778" layer="96"/>
+<instance part="J4" gate="G$1" x="485.14" y="-20.32" smashed="yes">
+<attribute name="NAME" x="480.06" y="-9.525" size="1.778" layer="95"/>
+<attribute name="VALUE" x="480.06" y="-33.02" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
