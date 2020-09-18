@@ -7775,71 +7775,6 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-power" urn="urn:adsk.eagle:library:400">
-<description>&lt;b&gt;Power Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="MFP-D" urn="urn:adsk.eagle:symbol:29382/1" library_version="4">
-<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0.5334" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="2.2352" y1="0" x2="2.286" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="0" x2="1.016" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-0.508" x2="1.016" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="0.508" x2="2.286" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.143" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.143" y1="0.254" x2="2.032" y2="0" width="0.3048" layer="94"/>
-<wire x1="2.032" y1="0" x2="1.143" y2="-0.254" width="0.3048" layer="94"/>
-<wire x1="1.143" y1="-0.254" x2="1.143" y2="0" width="0.3048" layer="94"/>
-<wire x1="1.143" y1="0" x2="1.397" y2="0" width="0.3048" layer="94"/>
-<wire x1="2.54" y1="1.905" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="1.905" x2="3.81" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.762" x2="3.81" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.762" x2="4.445" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="4.445" y1="-0.635" x2="3.175" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-0.635" x2="3.81" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="4.445" y1="0.762" x2="3.81" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.762" x2="3.175" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="0.762" x2="2.921" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="4.445" y1="0.762" x2="4.699" y2="0.508" width="0.1524" layer="94"/>
-<circle x="2.54" y="1.905" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
-<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.143" y="-3.429" size="0.8128" layer="93">D</text>
-<text x="1.143" y="2.413" size="0.8128" layer="93">S</text>
-<text x="-2.54" y="1.397" size="0.8128" layer="93">G</text>
-<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.54" layer="94"/>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="-1.27" layer="94"/>
-<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="P-MOSFET_SYMBOL" urn="urn:adsk.eagle:component:29511/2" prefix="Q" library_version="4">
-<description>P-CHANNEL MOS-FET &lt;b&gt;SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="MFP-D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Diode1">
 <packages>
 <package name="SOD523">
@@ -10817,7 +10752,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <part name="C20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="0.1µF"/>
 <part name="GND75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND76" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="P-MOSFET_SYMBOL" device="" value="SI4485DY"/>
 <part name="C30" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="100nf"/>
 <part name="C33" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="10uf"/>
 <part name="CR1" library="Diode1" deviceset="BZT585B16T-7" device="SOD523-M"/>
@@ -12529,10 +12463,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </instance>
 <instance part="GND76" gate="1" x="-149.86" y="-99.06" smashed="yes">
 <attribute name="VALUE" x="-152.4" y="-101.6" size="1.778" layer="96"/>
-</instance>
-<instance part="Q2" gate="G$1" x="177.8" y="27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="175.26" y="33.02" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="180.34" y="33.02" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C30" gate="G$1" x="68.58" y="-2.54" smashed="yes">
 <attribute name="NAME" x="69.596" y="-1.905" size="1.778" layer="95"/>
