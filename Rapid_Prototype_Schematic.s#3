@@ -10990,8 +10990,9 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <part name="J1" library="XT60-M" deviceset="XT60-M" device=""/>
 <part name="J2" library="XT60-M" deviceset="XT60-M" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J3" library="UJ2-MIBH-2-SMT-TR-67" deviceset="UJ2-MIBH-2-SMT-TR-67" device=""/>
 <part name="J4" library="UJ2-MIBH-2-SMT-TR-67" deviceset="UJ2-MIBH-2-SMT-TR-67" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="5V"/>
 </parts>
 <sheets>
 <sheet>
@@ -11170,13 +11171,15 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <instance part="GND1" gate="1" x="251.46" y="-101.6" smashed="yes">
 <attribute name="VALUE" x="248.92" y="-104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="J3" gate="G$1" x="215.9" y="-45.72" smashed="yes">
-<attribute name="NAME" x="210.82" y="-34.925" size="1.778" layer="95"/>
-<attribute name="VALUE" x="210.82" y="-58.42" size="1.778" layer="96"/>
+<instance part="J4" gate="G$1" x="482.6" y="-63.5" smashed="yes">
+<attribute name="NAME" x="477.52" y="-52.705" size="1.778" layer="95"/>
+<attribute name="VALUE" x="477.52" y="-76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="J4" gate="G$1" x="485.14" y="-20.32" smashed="yes">
-<attribute name="NAME" x="480.06" y="-9.525" size="1.778" layer="95"/>
-<attribute name="VALUE" x="480.06" y="-33.02" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="469.9" y="-78.74" smashed="yes">
+<attribute name="VALUE" x="467.36" y="-81.28" size="1.778" layer="96"/>
+</instance>
+<instance part="P+3" gate="1" x="469.9" y="-50.8" smashed="yes">
+<attribute name="VALUE" x="467.36" y="-55.88" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -11325,6 +11328,12 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <junction x="251.46" y="-83.82"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="SHIELD"/>
+<wire x1="472.44" y1="-71.12" x2="469.9" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="-71.12" x2="469.9" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="LK_DET_MAIN" class="0">
 <segment>
@@ -11385,6 +11394,12 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <pinref part="SV6" gate="1" pin="4"/>
 <wire x1="325.12" y1="38.1" x2="342.9" y2="38.1" width="0.1524" layer="91"/>
 <junction x="342.9" y="38.1"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="472.44" y1="-55.88" x2="469.9" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="-55.88" x2="469.9" y2="-53.34" width="0.1524" layer="91"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="ESCPV_PWM" class="0">
