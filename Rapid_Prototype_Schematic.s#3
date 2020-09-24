@@ -10591,6 +10591,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </deviceset>
 </devicesets>
 </library>
+<<<<<<< HEAD
 <library name="XT60-M">
 <packages>
 <package name="AMASS_XT60-M">
@@ -10737,6 +10738,8 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </deviceset>
 </devicesets>
 </library>
+=======
+>>>>>>> a943d5e8eda7cda5618bde354eb1d45603790265
 </libraries>
 <attributes>
 </attributes>
@@ -10981,6 +10984,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <part name="Q12" library="SI4435DDY" deviceset="SI4435DDY" device=""/>
 <part name="Q14" library="SI4435DDY" deviceset="SI4435DDY" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<<<<<<< HEAD
 <part name="J5" library="XT60-M" deviceset="XT60-M" device=""/>
 <part name="J6" library="XT60-M" deviceset="XT60-M" device=""/>
 <part name="J7" library="XT60-M" deviceset="XT60-M" device=""/>
@@ -10993,6 +10997,8 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <part name="J4" library="UJ2-MIBH-2-SMT-TR-67" deviceset="UJ2-MIBH-2-SMT-TR-67" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="5V"/>
+=======
+>>>>>>> a943d5e8eda7cda5618bde354eb1d45603790265
 </parts>
 <sheets>
 <sheet>

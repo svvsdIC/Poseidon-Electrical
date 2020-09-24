@@ -10737,6 +10737,152 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </deviceset>
 </devicesets>
 </library>
+<library name="XT60-M">
+<packages>
+<package name="AMASS_XT60-M">
+<wire x1="-4.75" y1="4.05" x2="7.75" y2="4.05" width="0.127" layer="51"/>
+<wire x1="7.75" y1="4.05" x2="7.75" y2="-4.05" width="0.127" layer="51"/>
+<wire x1="7.75" y1="-4.05" x2="-4.75" y2="-4.05" width="0.127" layer="51"/>
+<wire x1="-4.75" y1="4.05" x2="7.75" y2="4.05" width="0.127" layer="21"/>
+<wire x1="7.75" y1="4.05" x2="7.75" y2="-4.05" width="0.127" layer="21"/>
+<wire x1="7.75" y1="-4.05" x2="-4.75" y2="-4.05" width="0.127" layer="21"/>
+<wire x1="-8" y1="-4.3" x2="-8" y2="4.3" width="0.05" layer="39"/>
+<wire x1="-8" y1="4.3" x2="8" y2="4.3" width="0.05" layer="39"/>
+<wire x1="8" y1="4.3" x2="8" y2="-4.3" width="0.05" layer="39"/>
+<wire x1="8" y1="-4.3" x2="-8" y2="-4.3" width="0.05" layer="39"/>
+<text x="-8.10561875" y="4.40305" size="1.27088125" layer="25">&gt;NAME</text>
+<text x="-8.105540625" y="-5.60383125" size="1.27086875" layer="27">&gt;VALUE</text>
+<wire x1="-7.75" y1="-1.4" x2="-7.75" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-4.75" y1="4.05" x2="-7.75" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-4.75" y1="-4.05" x2="-7.75" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="-1.4" x2="-7.75" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-4.75" y1="4.05" x2="-5.88" y2="3.05" width="0.127" layer="21"/>
+<wire x1="-7.75" y1="1.4" x2="-6.73" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-4.75" y1="-4.05" x2="-5.88" y2="-3.05" width="0.127" layer="21"/>
+<wire x1="-7.75" y1="-1.4" x2="-6.73" y2="-2.3" width="0.127" layer="21"/>
+<circle x="-8.4" y="-0.1" radius="0.15" width="0.3" layer="21"/>
+<pad name="1" x="-3.6" y="0" drill="4.5" shape="square"/>
+<pad name="2" x="3.6" y="0" drill="4.5"/>
+</package>
+</packages>
+<symbols>
+<symbol name="XT60-M">
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="-2.54485" y="5.725909375" size="1.017940625" layer="95">&gt;NAME</text>
+<text x="-2.79893125" y="-6.361209375" size="1.017790625" layer="96">&gt;VALUE</text>
+<pin name="-" x="-7.62" y="2.54" length="middle" direction="pas"/>
+<pin name="+" x="-7.62" y="-2.54" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="XT60-M" prefix="J">
+<description>DC supply; XT60; male; PIN:2; for cable; soldered; 60A; 500V</description>
+<gates>
+<gate name="G$1" symbol="XT60-M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AMASS_XT60-M">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V "/>
+<attribute name="MF" value="AMASS"/>
+<attribute name="MP" value="XT60-M"/>
+<attribute name="PACKAGE" value="Package "/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="UJ2-MIBH-2-SMT-TR-67">
+<packages>
+<package name="CUI_UJ2-MIBH-2-SMT-TR-67">
+<wire x1="-8.5" y1="3.55" x2="8.5" y2="3.55" width="0.127" layer="51"/>
+<wire x1="8.5" y1="3.55" x2="8.5" y2="0" width="0.127" layer="51"/>
+<wire x1="8.5" y1="0" x2="8.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="8.5" y1="-2.5" x2="-8.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-8.5" y1="-2.5" x2="-8.5" y2="0" width="0.127" layer="51"/>
+<wire x1="-8.5" y1="0" x2="-8.5" y2="3.55" width="0.127" layer="51"/>
+<wire x1="-8.5" y1="-2.5" x2="-8.5" y2="3.55" width="0.127" layer="21"/>
+<wire x1="8.5" y1="3.55" x2="8.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-2.5" x2="-8.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-8.5" y1="3.55" x2="-5" y2="3.55" width="0.127" layer="21"/>
+<wire x1="8.5" y1="3.55" x2="5" y2="3.55" width="0.127" layer="21"/>
+<circle x="-1.35" y="5.05" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.35" y="5.05" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-8.75" y1="4.65" x2="8.75" y2="4.65" width="0.05" layer="39"/>
+<wire x1="8.75" y1="4.65" x2="8.75" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="8.75" y1="-2.75" x2="-8.75" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-8.75" y1="-2.75" x2="-8.75" y2="4.65" width="0.05" layer="39"/>
+<text x="-8.5" y="4.85" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.5" y="-4.2" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="0" y1="-3.6" x2="0" y2="5.1" width="0.02" layer="20" style="dashdot"/>
+<wire x1="-8.5" y1="0" x2="8.5" y2="0" width="0.127" layer="51"/>
+<hole x="-7" y="1.775" drill="1.6"/>
+<hole x="7" y="1.775" drill="1.6"/>
+<smd name="1" x="-1.3" y="3.925" dx="0.4" dy="0.95" layer="1"/>
+<smd name="2" x="-0.65" y="3.925" dx="0.4" dy="0.95" layer="1"/>
+<smd name="3" x="0" y="3.925" dx="0.4" dy="0.95" layer="1"/>
+<smd name="4" x="0.65" y="3.925" dx="0.4" dy="0.95" layer="1"/>
+<smd name="5" x="1.3" y="3.925" dx="0.4" dy="0.95" layer="1"/>
+<smd name="S3" x="2.25" y="4.05" dx="0.8" dy="1" layer="1"/>
+<smd name="S1" x="-4.05" y="2.45" dx="1.2" dy="2.2" layer="1"/>
+<smd name="S2" x="4.05" y="2.45" dx="1.2" dy="2.2" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="UJ2-MIBH-2-SMT-TR-67">
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="10.795" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="7.62" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="4" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="5" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="SHIELD" x="-10.16" y="-7.62" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="UJ2-MIBH-2-SMT-TR-67" prefix="J">
+<gates>
+<gate name="G$1" symbol="UJ2-MIBH-2-SMT-TR-67" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CUI_UJ2-MIBH-2-SMT-TR-67">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="CUI Inc"/>
+<attribute name="PARTREV" value="C"/>
+<attribute name="STANDARD" value="Manufacturer recommendations"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10980,6 +11126,10 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <part name="Q10" library="SI4435DDY" deviceset="SI4435DDY" device=""/>
 <part name="Q12" library="SI4435DDY" deviceset="SI4435DDY" device=""/>
 <part name="Q14" library="SI4435DDY" deviceset="SI4435DDY" device=""/>
+<<<<<<< HEAD
+=======
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+>>>>>>> a943d5e8eda7cda5618bde354eb1d45603790265
 <part name="J5" library="XT60-M" deviceset="XT60-M" device=""/>
 <part name="J6" library="XT60-M" deviceset="XT60-M" device=""/>
 <part name="J7" library="XT60-M" deviceset="XT60-M" device=""/>
@@ -10992,7 +11142,10 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <part name="J4" library="UJ2-MIBH-2-SMT-TR-67" deviceset="UJ2-MIBH-2-SMT-TR-67" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="5V"/>
+<<<<<<< HEAD
 <part name="TETHER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+=======
+>>>>>>> a943d5e8eda7cda5618bde354eb1d45603790265
 </parts>
 <sheets>
 <sheet>
@@ -11181,10 +11334,13 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <instance part="P+3" gate="1" x="469.9" y="-50.8" smashed="yes">
 <attribute name="VALUE" x="467.36" y="-55.88" size="1.778" layer="96" rot="R90"/>
 </instance>
+<<<<<<< HEAD
 <instance part="TETHER" gate="G$1" x="299.72" y="12.7" smashed="yes">
 <attribute name="NAME" x="293.37" y="18.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="293.37" y="7.62" size="1.778" layer="96"/>
 </instance>
+=======
+>>>>>>> a943d5e8eda7cda5618bde354eb1d45603790265
 </instances>
 <busses>
 </busses>
