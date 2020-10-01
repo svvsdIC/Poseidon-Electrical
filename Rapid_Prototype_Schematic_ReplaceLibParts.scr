@@ -1,0 +1,38 @@
+# 'EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.;
+
+SET UNDO_LOG OFF;
+# Migrate parts to 'C:/Users/afong/OneDrive/Documents/EAGLE/projects/Poseidon-Electrical/Rapid_Prototype_Schematic.lbr'
+USE -*;
+USE 'C:/Users/afong/OneDrive/Documents/EAGLE/projects/Poseidon-Electrical/Rapid_Prototype_Schematic.lbr';
+#
+# SHEET 1 - MIGRATE PARTS
+#
+EDIT .s1
+#
+# SHEET 2 - MIGRATE PARTS
+#
+EDIT .s2
+REPLACE SV1 CON-LSTB_MA03-2;
+REPLACE SV4 CON-LSTB_MA03-2;
+REPLACE SV5 CON-LSTB_MA03-2;
+REPLACE SV6 CON-LSTB_MA04-1;
+REPLACE SV7 CON-LSTB_MA06-1;
+REPLACE SV8 CON-LSTB_MA04-1;
+REPLACE SV9 CON-LSTB_MA06-1;
+REPLACE SV10 CON-LSTB_MA06-1;
+#
+# SHEET 3 - MIGRATE PARTS
+#
+EDIT .s3
+#
+# SHEET 4 - MIGRATE PARTS
+#
+EDIT .s4
+#
+# SHEET 5 - MIGRATE PARTS
+#
+EDIT .s5
+EDIT .s1
+SET UNDO_LOG ON;
+# Put all libraries back into use
+USE *;

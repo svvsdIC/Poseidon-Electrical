@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10672,6 +10672,140 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </deviceset>
 </devicesets>
 </library>
+<library name="tenda">
+<packages>
+<package name="TENDA">
+<wire x1="-11.43" y1="4.445" x2="-11.43" y2="5.715" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="5.715" x2="-10.795" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-10.795" y1="6.35" x2="-11.43" y2="6.985" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="6.985" x2="-11.43" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="8.255" x2="-10.795" y2="8.89" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="4.445" x2="-10.795" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-10.795" y1="8.89" x2="-11.43" y2="9.525" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="9.525" x2="-11.43" y2="10.795" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="10.795" x2="-10.795" y2="11.43" width="0.1524" layer="21"/>
+<wire x1="-10.795" y1="11.43" x2="-6.985" y2="11.43" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="6.35" x2="-6.35" y2="5.715" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="8.89" x2="-6.35" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="8.255" x2="-6.35" y2="6.985" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="6.985" x2="-6.985" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-10.795" y1="3.81" x2="-6.985" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="3.81" x2="-6.35" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="5.715" x2="-6.35" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="11.43" x2="-6.35" y2="10.795" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="10.795" x2="-6.35" y2="9.525" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="9.525" x2="-6.985" y2="8.89" width="0.1524" layer="21"/>
+<rectangle x1="-7.874" y1="7.366" x2="-7.366" y2="7.874" layer="51" rot="R90"/>
+<rectangle x1="-7.874" y1="4.826" x2="-7.366" y2="5.334" layer="51" rot="R90"/>
+<rectangle x1="-7.874" y1="9.906" x2="-7.366" y2="10.414" layer="51" rot="R90"/>
+<rectangle x1="-10.414" y1="4.826" x2="-9.906" y2="5.334" layer="51" rot="R90"/>
+<rectangle x1="-10.414" y1="7.366" x2="-9.906" y2="7.874" layer="51" rot="R90"/>
+<rectangle x1="-10.414" y1="9.906" x2="-9.906" y2="10.414" layer="51" rot="R90"/>
+<pad name="1" x="-7.62" y="5.08" drill="1.016" rot="R90"/>
+<pad name="2" x="-10.16" y="5.08" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="-7.62" y="7.62" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="-10.16" y="7.62" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="5" x="-7.62" y="10.16" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="6" x="-10.16" y="10.16" drill="1.016" shape="octagon" rot="R90"/>
+<text x="-4.699" y="4.445" size="1.27" layer="21" ratio="10" rot="R90">1</text>
+<text x="-11.811" y="3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-9.525" y="11.684" size="1.27" layer="21" ratio="10" rot="R90">6</text>
+<text x="-4.699" y="6.35" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<wire x1="5.715" y1="-2.54" x2="6.985" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-2.54" x2="7.62" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-3.175" x2="8.255" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="-2.54" x2="9.525" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="-2.54" x2="10.16" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-2.54" x2="5.08" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="-3.175" x2="10.795" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="10.795" y1="-2.54" x2="12.065" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="12.065" y1="-2.54" x2="12.7" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="-3.175" x2="12.7" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-6.985" x2="6.985" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="-6.985" x2="9.525" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="-7.62" x2="8.255" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="-7.62" x2="7.62" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-3.175" x2="5.08" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-6.985" x2="5.715" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-7.62" x2="5.715" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="-6.985" x2="12.065" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="12.065" y1="-7.62" x2="10.795" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="10.795" y1="-7.62" x2="10.16" y2="-6.985" width="0.1524" layer="21"/>
+<rectangle x1="8.636" y1="-6.604" x2="9.144" y2="-6.096" layer="51"/>
+<rectangle x1="6.096" y1="-6.604" x2="6.604" y2="-6.096" layer="51"/>
+<rectangle x1="11.176" y1="-6.604" x2="11.684" y2="-6.096" layer="51"/>
+<rectangle x1="6.096" y1="-4.064" x2="6.604" y2="-3.556" layer="51"/>
+<rectangle x1="8.636" y1="-4.064" x2="9.144" y2="-3.556" layer="51"/>
+<rectangle x1="11.176" y1="-4.064" x2="11.684" y2="-3.556" layer="51"/>
+<pad name="7" x="6.35" y="-6.35" drill="1.016"/>
+<pad name="8" x="6.35" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="9" x="8.89" y="-6.35" drill="1.016" shape="octagon"/>
+<pad name="10" x="8.89" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="11" x="11.43" y="-6.35" drill="1.016" shape="octagon"/>
+<pad name="12" x="11.43" y="-3.81" drill="1.016" shape="octagon"/>
+<text x="5.715" y="-9.271" size="1.27" layer="21" ratio="10">1</text>
+<text x="5.08" y="-2.159" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="12.954" y="-4.445" size="1.27" layer="21" ratio="10">6</text>
+<text x="7.62" y="-9.271" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-13.97" y1="12.7" x2="-13.97" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-11.43" x2="15.24" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-11.43" x2="15.24" y2="12.7" width="0.127" layer="21"/>
+<wire x1="15.24" y1="12.7" x2="-13.97" y2="12.7" width="0.127" layer="21"/>
+<text x="2.54" y="7.62" size="2.54" layer="21">Tenda</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CON-LSTB_MA03-2">
+<wire x1="3.81" y1="-5.08" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
+<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="5" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="6" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<text x="-3.81" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TENDA">
+<gates>
+<gate name="1" symbol="CON-LSTB_MA03-2" x="-22.86" y="20.32"/>
+<gate name="2" symbol="CON-LSTB_MA03-2" x="12.7" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="TENDA">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+<connect gate="1" pin="5" pad="5"/>
+<connect gate="1" pin="6" pad="6"/>
+<connect gate="2" pin="1" pad="7"/>
+<connect gate="2" pin="2" pad="8"/>
+<connect gate="2" pin="3" pad="9"/>
+<connect gate="2" pin="4" pad="10"/>
+<connect gate="2" pin="5" pad="11"/>
+<connect gate="2" pin="6" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10877,9 +11011,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <part name="U1" library="LM35DM" deviceset="LM35DM" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="SV5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" value="J5"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1" value="J1"/>
 <part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="330"/>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="YELLOW"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -10927,6 +11059,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="5V"/>
 <part name="TETHER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="U$1" library="tenda" deviceset="TENDA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11019,16 +11152,8 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <instance part="SUPPLY2" gate="G$1" x="396.24" y="-121.92" smashed="yes">
 <attribute name="VALUE" x="396.24" y="-119.126" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SV5" gate="1" x="233.68" y="43.18" smashed="yes">
-<attribute name="VALUE" x="229.87" y="35.56" size="1.778" layer="96"/>
-<attribute name="NAME" x="229.87" y="49.022" size="1.778" layer="95"/>
-</instance>
 <instance part="GND16" gate="1" x="248.92" y="30.48" smashed="yes">
 <attribute name="VALUE" x="246.38" y="27.94" size="1.778" layer="96"/>
-</instance>
-<instance part="SV1" gate="1" x="187.96" y="45.72" smashed="yes">
-<attribute name="VALUE" x="184.15" y="38.1" size="1.778" layer="96"/>
-<attribute name="NAME" x="184.15" y="51.562" size="1.778" layer="95"/>
 </instance>
 <instance part="R5" gate="G$1" x="226.06" y="27.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="227.5586" y="31.75" size="1.778" layer="95" rot="R270"/>
@@ -11118,6 +11243,14 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <instance part="TETHER" gate="G$1" x="299.72" y="12.7" smashed="yes">
 <attribute name="NAME" x="293.37" y="18.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="293.37" y="7.62" size="1.778" layer="96"/>
+</instance>
+<instance part="U$1" gate="1" x="187.96" y="45.72" smashed="yes">
+<attribute name="VALUE" x="184.15" y="38.1" size="1.778" layer="96"/>
+<attribute name="NAME" x="184.15" y="51.562" size="1.778" layer="95"/>
+</instance>
+<instance part="U$1" gate="2" x="233.68" y="43.18" smashed="yes">
+<attribute name="VALUE" x="229.87" y="35.56" size="1.778" layer="96"/>
+<attribute name="NAME" x="229.87" y="49.022" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -11213,10 +11346,10 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SV5" gate="1" pin="1"/>
 <wire x1="241.3" y1="40.64" x2="248.92" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="40.64" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+<pinref part="U$1" gate="2" pin="1"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
@@ -11609,23 +11742,23 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </segment>
 <segment>
 <wire x1="246.38" y1="55.88" x2="246.38" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="SV5" gate="1" pin="5"/>
 <wire x1="246.38" y1="45.72" x2="241.3" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="55.88" x2="246.38" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<pinref part="SV5" gate="1" pin="6"/>
 <wire x1="226.06" y1="45.72" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="45.72" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="55.88" x2="233.68" y2="55.88" width="0.1524" layer="91"/>
 <junction x="233.68" y="55.88"/>
+<pinref part="U$1" gate="2" pin="5"/>
+<pinref part="U$1" gate="2" pin="6"/>
 </segment>
 </net>
 <net name="N$53" class="0">
 <segment>
-<pinref part="SV5" gate="1" pin="4"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="38.1" x2="215.9" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="43.18" x2="226.06" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="2" pin="4"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -11638,8 +11771,8 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <net name="N$55" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="SV5" gate="1" pin="2"/>
 <wire x1="226.06" y1="33.02" x2="226.06" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="2" pin="2"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -11653,8 +11786,8 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <segment>
 <wire x1="256.54" y1="43.18" x2="256.54" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="SV5" gate="1" pin="3"/>
 <wire x1="241.3" y1="43.18" x2="256.54" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="2" pin="3"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -11666,17 +11799,16 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </net>
 <net name="TETHER_B" class="0">
 <segment>
-<pinref part="SV1" gate="1" pin="6"/>
-<wire x1="180.34" y1="48.26" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="48.26" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="55.88" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="55.88" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="55.88" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="1" pin="5"/>
 <wire x1="198.12" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="55.88" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="55.88" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 <label x="177.8" y="60.96" size="1.778" layer="95"/>
 <junction x="177.8" y="55.88"/>
+<wire x1="180.34" y1="48.26" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="1" pin="5"/>
+<pinref part="U$1" gate="1" pin="6"/>
 </segment>
 <segment>
 <pinref part="TETHER" gate="G$1" pin="2"/>
@@ -11686,16 +11818,16 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </net>
 <net name="TETHER_A" class="0">
 <segment>
-<pinref part="SV1" gate="1" pin="2"/>
-<wire x1="180.34" y1="43.18" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="43.18" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="38.1" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="38.1" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="1" pin="1"/>
 <wire x1="198.12" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="38.1" x2="177.8" y2="35.56" width="0.1524" layer="91"/>
 <junction x="177.8" y="38.1"/>
 <label x="177.8" y="35.56" size="1.778" layer="95"/>
+<wire x1="180.34" y1="43.18" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="1" pin="1"/>
+<pinref part="U$1" gate="1" pin="2"/>
 </segment>
 <segment>
 <pinref part="TETHER" gate="G$1" pin="1"/>
