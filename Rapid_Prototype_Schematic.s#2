@@ -10436,7 +10436,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <wire x1="-4.75" y1="-4.05" x2="-5.88" y2="-3.05" width="0.127" layer="21"/>
 <wire x1="-7.75" y1="-1.4" x2="-6.73" y2="-2.3" width="0.127" layer="21"/>
 <circle x="-8.4" y="-0.1" radius="0.15" width="0.3" layer="21"/>
-<pad name="1" x="-3.6" y="0" drill="4.5" shape="square"/>
+<pad name="1" x="-3.6" y="0" drill="4.5" shape="square" thermals="no"/>
 <pad name="2" x="3.6" y="0" drill="4.5"/>
 </package>
 </packages>
