@@ -2590,6 +2590,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$1" library="tenda" package="TENDA" value="TENDA" x="124.587" y="23.495" smashed="yes">
 <attribute name="NAME" x="129.667" y="21.336" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="114.046" y="34.925" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="132.207" y="14.224" size="1.27" layer="27" ratio="10"/>
 <attribute name="VALUE" x="119.888" y="29.845" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
