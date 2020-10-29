@@ -7618,23 +7618,11 @@ Source: http://www.osram.convergy.de/</description>
 <smd name="A1" x="-0.5" y="-0.5" dx="0.1524" dy="0.1524" layer="1" roundness="100"/>
 <smd name="A2" x="0" y="-0.5" dx="0.1524" dy="0.1524" layer="1" roundness="100"/>
 <smd name="C2" x="0.5" y="-0.5" dx="0.1524" dy="0.1524" layer="1" roundness="100"/>
-<text x="-2.4384" y="-0.127" size="1.27" layer="21" ratio="6" rot="SR0">1</text>
-<text x="-2.4384" y="-1.143" size="1.27" layer="21" ratio="6" rot="SR0">3</text>
-<text x="0.127" y="1.2954" size="1.27" layer="21" ratio="6" rot="SR90">A</text>
-<text x="1.143" y="1.2954" size="1.27" layer="21" ratio="6" rot="SR90">C</text>
 <wire x1="-0.4064" y1="0.6604" x2="-0.6604" y2="0.4064" width="0.1524" layer="51"/>
 <wire x1="-0.6604" y1="-0.6604" x2="0.6604" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="0.6604" y1="-0.6604" x2="0.6604" y2="0.6604" width="0.1524" layer="51"/>
 <wire x1="0.6604" y1="0.6604" x2="-0.6604" y2="0.6604" width="0.1524" layer="51"/>
 <wire x1="-0.6604" y1="0.6604" x2="-0.6604" y2="-0.6604" width="0.1524" layer="51"/>
-<text x="-2.4384" y="-0.127" size="1.27" layer="51" ratio="6" rot="SR0">1</text>
-<text x="-2.4384" y="-1.143" size="1.27" layer="51" ratio="6" rot="SR0">3</text>
-<text x="0.127" y="1.2954" size="1.27" layer="51" ratio="6" rot="SR90">A</text>
-<text x="1.143" y="1.2954" size="1.27" layer="51" ratio="6" rot="SR90">C</text>
-<text x="-1.27" y="-0.127" size="1.27" layer="22" ratio="6" rot="SMR0">1</text>
-<text x="-1.27" y="-1.143" size="1.27" layer="22" ratio="6" rot="SMR0">3</text>
-<text x="-1.143" y="1.27" size="1.27" layer="22" ratio="6" rot="SMR90">A</text>
-<text x="-0.127" y="1.27" size="1.27" layer="22" ratio="6" rot="SMR90">C</text>
 <wire x1="-0.9144" y1="-0.9144" x2="-0.9144" y2="0.9144" width="0.1524" layer="39"/>
 <wire x1="-0.9144" y1="0.9144" x2="0.9144" y2="0.9144" width="0.1524" layer="39"/>
 <wire x1="0.9144" y1="0.9144" x2="0.9144" y2="-0.9144" width="0.1524" layer="39"/>
@@ -7653,7 +7641,7 @@ Source: http://www.osram.convergy.de/</description>
 </polygon>
 <wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
 <wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-2.0066" y="-1.905" size="0.6096" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
 <symbols>
