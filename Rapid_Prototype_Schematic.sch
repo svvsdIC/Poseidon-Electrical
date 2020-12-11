@@ -95,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -8724,48 +8727,6 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="ngspice-simulation" urn="urn:adsk.eagle:library:527439">
-<description>SPICE compatible library parts</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="L" urn="urn:adsk.eagle:symbol:527456/4" library_version="18">
-<description>INDUCTOR</description>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="97">&gt;SPICEMODEL</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="-7.62" size="1.778" layer="97">&gt;SPICEEXTRA</text>
-<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="L" urn="urn:adsk.eagle:component:527476/7" prefix="L" uservalue="yes" library_version="18">
-<description>INDUCTOR</description>
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-<spice>
-<pinmapping spiceprefix="L">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-</deviceset>
-</devicesets>
-</library>
 <library name="ArduinoMegaOutline">
 <packages>
 <package name="MEGAOUTLINE">
@@ -10808,6 +10769,520 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Coils">
+<description>&lt;h3&gt;SparkFun Coils&lt;/h3&gt;
+In this library you'll find magnetics.
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Inductors&lt;/li&gt;
+&lt;li&gt;Ferrite Beads&lt;/li&gt;
+&lt;li&gt;Transformers&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;p&gt;We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.&lt;/p&gt;</description>
+<packages>
+<package name="0805">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
+</package>
+<package name="CR75">
+<description>&lt;h3&gt;4600 series footprint&lt;/h3&gt;
+&lt;p&gt;Not messing with it since production uses it. Origin unknown but loosely based on this &lt;a href="http://www.murata-ps.com/data/magnetics/kmp_4600.pdf"&gt;datasheet&lt;/a&gt;.&lt;/p&gt;</description>
+<wire x1="-4.025" y1="3.65" x2="3.975" y2="3.65" width="0.127" layer="21"/>
+<wire x1="3.975" y1="3.65" x2="3.975" y2="2.55" width="0.127" layer="21"/>
+<wire x1="-4.025" y1="3.65" x2="-4.025" y2="2.55" width="0.127" layer="21"/>
+<wire x1="-4.025" y1="-3.65" x2="3.975" y2="-3.65" width="0.127" layer="21"/>
+<wire x1="3.975" y1="-3.65" x2="3.975" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="-4.025" y1="-3.65" x2="-4.025" y2="-2.55" width="0.127" layer="21"/>
+<smd name="P$1" x="-3.025" y="0" dx="4.7" dy="1.75" layer="1" rot="R90"/>
+<smd name="P$2" x="3.025" y="0" dx="4.7" dy="1.75" layer="1" rot="R90"/>
+<text x="0" y="3.81" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.81" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SRN6045">
+<description>&lt;h3&gt;SRN6045 series  footprint&lt;/h3&gt;
+&lt;p&gt;Roughly based on the recommendation in this &lt;a href="http://www.mouser.com/ds/2/54/RN6045-778135.pdf"&gt;datasheet&lt;/a&gt;.&lt;/p&gt;</description>
+<smd name="1" x="-2.175" y="0" dx="6" dy="2.5" layer="1" rot="R90"/>
+<smd name="2" x="2.125" y="0" dx="6" dy="2.5" layer="1" rot="R90"/>
+<wire x1="-2.175" y1="-3" x2="-3.175" y2="-2" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-2" x2="-3.175" y2="2" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="2" x2="-2.175" y2="3" width="0.127" layer="51"/>
+<wire x1="-2.175" y1="3" x2="2.125" y2="3" width="0.127" layer="51"/>
+<wire x1="2.125" y1="3" x2="3.125" y2="2" width="0.127" layer="51"/>
+<wire x1="3.125" y1="2" x2="3.125" y2="-2" width="0.127" layer="51"/>
+<wire x1="3.125" y1="-2" x2="2.125" y2="-3" width="0.127" layer="51"/>
+<wire x1="2.125" y1="-3" x2="-2.175" y2="-3" width="0.127" layer="51"/>
+<text x="0" y="3.223" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.254" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.762" y1="2.969" x2="0.762" y2="2.969" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-3" x2="0.762" y2="-3" width="0.1524" layer="21"/>
+</package>
+<package name="INDUCTOR_4.7UH">
+<description>&lt;h3&gt;CDRH2D18/HPNP footprint&lt;/h3&gt;
+&lt;p&gt;Recommended footprint for CDRH2D18/HPNP series inductors from &lt;a href="http://products.sumida.com/products/pdf/CDRH2D18HP.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+<wire x1="-1.2" y1="0.9" x2="-0.6" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-0.6" y1="1.5" x2="0.6" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="0.6" y1="1.5" x2="1.2" y2="0.9" width="0.2032" layer="21"/>
+<wire x1="-1.2" y1="-0.9" x2="-0.6783" y2="-1.3739" width="0.2032" layer="21"/>
+<wire x1="-0.6783" y1="-1.3739" x2="0.6783" y2="-1.3739" width="0.2032" layer="21" curve="85.420723"/>
+<wire x1="0.6783" y1="-1.3739" x2="1.2" y2="-0.9" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-0.6" x2="-0.7071" y2="-1.3929" width="0.03" layer="51"/>
+<wire x1="-0.7071" y1="-1.3929" x2="0.7071" y2="-1.3929" width="0.03" layer="51" curve="90"/>
+<wire x1="0.7071" y1="-1.3929" x2="1.5" y2="-0.6" width="0.03" layer="51"/>
+<wire x1="1.5" y1="-0.6" x2="1.5" y2="0.6" width="0.03" layer="51"/>
+<wire x1="1.5" y1="0.6" x2="0.6" y2="1.5" width="0.03" layer="51"/>
+<wire x1="0.6" y1="1.5" x2="-0.6" y2="1.5" width="0.03" layer="51"/>
+<wire x1="-0.6" y1="1.5" x2="-1.5" y2="0.6" width="0.03" layer="51"/>
+<wire x1="-1.5" y1="0.6" x2="-1.5" y2="-0.6" width="0.03" layer="51"/>
+<smd name="P$1" x="-1.5" y="0" dx="1.3" dy="1.3" layer="1" rot="R90"/>
+<smd name="P$2" x="1.5" y="0" dx="1.3" dy="1.3" layer="1" rot="R90"/>
+<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDUCTOR_SDR1307">
+<description>&lt;h3&gt;SDR1307 series footprint&lt;/h3&gt;
+&lt;p&gt;Footprint based on recommendation from &lt;a href="https://www.bourns.com/pdfs/SDR1307.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="4.6" dx="14" dy="4.75" layer="1"/>
+<smd name="P$2" x="0" y="-4.6" dx="14" dy="4.75" layer="1"/>
+<wire x1="-6.5" y1="1.5" x2="-6.5" y2="-1.5" width="0.3048" layer="21"/>
+<wire x1="6.5" y1="1.5" x2="6.5" y2="-1.5" width="0.3048" layer="21"/>
+<text x="0" y="7.246" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.23" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CR54">
+<description>&lt;h3&gt;CR54 footprint&lt;/h3&gt;
+&lt;p&gt;These vary by manufacturer, but we used the NPIS54LS footprint from &lt;a href="http://www.niccomp.com/catalog/npis_ls.pdf"&gt;here&lt;/a&gt;.</description>
+<wire x1="2.6" y1="2.6" x2="-2.6" y2="2.6" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="2.6" x2="-2.6" y2="-2.6" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="-2.6" x2="2.6" y2="-2.6" width="0.127" layer="51"/>
+<wire x1="2.6" y1="-2.6" x2="2.6" y2="2.6" width="0.127" layer="51"/>
+<wire x1="-2.87" y1="2.6" x2="-2.87" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="-2.6" y1="-2.87" x2="2.6" y2="-2.87" width="0.2032" layer="21"/>
+<wire x1="2.87" y1="-2.6" x2="2.87" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="2.6" y1="2.87" x2="-2.6" y2="2.87" width="0.2032" layer="21"/>
+<smd name="P$1" x="0" y="1.85" dx="4.2" dy="1.4" layer="1"/>
+<smd name="P$2" x="0" y="-1.85" dx="4.2" dy="1.4" layer="1"/>
+<text x="0" y="3.077" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-3.048" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<rectangle x1="-2.1" y1="1.15" x2="2.1" y2="2.55" layer="51"/>
+<rectangle x1="-2.1" y1="-2.55" x2="2.1" y2="-1.15" layer="51"/>
+<wire x1="-2.87" y1="-2.6" x2="-2.6" y2="-2.87" width="0.2032" layer="21"/>
+<wire x1="2.6" y1="-2.87" x2="2.87" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="-2.87" y1="2.6" x2="-2.6" y2="2.87" width="0.2032" layer="21"/>
+<wire x1="2.6" y1="2.87" x2="2.87" y2="2.6" width="0.2032" layer="21"/>
+</package>
+<package name="0603">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="0402">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="INDUCTOR_3X3">
+<description>&lt;h3&gt;Inductor - 3.0mm x 3.0mm&lt;/h3&gt;
+&lt;p&gt;&lt;a href=file:///C:/Users/guita/Downloads/NRH3012T100MN_SS.pdf&gt;Example Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.0254" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.0254" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.0254" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.0254" layer="51"/>
+<rectangle x1="-1.5" y1="0.5" x2="1.5" y2="1.4" layer="51"/>
+<rectangle x1="-1.5" y1="-1.4" x2="1.5" y2="-0.5" layer="51" rot="R180"/>
+<smd name="P$1" x="0" y="1.1" dx="2.7" dy="0.8" layer="1"/>
+<smd name="P$2" x="0" y="-1.1" dx="2.7" dy="0.8" layer="1" rot="R180"/>
+<wire x1="-1.6" y1="1.7" x2="-1.6" y2="-1.7" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.7" x2="-1.6" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-1.7" x2="1.6" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.7" x2="1.6" y2="-1.7" width="0.2032" layer="21"/>
+<text x="0" y="1.9" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.9" size="0.6096" layer="27" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="XFL4020">
+<smd name="P$1" x="1" y="1.8" dx="3.4" dy="0.98" layer="1" rot="R90"/>
+<smd name="P$2" x="3.4" y="1.8" dx="3.4" dy="0.98" layer="1" rot="R90"/>
+<wire x1="0" y1="-0.4" x2="0" y2="4" width="0.1524" layer="51"/>
+<wire x1="0" y1="4" x2="4.4" y2="4" width="0.1524" layer="51"/>
+<wire x1="4.4" y1="4" x2="4.4" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="4.4" y1="-0.4" x2="0" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="4.736" y1="-0.281" x2="4.736" y2="3.919" width="0.1524" layer="21"/>
+<text x="-1.8" y="4.6" size="1.778" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.2" y="-2.7" size="1.778" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="INDUCTOR_LQH32">
+<smd name="P$1" x="-0.07" y="1.205" dx="2" dy="1.25" layer="1"/>
+<smd name="P$2" x="-0.07" y="-1.295" dx="2" dy="1.25" layer="1"/>
+<text x="0" y="2.166" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.15" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-1.905" x2="1.143" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="1.143" y1="-1.905" x2="1.143" y2="1.905" width="0.127" layer="51"/>
+<wire x1="1.143" y1="1.905" x2="-1.27" y2="1.905" width="0.127" layer="51"/>
+</package>
+<package name="0402-TIGHT">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
+</package>
+<package name="0805-WIDE">
+<smd name="1" x="-0.8" y="0" dx="0.8" dy="1.8" layer="1"/>
+<smd name="2" x="0.8" y="0" dx="0.8" dy="1.8" layer="1"/>
+<text x="0" y="1.089" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.089" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-1.3" y1="1" x2="1.3" y2="1" width="0.0508" layer="39"/>
+<wire x1="1.3" y1="1" x2="1.3" y2="-1" width="0.0508" layer="39"/>
+<wire x1="1.3" y1="-1" x2="-1.3" y2="-1" width="0.0508" layer="39"/>
+<wire x1="-1.3" y1="-1" x2="-1.3" y2="1" width="0.0508" layer="39"/>
+<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.002540625" layer="51"/>
+<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.002540625" layer="51"/>
+<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.002540625" layer="51"/>
+<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.002540625" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="INDUCTOR">
+<description>&lt;h3&gt;Inductors&lt;/h3&gt;
+&lt;p&gt;Resist changes in electrical current. Basically a coil of wire.&lt;/p&gt;</description>
+<text x="1.27" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="10μH_SHIELDED_INDUCTOR" prefix="L" uservalue="yes">
+<description>&lt;h3&gt;Murata 10uH Inductor&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;10uH&lt;/li&gt;
+&lt;li&gt;60mA&lt;/li&gt;
+&lt;li&gt;400mOhm&lt;/li&gt;
+&lt;li&gt;0805 Package&lt;/li&gt;
+&lt;li&gt;Shielded&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-13231" constant="no"/>
+<attribute name="VALUE" value="10μH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR" prefix="L" uservalue="yes">
+<description>&lt;h3&gt;Inductors&lt;/h3&gt;
+&lt;p&gt;Resist changes in electrical current. Basically a coil of wire.&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13879"&gt;SparkFun Load Cell Amplifier - HX711&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13613"&gt;IOIO-OTG - V2.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-CR75-68UH" package="CR75">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-09739"/>
+<attribute name="VALUE" value="68µH/±20%/1.05A"/>
+</technology>
+</technologies>
+</device>
+<device name="-SRN6045-33UH" package="SRN6045">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-11627"/>
+<attribute name="VALUE" value="33µH/±20%/1.4A"/>
+</technology>
+</technologies>
+</device>
+<device name="-CDRH-4.7UH" package="INDUCTOR_4.7UH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-10146"/>
+<attribute name="VALUE" value="4.7µH/±30%/1.2A"/>
+</technology>
+</technologies>
+</device>
+<device name="-SDR13-27UH" package="INDUCTOR_SDR1307">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-12529"/>
+<attribute name="VALUE" value="27µH/±20%/3.3A"/>
+</technology>
+</technologies>
+</device>
+<device name="-CR54-3.3UH" package="CR54">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-11157"/>
+<attribute name="VALUE" value="3.3µH/±30%/3.4A"/>
+</technology>
+</technologies>
+</device>
+<device name="-CR54-47UH" package="CR54">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-10789"/>
+<attribute name="VALUE" value="47µH/±30%/750mA"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-3.3UH" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-13076"/>
+<attribute name="VALUE" value="3.3µH/±20%/450mA"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-33NH" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-07874"/>
+<attribute name="VALUE" value="33nH/±5%/500mA"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-3.9NH" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-13457" constant="no"/>
+<attribute name="VALUE" value="3.9NH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="INDUCTOR_10UH" package="INDUCTOR_3X3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-13913" constant="no"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+</technologies>
+</device>
+<device name="-CDRH-10UH" package="INDUCTOR_4.7UH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-13968" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="XFL4020">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0603-15NH" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-11660"/>
+<attribute name="VALUE" value="15nH"/>
+</technology>
+</technologies>
+</device>
+<device name="-LHQ32-15UH" package="INDUCTOR_LQH32">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-14107"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402_TIGHT-2.0NH" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-14238"/>
+<attribute name="VALUE" value="2nH/?%/200mA/300mOhm"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805_WIDE-1.0UH" package="0805-WIDE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-14237"/>
+<attribute name="VALUE" value="1.0uH/?%/1.4A/70mOhm"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402_TIGHT-2.7NH" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-14236"/>
+<attribute name="VALUE" value="2.7nH/?%/900mA/70mOhm"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805_WIDE-2.2UH" package="0805-WIDE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-14234"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+</technologies>
+</device>
+<device name="DNP" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0402_TIGHT-0NH" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10948,7 +11423,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <part name="C36" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="1µF"/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="L1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="0805"/>
 <part name="U7" library="TLV1117LV33DCYR" deviceset="TLV1117LV33DCYR" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="5V"/>
@@ -11028,7 +11502,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <part name="SV6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="J6"/>
 <part name="D2" library="MBRD835L" deviceset="MBRD835L" device=""/>
 <part name="D1" library="MBRD835L" deviceset="MBRD835L" device=""/>
-<part name="L2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="10µH"/>
 <part name="D5" library="CMDSH-3TR" deviceset="CMDSH-3TR" device=""/>
 <part name="D3" library="Bourns Inc. - SMAJ15A" deviceset="BOURNS_INC._SMAJ15A" device="BOURNS_INC._SMAJ15A_0_0"/>
 <part name="D4" library="MBRS330T3G" deviceset="MBRS330T3G" device=""/>
@@ -11062,6 +11535,8 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="5V"/>
 <part name="TETHER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="U$1" library="tenda" deviceset="TENDA" device=""/>
+<part name="L3" library="SparkFun-Coils" deviceset="10μH_SHIELDED_INDUCTOR" device="0805" value="10μH"/>
+<part name="L2" library="SparkFun-Coils" deviceset="INDUCTOR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12617,22 +13092,14 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <attribute name="NAME" x="141.1986" y="16.51" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="136.398" y="16.51" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="160.02" y="43.18" smashed="yes" rot="R270">
-<attribute name="VALUE" x="167.894" y="43.18" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY18" gate="G$1" x="86.36" y="43.18" smashed="yes" rot="R90">
-<attribute name="VALUE" x="83.566" y="43.18" size="1.778" layer="96" rot="R180" align="bottom-center"/>
-</instance>
+<instance part="SUPPLY13" gate="G$1" x="160.02" y="43.18" smashed="yes" rot="R270"/>
+<instance part="SUPPLY18" gate="G$1" x="86.36" y="43.18" smashed="yes" rot="R90"/>
 <instance part="GND77" gate="1" x="139.7" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="137.16" y="-17.78" size="1.778" layer="96"/>
 </instance>
 <instance part="R29" gate="G$1" x="114.3" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="112.8014" y="29.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="117.602" y="29.21" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="L1" gate="G$1" x="55.88" y="0" smashed="yes">
-<attribute name="NAME" x="53.34" y="2.54" size="1.778" layer="95"/>
-<attribute name="VALUE" x="53.34" y="-2.54" size="1.778" layer="96"/>
 </instance>
 <instance part="U7" gate="A" x="-81.28" y="-134.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-112.1156" y="-125.5014" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
@@ -12797,10 +13264,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <attribute name="NAME" x="-129.54" y="71.12" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-129.54" y="64.77" size="1.778" layer="96"/>
 </instance>
-<instance part="L2" gate="G$1" x="137.16" y="-78.74" smashed="yes">
-<attribute name="NAME" x="134.62" y="-76.2" size="1.778" layer="95"/>
-<attribute name="VALUE" x="134.62" y="-81.28" size="1.778" layer="96"/>
-</instance>
 <instance part="D5" gate="G$1" x="137.16" y="-60.96" smashed="yes">
 <attribute name="NAME" x="132.08" y="-58.42" size="1.778" layer="95"/>
 <attribute name="VALUE" x="132.08" y="-64.77" size="1.778" layer="96"/>
@@ -12819,6 +13282,14 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <instance part="IC8" gate="G$1" x="124.46" y="45.72" smashed="yes">
 <attribute name="NAME" x="146.05" y="53.34" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="146.05" y="50.8" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="L3" gate="G$1" x="139.7" y="-78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="137.16" y="-77.47" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="142.24" y="-77.47" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="L2" gate="G$1" x="58.42" y="0" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.88" y="1.27" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="60.96" y="1.27" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -12943,48 +13414,9 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="43.18" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="43.18" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="CR1" gate="A" pin="1"/>
-<wire x1="96.52" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="SUPPLY18" gate="G$1" pin="5V"/>
-<junction x="96.52" y="43.18"/>
-<junction x="114.3" y="43.18"/>
-<wire x1="119.38" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="43.18" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="43.18" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
-<junction x="119.38" y="43.18"/>
-<pinref part="IC8" gate="G$1" pin="S_1"/>
-<pinref part="IC8" gate="G$1" pin="S_2"/>
-<pinref part="IC8" gate="G$1" pin="S_3"/>
-</segment>
-<segment>
-<wire x1="152.4" y1="43.18" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="SUPPLY13" gate="G$1" pin="5V"/>
-<wire x1="152.4" y1="43.18" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
-<junction x="152.4" y="43.18"/>
-<wire x1="152.4" y1="43.18" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="40.64" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
-<junction x="152.4" y="40.64"/>
-<pinref part="IC8" gate="G$1" pin="D_4"/>
-<pinref part="IC8" gate="G$1" pin="D_3"/>
-<pinref part="IC8" gate="G$1" pin="D_2"/>
-<pinref part="IC8" gate="G$1" pin="D_1"/>
-</segment>
-<segment>
 <pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="142.24" y1="-60.96" x2="147.32" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="-60.96" x2="147.32" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="-78.74" x2="147.32" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="147.32" y="-78.74"/>
 <wire x1="147.32" y1="-78.74" x2="147.32" y2="-86.36" width="0.1524" layer="91"/>
@@ -13001,6 +13433,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <junction x="114.3" y="-86.36"/>
 <pinref part="C34" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="-86.36" x2="147.32" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="L3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="5V"/>
@@ -13030,6 +13463,24 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="-149.86" y1="-63.5" x2="-149.86" y2="-58.42" width="0.1524" layer="91"/>
 <label x="-157.48" y="-58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="152.4" y1="43.18" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="SUPPLY13" gate="G$1" pin="5V"/>
+<wire x1="152.4" y1="43.18" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
+<junction x="152.4" y="43.18"/>
+<wire x1="152.4" y1="43.18" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="40.64" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
+<junction x="152.4" y="40.64"/>
+<pinref part="IC8" gate="G$1" pin="D_4"/>
+<pinref part="IC8" gate="G$1" pin="D_3"/>
+<pinref part="IC8" gate="G$1" pin="D_2"/>
+<pinref part="IC8" gate="G$1" pin="D_1"/>
+<label x="160.02" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -13077,9 +13528,9 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <pinref part="C30" gate="G$1" pin="1"/>
 <pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="0" x2="68.58" y2="0" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="0" x2="68.58" y2="0" width="0.1524" layer="91"/>
 <junction x="68.58" y="0"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -13246,6 +13697,28 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <wire x1="-43.18" y1="-12.7" x2="-17.78" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="-43.18" y="-12.7"/>
 </segment>
+<segment>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="43.18" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="43.18" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="CR1" gate="A" pin="1"/>
+<wire x1="96.52" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="SUPPLY18" gate="G$1" pin="5V"/>
+<junction x="96.52" y="43.18"/>
+<junction x="114.3" y="43.18"/>
+<wire x1="119.38" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="43.18" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="43.18" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
+<junction x="119.38" y="43.18"/>
+<pinref part="IC8" gate="G$1" pin="S_1"/>
+<pinref part="IC8" gate="G$1" pin="S_2"/>
+<pinref part="IC8" gate="G$1" pin="S_3"/>
+<label x="73.66" y="43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PORT_BAT_CURR" class="0">
 <segment>
@@ -13261,8 +13734,8 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 <net name="N$3" class="0">
 <segment>
 <pinref part="U8" gate="A" pin="VSW"/>
-<wire x1="109.22" y1="-78.74" x2="132.08" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="-78.74" x2="134.62" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="L3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -13289,9 +13762,9 @@ Source: &lt;a href="https://www.arrow.com/en/products/si4485dy-t1-ge3/vishay"&gt
 </net>
 <net name="TETHER_A" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="0" x2="35.56" y2="0" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="0" x2="35.56" y2="0" width="0.1524" layer="91"/>
 <label x="35.56" y="0" size="1.778" layer="95"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ESC_POWER2" class="0">
@@ -14322,12 +14795,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="8.4" severity="warning">
-Since Version 8.4, EAGLE supports properties for SPICE simulation. 
-Probes in schematics and SPICE mapping objects found in parts and library devices
-will not be understood with this version. Update EAGLE to the latest version
-for full support of SPICE simulation. 
 </note>
 </compatibility>
 </eagle>
