@@ -13271,7 +13271,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="D4" gate="G$1" x="129.54" y="-91.44" smashed="yes" rot="R270">
 <attribute name="NAME" x="134.62" y="-102.87" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="132.08" y="-102.87" size="1.778" layer="96" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="124.46" y="-100.33" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 <instance part="Q1" gate="G$1" x="83.82" y="0" smashed="yes">
 <attribute name="NAME" x="128.27" y="7.62" size="1.778" layer="95" align="center-left"/>
@@ -13401,7 +13401,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="GND67" gate="1" pin="GND"/>
 <wire x1="129.54" y1="-109.22" x2="129.54" y2="-106.68" width="0.1524" layer="91"/>
-<junction x="132.08" y="-104.14"/>
 <pinref part="D4" gate="G$1" pin="A"/>
 </segment>
 <segment>
@@ -13730,8 +13729,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$3" class="0">
 <segment>
 <pinref part="U8" gate="A" pin="VSW"/>
-<wire x1="109.22" y1="-78.74" x2="134.62" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-78.74" x2="129.54" y2="-78.74" width="0.1524" layer="91"/>
 <pinref part="L3" gate="G$1" pin="1"/>
+<pinref part="C32" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="-78.74" x2="134.62" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-91.44" x2="129.54" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="K"/>
+<junction x="129.54" y="-78.74"/>
+<wire x1="129.54" y1="-78.74" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -13740,13 +13745,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="109.22" y1="-83.82" x2="119.38" y2="-83.82" width="0.1524" layer="91"/>
 <pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="-83.82" x2="119.38" y2="-91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="C32" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="-91.44" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="K"/>
 </segment>
 </net>
 <net name="N$16" class="0">
