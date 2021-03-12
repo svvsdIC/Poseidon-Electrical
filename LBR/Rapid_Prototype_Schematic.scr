@@ -1,7 +1,6 @@
-REMOVE 'C:/Users/Labadie/OneDrive/Documents/GitHub/Poseidon-Electrical/Rapid_Prototype_Schematic.lbr';
 OPEN '~dummy~.lbr';
 CLOSE;
-OPEN 'C:/Users/Labadie/OneDrive/Documents/GitHub/Poseidon-Electrical/Rapid_Prototype_Schematic.lbr';
+OPEN 'C:/Users/Labadie/OneDrive/Documents/GitHub/Poseidon-Electrical/LBR/Rapid_Prototype_Schematic.lbr';
 Layer 1 Top;
 # Layer 2 Route2;
 # Layer 3 Route3;
