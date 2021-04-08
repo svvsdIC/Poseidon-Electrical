@@ -9829,101 +9829,6 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="Bourns Inc. - SMAJ15A">
-<description>Upverter Parts Library
-
-Created by Upverter.com</description>
-<packages>
-<package name="BOURNS_INC._SMAJ15A_0">
-<description>24.4V Clamp 16.4A Ipp Tvs Diode Surface Mount SMA (DO-214AC)</description>
-<wire x1="-2.25" y1="-1.395" x2="-2.25" y2="1.395" width="0.15" layer="51"/>
-<wire x1="-2.25" y1="1.395" x2="2.25" y2="1.395" width="0.15" layer="51"/>
-<wire x1="2.25" y1="1.395" x2="2.25" y2="-1.395" width="0.15" layer="51"/>
-<wire x1="2.25" y1="-1.395" x2="-2.25" y2="-1.395" width="0.15" layer="51"/>
-<wire x1="-0.975" y1="1.395" x2="0.975" y2="1.395" width="0.15" layer="21"/>
-<wire x1="-0.975" y1="-1.395" x2="0.975" y2="-1.395" width="0.15" layer="21"/>
-<wire x1="-2.72" y1="-1.495" x2="-2.72" y2="1.495" width="0.1" layer="41"/>
-<wire x1="-2.72" y1="1.495" x2="2.72" y2="1.495" width="0.1" layer="41"/>
-<wire x1="2.72" y1="1.495" x2="2.72" y2="-1.495" width="0.1" layer="41"/>
-<wire x1="2.72" y1="-1.495" x2="-2.72" y2="-1.495" width="0.1" layer="41"/>
-<wire x1="-0.75" y1="1.3" x2="-0.75" y2="-1.3" width="0.3" layer="21"/>
-<text x="-2.25" y="1.695" size="1" layer="25">&gt;NAME</text>
-<circle x="-3.2" y="0" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="-1.985" y="0" dx="1.27" dy="2.1" layer="1"/>
-<smd name="2" x="1.985" y="0" dx="1.27" dy="2.1" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BOURNS_INC._SMAJ15A_0_0">
-<description>24.4V Clamp 16.4A Ipp Tvs Diode Surface Mount SMA (DO-214AC)</description>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="-7.62" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-3.81" x2="7.62" y2="-6.35" width="0.508" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="7.62" y2="-5.08" width="0.508" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="7.62" y2="-5.08" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-3.81" x2="8.89" y2="-2.54" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-6.35" x2="6.35" y2="-7.62" width="0.508" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.15" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.15" layer="94"/>
-<text x="1.016" y="0.508" size="2.54" layer="95" align="top-left">&gt;NAME</text>
-<text x="1.016" y="-8.636" size="2.54" layer="95" align="top-left">SMAJ15A</text>
-<pin name="ANODE" x="-2.54" y="-5.08" visible="pad" length="middle" direction="pas"/>
-<pin name="CATHODE" x="12.7" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BOURNS_INC._SMAJ15A" prefix="D">
-<description>24.4V Clamp 16.4A Ipp Tvs Diode Surface Mount SMA (DO-214AC)</description>
-<gates>
-<gate name="G$0" symbol="BOURNS_INC._SMAJ15A_0_0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="BOURNS_INC._SMAJ15A_0_0" package="BOURNS_INC._SMAJ15A_0">
-<connects>
-<connect gate="G$0" pin="ANODE" pad="2"/>
-<connect gate="G$0" pin="CATHODE" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AUTOMOTIVE" value="No"/>
-<attribute name="BREAKDOWN_VOLTAGE" value="16.7V"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="CLAMPING_VOLTAGE" value="24.4V"/>
-<attribute name="DATASHEET" value="https://www.bourns.com/docs/Product-Datasheets/SMAJ.pdf"/>
-<attribute name="DEVICE_CLASS_L1" value="Circuit Protection"/>
-<attribute name="DEVICE_CLASS_L2" value="TVS Diodes"/>
-<attribute name="DEVICE_CLASS_L3" value="unset"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="DIODE TVS DIODE 15V 24.4V SMA"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="SMAJ15ABCT-ND"/>
-<attribute name="DIRECTION" value="Unidirectional"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
-<attribute name="HEIGHT" value="2.29mm"/>
-<attribute name="LEAD_FREE" value="Yes"/>
-<attribute name="MAX_JUNCTION_TEMP" value="+150°C"/>
-<attribute name="MF" value="Bourns Inc."/>
-<attribute name="MFG_PACKAGE_IDENT" value="SMA"/>
-<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="c691c3592a14e60a"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
-<attribute name="MOUSER_DESCRIPTION" value="Bourns Smaj15a / Diode Tvs 15v 400w Uni 5% Smd Bourns"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-SMAJ15A"/>
-<attribute name="MPN" value="SMAJ15A"/>
-<attribute name="NUMBER_OF_CHANNELS" value="1"/>
-<attribute name="PACKAGE" value="SMA"/>
-<attribute name="PEAK_PULSE_CURRENT" value="16.4A"/>
-<attribute name="PEAK_PULSE_POWER" value="400W"/>
-<attribute name="PREFIX" value="D"/>
-<attribute name="REVERSE_STANDOFF_VOLTAGE" value="15V"/>
-<attribute name="ROHS" value="Yes"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="MBRS330T3G">
 <description>&lt;&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -11875,128 +11780,89 @@ Switches electronic signals</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Jumpers">
-<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
-In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<library name="Rapid_Prototype_Schematic">
+<description>Generated from &lt;b&gt;Rapid_Prototype_Schematic.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
 <packages>
-<package name="SMT-JUMPER_2_NC_TRACE_NO-SILK" urn="urn:adsk.eagle:footprint:39257/1" locally_modified="yes">
-<smd name="1" x="-0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-0.1905" y="0.127"/>
-<vertex x="0.1905" y="0.127"/>
-<vertex x="0.1905" y="-0.127"/>
-<vertex x="-0.1905" y="-0.127"/>
-</polygon>
-<polygon width="0.0127" layer="1">
-<vertex x="-0.6985" y="0.127"/>
-<vertex x="0.18415" y="0.127"/>
-<vertex x="0.18415" y="-0.127"/>
-<vertex x="-0.6985" y="-0.127"/>
-</polygon>
-</package>
-<package name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39258/1" locally_modified="yes">
-<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.2192" y1="0.5588" x2="-0.762" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.2192" y1="-0.5588" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.762" y1="-1.016" x2="1.2192" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.2192" y1="-0.5588" x2="1.2192" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-1.2192" y1="-0.5588" x2="-1.2192" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
-<smd name="1" x="-0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-0.1905" y="0.127"/>
-<vertex x="0.1905" y="0.127"/>
-<vertex x="0.1905" y="-0.127"/>
-<vertex x="-0.1905" y="-0.127"/>
-</polygon>
-<polygon width="0.0127" layer="1">
-<vertex x="-0.6985" y="0.127"/>
-<vertex x="0.18415" y="0.127"/>
-<vertex x="0.18415" y="-0.127"/>
-<vertex x="-0.6985" y="-0.127"/>
-</polygon>
+<package name="BOURNS-INC.---SMAJ15A_BOURNS_INC._SMAJ15A_0">
+<description>24.4V Clamp 16.4A Ipp Tvs Diode Surface Mount SMA (DO-214AC)</description>
+<circle x="-3.2" y="0" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.25" y1="-1.395" x2="-2.25" y2="1.395" width="0.15" layer="51"/>
+<wire x1="-2.25" y1="1.395" x2="2.25" y2="1.395" width="0.15" layer="51"/>
+<wire x1="2.25" y1="1.395" x2="2.25" y2="-1.395" width="0.15" layer="51"/>
+<wire x1="2.25" y1="-1.395" x2="-2.25" y2="-1.395" width="0.15" layer="51"/>
+<wire x1="-0.975" y1="1.395" x2="0.975" y2="1.395" width="0.15" layer="21"/>
+<wire x1="-0.975" y1="-1.395" x2="0.975" y2="-1.395" width="0.15" layer="21"/>
+<wire x1="-0.75" y1="1.3" x2="-0.75" y2="-1.3" width="0.3" layer="21"/>
+<smd name="1" x="-1.985" y="0" dx="1.27" dy="2.1" layer="1"/>
+<smd name="2" x="1.985" y="0" dx="1.27" dy="2.1" layer="1"/>
+<text x="-2.25" y="1.695" size="1" layer="25">&gt;NAME</text>
 </package>
 </packages>
-<packages3d>
-<package3d name="SMT-JUMPER_2_NC_TRACE_NO-SILK" urn="urn:adsk.eagle:package:39286/1" type="box">
-<packageinstances>
-<packageinstance name="SMT-JUMPER_2_NC_TRACE_NO-SILK"/>
-</packageinstances>
-</package3d>
-<package3d name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:package:39281/1" type="box">
-<packageinstances>
-<packageinstance name="SMT-JUMPER_2_NC_TRACE_SILK"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="SMT-JUMPER_2_NC_TRACE">
-<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
-<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<symbol name="BOURNS-INC.---SMAJ15A_BOURNS_INC._SMAJ15A_0_0">
+<description>24.4V Clamp 16.4A Ipp Tvs Diode Surface Mount SMA (DO-214AC)</description>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-3.81" x2="7.62" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-6.35" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="7.62" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="7.62" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-3.81" x2="8.89" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-6.35" x2="6.35" y2="-7.62" width="0.508" layer="94"/>
+<pin name="ANODE" x="-2.54" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="CATHODE" x="12.7" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<text x="1.016" y="0.508" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="1.016" y="-8.636" size="2.54" layer="95" align="top-left">SMAJ15A</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JUMPER-SMT_2_NC_TRACE" prefix="JP">
-<description>&lt;h3&gt;Normally closed trace jumper&lt;/h3&gt;
-&lt;p&gt;This jumper has a trace between two pads so it's normally closed (NC). Use a razor knife to open the connection. For best results follow the IPC guidelines for cutting traces:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cutout at least 0.063 mm (0.005 in).&lt;/li&gt;
-&lt;li&gt;Remove all loose material to clean up the cut area.&lt;/li&gt;
-&lt;li&gt;Seal the cut with an approved epoxy.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Reapply solder to reclose the connection.&lt;/p&gt;</description>
+<deviceset name="BOURNS-INC.---SMAJ15A_BOURNS_INC._SMAJ15A" prefix="D">
+<description>24.4V Clamp 16.4A Ipp Tvs Diode Surface Mount SMA (DO-214AC)</description>
 <gates>
-<gate name="G$1" symbol="SMT-JUMPER_2_NC_TRACE" x="0" y="0"/>
+<gate name="G$0" symbol="BOURNS-INC.---SMAJ15A_BOURNS_INC._SMAJ15A_0_0" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_NO-SILK" package="SMT-JUMPER_2_NC_TRACE_NO-SILK">
+<device name="BOURNS_INC._SMAJ15A_0_0" package="BOURNS-INC.---SMAJ15A_BOURNS_INC._SMAJ15A_0">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$0" pin="ANODE" pad="2"/>
+<connect gate="G$0" pin="CATHODE" pad="1"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39286/1"/>
-</package3dinstances>
 <technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SILK" package="SMT-JUMPER_2_NC_TRACE_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39281/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="AUTOMOTIVE" value="No"/>
+<attribute name="BREAKDOWN_VOLTAGE" value="16.7V"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="CLAMPING_VOLTAGE" value="24.4V"/>
+<attribute name="DATASHEET" value="https://www.bourns.com/docs/Product-Datasheets/SMAJ.pdf"/>
+<attribute name="DEVICE_CLASS_L1" value="Circuit Protection"/>
+<attribute name="DEVICE_CLASS_L2" value="TVS Diodes"/>
+<attribute name="DEVICE_CLASS_L3" value="unset"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="DIODE TVS DIODE 15V 24.4V SMA"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SMAJ15ABCT-ND"/>
+<attribute name="DIRECTION" value="Unidirectional"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
+<attribute name="HEIGHT" value="2.29mm"/>
+<attribute name="LEAD_FREE" value="Yes"/>
+<attribute name="MAX_JUNCTION_TEMP" value="+150°C"/>
+<attribute name="MF" value="Bourns Inc."/>
+<attribute name="MFG_PACKAGE_IDENT" value="SMA"/>
+<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="c691c3592a14e60a"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
+<attribute name="MOUSER_DESCRIPTION" value="Bourns Smaj15a / Diode Tvs 15v 400w Uni 5% Smd Bourns"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-SMAJ15A"/>
+<attribute name="MPN" value="SMAJ15A"/>
+<attribute name="NUMBER_OF_CHANNELS" value="1"/>
+<attribute name="PACKAGE" value="SMA"/>
+<attribute name="PEAK_PULSE_CURRENT" value="16.4A"/>
+<attribute name="PEAK_PULSE_POWER" value="400W"/>
+<attribute name="PREFIX" value="D"/>
+<attribute name="REVERSE_STANDOFF_VOLTAGE" value="15V"/>
+<attribute name="ROHS" value="Yes"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -12217,13 +12083,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="330"/>
 <part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="GREEN"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="TABL_L" device="" value="Null value"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SV6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="J6"/>
 <part name="D2" library="MBRD835L" deviceset="MBRD835L" device=""/>
 <part name="D1" library="MBRD835L" deviceset="MBRD835L" device=""/>
 <part name="D5" library="CMDSH-3TR" deviceset="CMDSH-3TR" device=""/>
-<part name="D3" library="Bourns Inc. - SMAJ15A" deviceset="BOURNS_INC._SMAJ15A" device="BOURNS_INC._SMAJ15A_0_0"/>
+<part name="D3" library="Rapid_Prototype_Schematic" deviceset="BOURNS-INC.---SMAJ15A_BOURNS_INC._SMAJ15A" device="BOURNS_INC._SMAJ15A_0_0"/>
 <part name="D4" library="MBRS330T3G" deviceset="MBRS330T3G" device=""/>
 <part name="Q7" library="DMN65D8LFB-7" deviceset="DMN65D8LFB-7" device=""/>
 <part name="Q11" library="DMN65D8LFB-7" deviceset="DMN65D8LFB-7" device=""/>
@@ -12266,28 +12131,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="5V"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-2N7002PW" value="2N7002PW"/>
 <part name="Q16" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-2N7002PW" value="2N7002PW"/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="+3V3"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="+3V3"/>
 </parts>
 <sheets>
-<sheet>
-<plain>
-<text x="132.08" y="-139.7" size="2.54" layer="94">File History/Front page</text>
-</plain>
-<instances>
-<instance part="FRAME1" gate="G$1" x="-180.34" y="-157.48" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="119.38" y="-157.48" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="129.54" y="-156.21" size="2.54" layer="94"/>
-<attribute name="SHEET" x="205.74" y="-156.21" size="2.54" layer="94"/>
-</instance>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
 <sheet>
 <plain>
 <text x="477.52" y="-157.48" size="2.54" layer="94">Headers</text>
@@ -12466,49 +12313,41 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="449.58" y="65.786" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="449.58" y="78.994" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="R59" gate="G$1" x="518.16" y="68.58" smashed="yes" rot="R270">
-<attribute name="NAME" x="519.6586" y="72.39" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="514.858" y="72.39" size="1.778" layer="96" rot="R270"/>
+<instance part="R59" gate="G$1" x="533.4" y="68.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="534.8986" y="72.39" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="530.098" y="72.39" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R60" gate="G$1" x="495.3" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="496.7986" y="72.39" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="491.998" y="72.39" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R61" gate="G$1" x="533.4" y="68.58" smashed="yes" rot="R270">
-<attribute name="NAME" x="534.8986" y="72.39" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="530.098" y="72.39" size="1.778" layer="96" rot="R270"/>
+<instance part="R61" gate="G$1" x="548.64" y="68.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="550.1386" y="72.39" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="545.338" y="72.39" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R62" gate="G$1" x="480.06" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="481.5586" y="72.39" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="476.758" y="72.39" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+5" gate="1" x="518.16" y="78.74" smashed="yes">
-<attribute name="VALUE" x="515.62" y="73.66" size="1.778" layer="96" rot="R90"/>
+<instance part="P+5" gate="1" x="533.4" y="78.74" smashed="yes">
+<attribute name="VALUE" x="530.86" y="73.66" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+7" gate="1" x="480.06" y="78.74" smashed="yes">
 <attribute name="VALUE" x="477.52" y="73.66" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q2" gate="NMOS" x="525.78" y="58.42" smashed="yes" rot="MR270">
-<attribute name="NAME" x="525.78" y="53.34" size="1.778" layer="95" font="vector" rot="MR270"/>
-<attribute name="VALUE" x="528.32" y="53.34" size="1.778" layer="96" font="vector" rot="MR270"/>
+<instance part="Q2" gate="NMOS" x="541.02" y="58.42" smashed="yes" rot="MR270">
+<attribute name="NAME" x="541.02" y="53.34" size="1.778" layer="95" font="vector" rot="MR270"/>
+<attribute name="VALUE" x="543.56" y="53.34" size="1.778" layer="96" font="vector" rot="MR270"/>
 </instance>
 <instance part="Q16" gate="NMOS" x="487.68" y="58.42" smashed="yes" rot="MR270">
 <attribute name="NAME" x="487.68" y="53.34" size="1.778" layer="95" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="490.22" y="53.34" size="1.778" layer="96" font="vector" rot="MR270"/>
 </instance>
-<instance part="JP1" gate="G$1" x="472.44" y="55.88" smashed="yes">
-<attribute name="NAME" x="469.9" y="58.42" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="469.9" y="53.34" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
-<instance part="JP2" gate="G$1" x="510.54" y="55.88" smashed="yes">
-<attribute name="NAME" x="508" y="58.42" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="508" y="53.34" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
 <instance part="SUPPLY3" gate="G$1" x="495.3" y="78.74" smashed="yes">
 <attribute name="VALUE" x="495.3" y="81.534" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="533.4" y="78.74" smashed="yes">
-<attribute name="VALUE" x="533.4" y="81.534" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY5" gate="G$1" x="548.64" y="78.74" smashed="yes">
+<attribute name="VALUE" x="548.64" y="81.534" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -12949,9 +12788,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="345.44" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="462.28" y1="73.66" x2="464.82" y2="73.66" width="0.1524" layer="91"/>
-<label x="459.74" y="73.66" size="1.778" layer="95"/>
+<pinref part="Q16" gate="NMOS" pin="D"/>
+<wire x1="477.52" y1="55.88" x2="480.06" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="55.88" x2="482.6" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="55.88" x2="480.06" y2="63.5" width="0.1524" layer="91"/>
+<junction x="480.06" y="55.88"/>
+<pinref part="R62" gate="G$1" pin="2"/>
+<label x="477.52" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -12965,9 +12808,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="350.52" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="462.28" y1="76.2" x2="464.82" y2="76.2" width="0.1524" layer="91"/>
-<label x="459.74" y="76.2" size="1.778" layer="95"/>
+<wire x1="530.86" y1="55.88" x2="533.4" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R59" gate="G$1" pin="2"/>
+<wire x1="533.4" y1="55.88" x2="533.4" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="NMOS" pin="D"/>
+<wire x1="533.4" y1="55.88" x2="535.94" y2="55.88" width="0.1524" layer="91"/>
+<junction x="533.4" y="55.88"/>
+<label x="530.86" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ESCPV_POWER" class="0">
@@ -13140,38 +12987,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="284.48" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="SCL_3V3" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="505.46" y1="55.88" x2="502.92" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="515.62" y1="55.88" x2="518.16" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R59" gate="G$1" pin="2"/>
-<wire x1="518.16" y1="55.88" x2="518.16" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="NMOS" pin="D"/>
-<wire x1="518.16" y1="55.88" x2="520.7" y2="55.88" width="0.1524" layer="91"/>
-<junction x="518.16" y="55.88"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<wire x1="535.94" y1="55.88" x2="533.4" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="533.4" y1="55.88" x2="533.4" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="551.18" y1="55.88" x2="548.64" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="55.88" x2="548.64" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R61" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="NMOS" pin="S"/>
-<wire x1="530.86" y1="55.88" x2="533.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="533.4" y="55.88"/>
+<wire x1="546.1" y1="55.88" x2="548.64" y2="55.88" width="0.1524" layer="91"/>
+<junction x="548.64" y="55.88"/>
+<label x="551.18" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="462.28" y1="76.2" x2="464.82" y2="76.2" width="0.1524" layer="91"/>
+<label x="459.74" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <pinref part="R59" gate="G$1" pin="1"/>
-<wire x1="518.16" y1="76.2" x2="518.16" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="533.4" y1="76.2" x2="533.4" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R62" gate="G$1" pin="1"/>
@@ -13179,18 +13015,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="480.06" y1="76.2" x2="480.06" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<pinref part="Q16" gate="NMOS" pin="D"/>
-<wire x1="477.52" y1="55.88" x2="480.06" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="480.06" y1="55.88" x2="482.6" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="480.06" y1="55.88" x2="480.06" y2="63.5" width="0.1524" layer="91"/>
-<junction x="480.06" y="55.88"/>
-<pinref part="R62" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$41" class="0">
+<net name="SDA_3V3" class="0">
 <segment>
 <pinref part="Q16" gate="NMOS" pin="S"/>
 <wire x1="492.76" y1="55.88" x2="495.3" y2="55.88" width="0.1524" layer="91"/>
@@ -13198,6 +13023,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="495.3" y1="55.88" x2="497.84" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="55.88" x2="495.3" y2="63.5" width="0.1524" layer="91"/>
 <junction x="495.3" y="55.88"/>
+<label x="497.84" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="462.28" y1="73.66" x2="464.82" y2="73.66" width="0.1524" layer="91"/>
+<label x="459.74" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -13214,17 +13045,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R61" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="NMOS" pin="G"/>
-<wire x1="533.4" y1="73.66" x2="528.32" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="73.66" x2="528.32" y2="63.5" width="0.1524" layer="91"/>
-<junction x="533.4" y="73.66"/>
-<wire x1="533.4" y1="73.66" x2="533.4" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="73.66" x2="543.56" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="73.66" x2="543.56" y2="63.5" width="0.1524" layer="91"/>
+<junction x="548.64" y="73.66"/>
+<wire x1="548.64" y1="73.66" x2="548.64" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="467.36" y1="55.88" x2="464.82" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -15627,26 +15452,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,3,309.88,238.76,U3,V+,5V,,,"/>
-<approved hash="104,3,345.44,238.76,U3,V-,GND,,,"/>
-<approved hash="104,3,469.9,238.76,U5,V+,5V,,,"/>
-<approved hash="104,3,505.46,238.76,U5,V-,GND,,,"/>
-<approved hash="104,3,309.88,116.84,U2,V+,5V,,,"/>
-<approved hash="104,3,345.44,116.84,U2,V-,GND,,,"/>
-<approved hash="104,3,469.9,116.84,U4,V+,5V,,,"/>
-<approved hash="202,3,469.9,111.76,U4,IN-_2,,,,"/>
-<approved hash="202,3,505.46,114.3,U4,IN+_2,,,,"/>
-<approved hash="104,3,505.46,116.84,U4,V-,GND,,,"/>
-<approved hash="104,4,27.94,-86.36,U8,FGND,GND,,,"/>
-<approved hash="104,4,-104.14,33.02,U6,V+,5V,,,"/>
-<approved hash="104,4,-68.58,33.02,U6,V-,GND,,,"/>
-<approved hash="206,4,-83.82,-137.16,+3V3,,,,,"/>
-<approved hash="206,4,-149.86,-134.62,+3V3,,,,,"/>
-<approved hash="208,2,226.06,0,+3V3,sup,,,,"/>
-<approved hash="208,2,233.68,55.88,+3V3,sup,,,,"/>
-<approved hash="208,4,-60.96,-137.16,+3V3,sup,,,,"/>
-<approved hash="208,4,-83.82,-137.16,+3V3,out,,,,"/>
-<approved hash="208,4,-149.86,-134.62,+3V3,out,,,,"/>
+<approved hash="104,2,309.88,238.76,U3,V+,5V,,,"/>
+<approved hash="104,2,345.44,238.76,U3,V-,GND,,,"/>
+<approved hash="104,2,469.9,238.76,U5,V+,5V,,,"/>
+<approved hash="104,2,505.46,238.76,U5,V-,GND,,,"/>
+<approved hash="104,2,309.88,116.84,U2,V+,5V,,,"/>
+<approved hash="104,2,345.44,116.84,U2,V-,GND,,,"/>
+<approved hash="104,2,469.9,116.84,U4,V+,5V,,,"/>
+<approved hash="202,2,469.9,111.76,U4,IN-_2,,,,"/>
+<approved hash="202,2,505.46,114.3,U4,IN+_2,,,,"/>
+<approved hash="104,2,505.46,116.84,U4,V-,GND,,,"/>
+<approved hash="104,3,27.94,-86.36,U8,FGND,GND,,,"/>
+<approved hash="104,3,-104.14,33.02,U6,V+,5V,,,"/>
+<approved hash="104,3,-68.58,33.02,U6,V-,GND,,,"/>
+<approved hash="206,3,-83.82,-137.16,+3V3,,,,,"/>
+<approved hash="206,3,-149.86,-134.62,+3V3,,,,,"/>
+<approved hash="208,1,226.06,0,+3V3,sup,,,,"/>
+<approved hash="208,1,233.68,55.88,+3V3,sup,,,,"/>
+<approved hash="208,3,-60.96,-137.16,+3V3,sup,,,,"/>
+<approved hash="208,3,-83.82,-137.16,+3V3,out,,,,"/>
+<approved hash="208,3,-149.86,-134.62,+3V3,out,,,,"/>
 </errors>
 </schematic>
 </drawing>
