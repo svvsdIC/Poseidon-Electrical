@@ -3591,7 +3591,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="102.295959375" y="90.175078125" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="102.295959375" y="87.254078125" size="1.27" layer="27"/>
 </element>
-<element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="0.8Ω 1%" x="108.666278125" y="86.426959375" smashed="yes" rot="R270">
+<element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="0.001Ω 1%" x="108.666278125" y="86.426959375" smashed="yes" rot="R270">
 <attribute name="NAME" x="109.809278125" y="87.823959375" size="0.8128" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="0" x="108.666278125" y="86.426959375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="108.666278125" y="86.426959375" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3931,7 +3931,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CONN-08437" x="67.569078125" y="35.285678125" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="68.839078125" y="37.317678125" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="R67" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="0.8Ω 1%" x="108.671359375" y="78.232" smashed="yes" rot="R90">
+<element name="R67" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="0.001Ω 1%" x="108.671359375" y="78.232" smashed="yes" rot="R90">
 <attribute name="NAME" x="106.766359375" y="75.692" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="108.671359375" y="78.232" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="108.671359375" y="78.232" size="1.778" layer="27" rot="R90" display="off"/>
